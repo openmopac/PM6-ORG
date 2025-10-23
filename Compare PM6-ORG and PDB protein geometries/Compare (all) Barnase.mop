@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Barnase (1A2P) PDB geometry.arc" ++ 
+geo_dat="..\protein_files\Barnase (1A2P) PM6-ORG geometry.arc"  ++
+compare  output

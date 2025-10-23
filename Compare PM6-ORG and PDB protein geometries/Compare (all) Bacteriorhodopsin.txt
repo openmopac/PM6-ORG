@@ -1,0 +1,6 @@
+reset;center {74.18597826086963 -12.001057971014493 -25.069507246376805}; rotate z 165.15; rotate y 142.02; rotate z 23.56; zoom 482.48; translate x 5.93; translate y 1.4; set rotationRadius 35.73;
+display 216,250
+select 216:A.CA/1.1;  label Lys216;   font label 20;   color label black
+select 216:A.NZ/1.1;  label N of Schiff base;   font label 20;   color label black
+select 250:A.C15/1.1;  label Start of Retinal group;   font label 20;   color label black
+select off 

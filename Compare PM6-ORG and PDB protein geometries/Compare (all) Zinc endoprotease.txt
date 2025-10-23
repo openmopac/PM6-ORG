@@ -1,0 +1,12 @@
+reset;center {36.952600000000004 23.917 6.574600000000001}; rotate z -5.17; rotate y 39.76; rotate z 52.11; zoom 1310.19; translate x -0.47; translate y -7.0; set rotationRadius 30.1;
+display 133
+display add connected(visible)
+measure off
+measure (133:A.ZN/2.1) (93:A.OD2/2.1)
+measure (133:A.ZN/2.1) (202.O/2.1)
+measure (133:A.ZN/2.1) (87:A.NE2/2.1)
+measure (133:A.ZN/2.1) (83:A.NE2/2.1)
+measure (133:A.ZN/1.1) (93:A.OD2/1.1)
+measure (133:A.ZN/1.1) (202.O/1.1)
+measure (133:A.ZN/1.1) (87:A.NE2/1.1)
+measure (133:A.ZN/1.1) (83:A.NE2/1.1)

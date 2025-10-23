@@ -1,0 +1,12 @@
+ Formula        Molecule                               Dipole         Diff. Ref.
+                                                                   Exp.     Calc.
+ C3H4          Cyclopropene                                        0.45      0.16    -0.29     1    CH          cyclopropene
+ C3H4          Propyne                                             0.78      1.13     0.35     1    CH          propyne
+ C3H6          Propene                                             0.37      0.59     0.22     1    CH          propene
+ C3H8          Propane                                             0.08      0.05    -0.03     1    CH          propane
+ C4H6          Bicyclobutane                                       0.68      0.31    -0.37     1    CH          bicyclobutane
+ C4H6          Cyclobutene                                         0.13      0.42     0.29     1    CH          cyclobutene
+ C5H6          Cyclopentadiene                                     0.42      0.80     0.38     1    CH          cyclopentadiene
+ C5H8          Cyclopentene                                        0.20      0.46     0.26     1    CH          cyclopentene
+ C6H6          Fulvene                                             0.42      0.57     0.15     2    CH          fulvene
+ C7H8          Toluene                                             0.36      0.65     0.29     1    CH          toluene

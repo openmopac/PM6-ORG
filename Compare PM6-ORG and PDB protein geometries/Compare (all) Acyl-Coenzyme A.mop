@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Acyl-Coenzyme A (7DES) PDB geometry.arc" ++ 
+geo_dat="..\protein_files\Acyl-Coenzyme A (7DES) PM6-ORG geometry.arc"  ++
+compare output

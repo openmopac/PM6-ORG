@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Cobalamin (2V3N) PDB geometry.arc" ++ 
+geo_dat="..\protein_files\Cobalamin (2V3N) PM6-ORG geometry.arc"  ++
+compare(backbone) output

@@ -1,0 +1,306 @@
+ Formula        Molecule                                          Heat of Formation   Diff. Ref.
+                                                                   Exp.     Calc.
+ H             Hydrogen, atom                                     52.10     52.10     0.00     1    H           hydrogen, atom
+ H2            Hydrogen                                            0.00    -32.01   -32.01     2    H           hydrogen
+ C             Carbon, atom                                      170.89    170.89    -0.00     1    C           carbon, atom
+ CH            Methylidyne                                       142.40    139.16    -3.24     3    CH          methylidyne
+ CH2           Methylene, singlet                                 99.80    102.88     3.08     4    CH          methylene, singlet
+ CH3           Methyl, cation                                    261.00    252.32    -8.68     5    CH          methyl, cation
+ CH4           Methane                                           -17.89    -14.40     3.49     6    CH          methane
+ C2H2          Acetylene                                          54.34     57.14     2.80     6    CH          acetylene
+ C2H3          Vinyl, cation                                     266.00    254.47   -11.53     7    CH          vinyl, cation
+ C2H3          Vinyl                                              59.60     57.99    -1.61     7    CH          vinyl
+ C2H4          Ethylene, cation                                  257.00    245.69   -11.31     8    CH          ethylene, cation
+ C2H4          Ethylene                                           12.45     13.86     1.41     6    CH          ethylene
+ C2H4          Methylmethylene                                    90.30     78.89   -11.41     9    CH          methylmethylene
+ C2H5          Ethyl, cation                                     216.00    214.48    -1.52    10    CH          ethyl, cation
+ C2H5          Ethyl radical                                      25.00     16.92    -8.08    11    CH          ethyl radical
+ C3            Carbon, trimer                                    196.00    176.14   -19.86     4    C           carbon, trimer
+ C3H3          Cyclopropenyl, cation                             257.00    271.21    14.21     8    CH          cyclopropenyl, cation
+ C3H3          Propynyl, cation                                  281.00    279.87    -1.13     8    CH          propynyl, cation
+ C3H4          Allene                                             45.63     36.85    -8.78     6    CH          allene
+ C3H4          Cyclopropene                                       66.20     63.20    -3.00     6    CH          cyclopropene
+ C3H4          Propyne                                            44.39     45.98     1.59     6    CH          propyne
+ C3H5          Allyl, cation                                     226.00    228.53     2.53     8    CH          allyl, cation
+ C3H5          Cyclopropyl, cation                               235.00    253.34    18.34     8    CH          cyclopropyl, cation
+ C3H5          Propenyl, cation                                  237.00    222.70   -14.30     8    CH          propenyl, cation
+ C3H5          Allyl                                              40.00     31.36    -8.64     7    CH          allyl
+ C3H6          Cyclopropane                                       12.73     12.02    -0.71     6    CH          cyclopropane
+ C3H6          Propene                                             4.88      4.19    -0.69     6    CH          propene
+ C3H7          i-Propyl radical                                   16.80      5.79   -11.01    11    CH          i-propyl radical
+ C3H8          Propane                                           -24.83    -23.09     1.74     6    CH          propane
+ C4            Carbon, tetramer                                  232.00    236.19     4.19     4    C           carbon, tetramer
+ C4H2          Diacetylene                                       113.00    112.71    -0.29    12    CH          diacetylene
+ C4H4          Vinylacetylene                                     72.80     69.71    -3.09    12    CH          vinylacetylene
+ C4H6          1,2-Butadiene                                      38.80     28.98    -9.82     6    CH          1,2-butadiene
+ C4H6          1,3-Butadiene                                      26.01     27.17     1.16     6    CH          1,3-butadiene
+ C4H6          1-Butyne                                           39.50     41.67     2.17     6    CH          1-butyne
+ C4H6          2-Butyne                                           34.70     35.32     0.62     6    CH          2-butyne
+ C4H6          Bicyclobutane                                      51.90     65.54    13.64     6    CH          bicyclobutane
+ C4H6          Cyclobutene                                        37.45     37.19    -0.26    13    CH          cyclobutene
+ C4H6          Methyl cyclopropene                                58.20     53.15    -5.05     6    CH          methyl cyclopropene
+ C4H6          Methylenecyclopropane                              47.92     38.10    -9.82     6    CH          methylenecyclopropane
+ C4H7          2-Butenyl, cation                                 200.00    204.92     4.92     8    CH          2-butenyl, cation
+ C4H7          Cyclobutyl, cation                                213.00    219.62     6.62     8    CH          cyclobutyl, cation
+ C4H8          1-Butene                                           -0.20     -0.30    -0.10     6    CH          1-butene
+ C4H8          cis-2-Butene                                       -1.86     -4.11    -2.25     6    CH          cis-2-butene
+ C4H8          Cyclobutane                                         6.78     -2.27    -9.05     6    CH          cyclobutane
+ C4H8          Isobutene                                          -4.30     -5.65    -1.35     6    CH          isobutene
+ C4H8          trans-2-Butene                                     -3.00     -5.08    -2.08     6    CH          trans-2-butene
+ C4H9          Isobutyl, cation                                  176.00    163.61   -12.39     8    CH          isobutyl, cation
+ C4H9          Isobutyl                                            4.50     -4.52    -9.02    11    CH          isobutyl
+ C4H10         Isobutane                                         -32.41    -28.95     3.46     6    CH          isobutane
+ C4H10         n-Butane, trans                                   -30.36    -28.21     2.15     6    CH          n-butane
+ C5H5          Cyclopentadienyl, anion                            21.30     12.23    -9.07    14    CH          cyclopentadienyl, anion
+ C5H6          Cyclopentadiene                                    32.10     32.29     0.19    13    CH          cyclopentadiene
+ C5H8          1,2-Dimethyl cyclopropene                          46.40     43.45    -2.95    15    CH          1,2-dimethyl cyclopropene
+ C5H8          1,4-Pentadiene                                     25.30     22.58    -2.72     6    CH          1,4-pentadiene
+ C5H8          1,cis-3-Pentadiene                                 19.10     18.42    -0.68     6    CH          1,cis-3-pentadiene
+ C5H8          1,trans-3-Pentadiene                               18.10     17.82    -0.28     6    CH          1,trans-3-pentadiene
+ C5H8          Bicyclo(2.1.0)-pentane                             37.30     36.90    -0.40    15    CH          bicyclo(2.1.0)-pentane
+ C5H8          Cyclopentene                                        8.30      5.38    -2.92    13    CH          cyclopentene
+ C5H8          Isoprene                                           18.00     18.50     0.50    16    CH          isoprene
+ C5H8          Methylene cyclobutane                              29.10     18.43   -10.67    17    CH          methylene cyclobutane
+ C5H8          Spiropentane                                       44.30     38.48    -5.82     6    CH          spiropentane
+ C5H9          Cyclopentyl, cation                               188.00    187.46    -0.54    18    CH          cyclopentyl, cation
+ C5H10         2-Methyl-2-butene                                  -9.92    -13.47    -3.55    19    CH          2-methyl-2-butene
+ C5H10         cis-2-Pentene                                      -6.14     -8.89    -2.75    20    CH          cis-2-pentene
+ C5H10         cis-Dimethylcyclopropane                            1.30     -0.16    -1.46    15    CH          cis-dimethylcyclopropane
+ C5H10         Cyclopentane                                      -18.30    -19.98    -1.68    13    CH          cyclopentane
+ C5H10         trans-2-Pentene                                    -7.90     -9.76    -1.86     6    CH          trans-2-pentene
+ C5H12         Isopentane                                        -36.80    -33.44     3.36    19    CH          isopentane
+ C5H12         n-Pentane                                         -35.10    -33.29     1.81     6    CH          n-pentane
+ C5H12         Neopentane                                        -40.30    -35.53     4.77     6    CH          neopentane
+ C6H6          Benzene                                            19.81     22.96     3.15     6    CH          benzene
+ C6H6          Fulvene                                            47.50     55.06     7.56     6    CH          fulvene
+ C6H8          (E)-1,3,5-Hexatriene                               40.10     40.01    -0.09    19    CH          (e)-1,3,5-hexatriene
+ C6H8          (Z)-1,3,5-Hexatriene                               41.10     41.15     0.05    19    CH          (z)-1,3,5-hexatriene
+ C6H8          1,3-Cyclohexadiene                                 25.40     20.21    -5.19     6    CH          1,3-cyclohexadiene
+ C6H8          1,4-Cyclohexadiene                                 25.00     19.98    -5.02    16    CH          1,4-cyclohexadiene
+ C6H10         1,2-Dimethylcyclobutene                            19.80     16.46    -3.34    15    CH          1,2-dimethylcyclobutene
+ C6H10         1,5-Hexadiene                                      20.10     17.18    -2.92     6    CH          1,5-hexadiene
+ C6H10         1-Methyl cyclopentene                              -1.05     -4.78    -3.73    19    CH          1-methyl cyclopentene
+ C6H10         3-Methyl cyclopentene                               2.31     -0.53    -2.84    19    CH          3-methyl cyclopentene
+ C6H10         4-Methyl cyclopentene                               3.50     -0.78    -4.28    19    CH          4-methyl cyclopentene
+ C6H10         Bicyclopropyl                                      30.90     29.48    -1.42     6    CH          bicyclopropyl
+ C6H10         Cyclohexene                                        -1.08     -3.35    -2.27     6    CH          cyclohexene
+ C6H11         Cyclohexyl, cation                                177.00    178.12     1.12    18    CH          cyclohexyl, cation
+ C6H12         1-Hexene                                          -10.06    -10.44    -0.38    19    CH          1-hexene
+ C6H12         2,3-Dimethyl-1-butene                             -15.74    -14.80     0.94    19    CH          2,3-dimethyl-1-butene
+ C6H12         2,3-Dimethyl-2-butene                             -16.80    -20.46    -3.66    19    CH          2,3-dimethyl-2-butene
+ C6H12         (Z)-3-Methyl-2-pentene                            -14.79    -17.01    -2.22    19    CH          3-methyl-2-pentene
+ C6H12         4-Methyl-1-pentene                                -11.82    -11.28     0.54    19    CH          4-methyl-1-pentene
+ C6H12         Cyclohexane                                       -29.49    -27.43     2.06    13    CH          cyclohexane
+ C6H14         2,2-Dimethyl butane                               -44.35    -39.09     5.26    19    CH          2,2-dimethyl butane
+ C6H14         2,3-Dimethyl butane                               -42.49    -38.10     4.39    19    CH          2,3-dimethyl butane
+ C6H14         2-Methyl pentane                                  -41.66    -38.63     3.03    19    CH          2-methyl pentane
+ C6H14         3-Methyl pentane                                  -41.10    -37.82     3.28    16    CH          3-methyl pentane
+ C6H14         n-Hexane                                          -39.92    -38.35     1.57     6    CH          n-hexane
+ C7H7          Benzyl, cation                                    212.00    225.60    13.60    21    CH          benzyl, cation
+ C7H7          Tropylium, cation                                 209.00    218.41     9.41    22    CH          tropylium, cation
+ C7H8          Cycloheptatriene                                   43.20     38.55    -4.65    13    CH          cycloheptatriene
+ C7H8          Norbornadiene                                      59.70     59.14    -0.56    15    CH          norbornadiene
+ C7H8          Toluene                                            11.99     13.20     1.21     6    CH          toluene
+ C7H12         1,2-Dimethyl cyclopentene                          -9.89    -14.14    -4.25    19    CH          1,2-dimethyl cyclopentene
+ C7H12         1-Ethyl cyclopentene                               -5.98     -8.97    -2.99    19    CH          1-ethyl cyclopentene
+ C7H12         1-Methyl cyclohexene                              -19.42    -13.22     6.20    19    CH          1-methyl cyclohexene
+ C7H12         Norbornane                                        -12.40     -9.28     3.12    23    CH          norbornane
+ C7H14         1,1-Dimethyl cyclopentane                         -33.05    -32.76     0.29    19    CH          1,1-dimethyl cyclopentane
+ C7H14         1,2-cis-Dimethyl cyclopentane                     -30.96    -30.83     0.13    19    CH          1,2-cis-dimethyl cyclopentane
+ C7H14         1,2-trans-Dimethyl cyclopentane                   -32.67    -32.69    -0.02    19    CH          1,2-trans-dimethyl cyclopentane
+ C7H14         1,3-cis-Dimethyl cyclopentane                     -31.93    -32.63    -0.70    19    CH          1,3-cis-dimethyl cyclopentane
+ C7H14         1-Heptene                                         -14.89    -15.55    -0.66    19    CH          1-heptene
+ C7H14         Ethyl cyclopentane                                -30.37    -31.21    -0.84    19    CH          ethyl cyclopentane
+ C7H14         Methyl-cyclohexane                                -36.99    -33.89     3.10    19    CH          methyl-cyclohexane
+ C7H16         2,2,3-Trimethyl butane                            -48.69    -43.10     5.59    19    CH          2,2,3-trimethyl butane
+ C7H16         2,2-Dimethyl pentane                              -49.29    -44.40     4.89    19    CH          2,2-dimethyl pentane
+ C7H16         2,3-Dimethyl pentane                              -47.62    -42.41     5.21    19    CH          2,3-dimethyl pentane
+ C7H16         2,4-Dimethyl pentane                              -48.30    -43.26     5.04    19    CH          2,4-dimethyl pentane
+ C7H16         2-Methyl hexane                                   -46.60    -43.75     2.85    19    CH          2-methyl hexane
+ C7H16         3,3-Dimethyl pentane                              -48.17    -42.37     5.80    19    CH          3,3-dimethyl pentane
+ C7H16         3-Ethyl pentane                                   -45.34    -41.82     3.52    19    CH          3-ethyl pentane
+ C7H16         3-Methyl hexane                                   -45.96    -43.00     2.96    19    CH          3-methyl hexane
+ C7H16         n-Heptane                                         -44.85    -43.46     1.39     6    CH          n-heptane
+ C8H8          Cubane                                            148.70    125.64   -23.06     6    CH          cubane
+ C8H8          Cyclooctatetraene                                  70.70     59.63   -11.07    16    CH          cyclooctatetraene
+ C8H8          Styrene                                            35.30     37.11     1.81     6    CH          styrene
+ C8H10         Ethylbenzene                                        7.15      8.48     1.33     6    CH          ethylbenzene
+ C8H10         m-Xylene                                            4.14      3.37    -0.77     6    CH          m-xylene
+ C8H10         o-Xylene                                            4.56      4.33    -0.23     6    CH          o-xylene
+ C8H10         p-Xylene                                            4.31      3.70    -0.61     6    CH          p-xylene
+ C8H12         1,5-Cyclooctadiene                                 13.70     13.70     0.00    19    CH          1,5-cyclooctadiene
+ C8H12         4-Vinyl cyclohexene                                16.62     13.03    -3.59    19    CH          4-vinyl cyclohexene
+ C8H14         1-Octyne                                           19.29     21.23     1.94    19    CH          1-octyne
+ C8H14         2,5-Dimethyl 2,4-hexadiene                         -4.59     -9.60    -5.01    19    CH          2,5-dimethyl 2,4-hexadiene
+ C8H14         2-Octyne                                           15.24     15.60     0.36    19    CH          2-octyne
+ C8H14         3,4-Dimethyl-(E,E)-2,4-hexadiene                   -0.54     -5.83    -5.29    19    CH          3,4-dimethyl-(e,e)-2,4-hexadiene
+ C8H14         3,4-Dimethyl-(E,Z)-2,4-hexadiene                    0.74     -8.73    -9.47    19    CH          3,4-dimethyl-(e,z)-2,4-hexadiene
+ C8H14         3,4-Dimethyl-(Z,Z)-2,4-hexadiene                   -0.92     -9.50    -8.58    19    CH          3,4-dimethyl-(z,z)-2,4-hexadiene
+ C8H14         3-Octyne                                           14.94     16.18     1.24    19    CH          3-octyne
+ C8H14         4-Octyne                                           14.36     16.02     1.66    19    CH          4-octyne
+ C8H14         Bicyclo(2.2.2)-octane                             -24.10    -23.25     0.85    23    CH          bicyclo(2.2.2)-octane
+ C8H16         1-Octene                                          -19.82    -20.66    -0.84    19    CH          1-octene
+ C8H16         Ethylcyclohexane                                  -41.05    -38.48     2.57    19    CH          ethylcyclohexane
+ C8H18         2,2,3,3-Tetramethyl butane                        -53.99    -47.37     6.62    19    CH          2,2,3,3-tetramethyl butane
+ C8H18         2,2,3-Trimethyl pentane                           -52.60    -47.71     4.89    19    CH          2,2,3-trimethyl pentane
+ C8H18         2,2,4-Trimethyl pentane                           -53.57    -49.18     4.39    19    CH          2,2,4-trimethyl pentane
+ C8H18         2,2-Dimethyl hexane                               -53.71    -49.56     4.15    19    CH          2,2-dimethyl hexane
+ C8H18         2,3,3-Trimethyl pentane                           -51.73    -46.29     5.44    19    CH          2,3,3-trimethyl pentane
+ C8H18         2,3,4-Trimethyl pentane                           -51.97    -45.70     6.27    19    CH          2,3,4-trimethyl pentane
+ C8H18         2,3-Dimethyl hexane                               -51.13    -47.62     3.51    19    CH          2,3-dimethyl hexane
+ C8H18         2,4-Dimethyl hexane                               -52.44    -48.60     3.84    19    CH          2,4-dimethyl hexane
+ C8H18         2,5-Dimethyl hexane                               -53.21    -49.18     4.03    19    CH          2,5-dimethyl hexane
+ C8H18         2-Methyl heptane                                  -51.50    -48.86     2.64    19    CH          2-methyl heptane
+ C8H18         3,3-Dimethyl hexane                               -52.61    -47.66     4.95    19    CH          3,3-dimethyl hexane
+ C8H18         3,4-Dimethyl hexane                               -50.91    -46.46     4.45    19    CH          3,4-dimethyl hexane
+ C8H18         3-Ethyl hexane                                    -50.40    -47.11     3.29    19    CH          3-ethyl hexane
+ C8H18         3-Ethyl-2-methyl pentane                          -50.48    -46.35     4.13    19    CH          3-ethyl-2-methyl pentane
+ C8H18         3-Ethyl-3-methyl pentane                          -51.38    -44.46     6.92    19    CH          3-ethyl-3-methyl pentane
+ C8H18         3-Methyl heptane                                  -50.82    -48.13     2.69    19    CH          3-methyl heptane
+ C8H18         4-Methyl heptane                                  -50.69    -48.21     2.48    19    CH          4-methyl heptane
+ C8H18         n-Octane                                          -49.86    -48.56     1.30     6    CH          n-octane
+ C9H10         alpha-Methyl styrene                               28.27     26.96    -1.31    19    CH          alpha-methyl styrene
+ C9H10         Cyclopropyl benzene                                36.02     37.51     1.49    19    CH          cyclopropyl benzene
+ C9H18         1,3,5-Trimethyl cyclohexane                       -51.48    -46.72     4.76    19    CH          1,3,5-trimethyl cyclohexane
+ C9H18         cis-cis-trans-1,3,5-Trimethyl cyclohexane         -49.37    -45.42     3.95    19    CH          cis-cis-trans-1,3,5-trimethyl cyclohexane
+ C9H20         3,3-Diethylpentane                                -55.41    -50.25     5.16     6    CH          3,3-diethylpentane
+ C9H20         n-Nonane                                          -54.66    -53.66     1.00     6    CH          n-nonane
+ C10H8         Azulene                                            73.50     79.13     5.63     6    CH          azulene
+ C10H8         Naphthalene                                        36.05     39.71     3.66     6    CH          naphthalene
+ C10H10        1,4-Dicyclopropylbuta-1,3-diyne                   134.30    139.51     5.21    19    CH          1,4-dicyclopropylbuta-1,3-diyne
+ C10H10        1-Butynl benzene                                   59.42     63.39     3.97    19    CH          1-butynl benzene
+ C10H10        2a,4a,6a,6b-Tetrahydrocyclopentapentalene          53.10     52.23    -0.87    19    CH          2a,4a,6a,6b-tetrahydrocyclopentapentalene
+ C10H10        Bulvalene                                          79.85     70.14    -9.71    19    CH          bulvalene
+ C10H10        Diisopropenyldiacetylene                          118.10    117.68    -0.42    19    CH          diisopropenyldiacetylene
+ C10H10        Tricyclo[6.2.0.0]deca-1(8),2,6-triene              74.00     71.48    -2.52    19    CH          tricyclo[6.2.0.0]deca-1(8),2,6-triene
+ C10H12        1,2,6,7-Cyclodecatetraene                          85.11     61.79   -23.32    19    CH          1,2,6,7-cyclodecatetraene
+ C10H12        Dispiro[2.2.2.2]deca-4,9-diene                     72.30     64.07    -8.23    19    CH          dispiro[2.2.2.2]deca-4,9-diene
+ C10H12        Tetralin                                            6.22      4.73    -1.49    19    CH          tetralin
+ C10H14        (1-Methylpropyl) benzene                           -4.17     -1.47     2.70    19    CH          (1-methylpropyl) benzene
+ C10H14        (2-Methylpropyl) benzene                           -5.15     -2.72     2.43    19    CH          (2-methylpropyl) benzene
+ C10H14        1,2,3,4-Tetramethyl benzene                        -8.61    -11.86    -3.25    19    CH          1,2,3,4-tetramethyl benzene
+ C10H14        1,2,3,4-Tetramethylfulvene                         19.90     16.14    -3.76    19    CH          1,2,3,4-tetramethylfulvene
+ C10H14        1,2,3,5-Tetramethyl benzene                       -10.33    -13.55    -3.22    19    CH          1,2,3,5-tetramethyl benzene
+ C10H14        1,2,4,5-Tetramethyl benzene                       -11.30    -12.92    -1.62    19    CH          1,2,4,5-tetramethylbenzene
+ C10H14        tert-Butyl benzene                                 -5.42     -1.44     3.98    19    CH          tert-butyl benzene
+ C10H14        Tetrahydrotriquinacene                              3.00     -0.59    -3.59    19    CH          tetrahydrotriquinacene
+ C10H16        1,2,3,4,5-Pentamethyl-1,3-cyclopentadiene          -5.90    -11.53    -5.63    19    CH          1,2,3,4,5-pentamethyl-1,3-cyclopentadiene
+ C10H16        Adamantane                                        -31.90    -28.64     3.26    24    CH          adamantane
+ C10H16        Camphene                                           -6.80     -1.70     5.10    19    CH          camphene
+ C10H16        Perhydrotriquinacene                              -24.46    -26.46    -2.00    19    CH          perhydrotriquinacene
+ C10H18        1-Methyl-4-(1-methylethyl)-cyclohexene            -26.48    -25.93     0.55    19    CH          1-methyl-4-(1-methylethyl)-cyclohexene
+ C10H18        4-Methyl-1-(1-methylethyl)-cyclohexene            -26.58    -29.20    -2.62    19    CH          4-methyl-1-(1-methylethyl)-cyclohexene
+ C10H18        cis-Decalin                                       -40.45    -33.91     6.54    19    CH          cis-decalin
+ C10H18        Spiro(4-5)decane                                  -34.68    -37.12    -2.44    19    CH          spiro(4-5)decane
+ C10H18        trans-Decalin                                     -43.54    -40.42     3.12    19    CH          trans-decalin
+ C10H20        (E)-2,2,5,5-Tetramethyl-3-hexene                  -39.90    -36.71     3.19    19    CH          (e)-2,2,5,5-tetramethyl-3-hexene
+ C10H20        (Z)-2,2,5,5-Tetramethyl-3-hexene                  -30.30    -29.45     0.85    19    CH          (z)-2,2,5,5-tetramethyl-3-hexene
+ C10H20        1-Decene                                          -29.78    -30.86    -1.08    19    CH          1-decene
+ C10H20        Butyl cyclohexane                                 -50.95    -48.75     2.20    19    CH          butyl cyclohexane
+ C10H20        Pentyl cyclopentane                               -45.15    -46.63    -1.48    19    CH          pentyl cyclopentane
+ C10H22        2,2,5,5-Tetramethylhexane                         -68.00    -60.96     7.04    19    CH          2,2,5,5-tetramethylhexane
+ C10H22        3,3,4,4-Tetramethylhexane                         -63.46    -53.86     9.60    19    CH          3,3,4,4-tetramethylhexane
+ C10H22        n-Decane                                          -59.67    -58.76     0.91    19    CH          n-decane
+ C11H16        Pentamethylbenzene                                -16.10    -19.00    -2.90    19    CH          pentamethylbenzene
+ C11H22        1,1,4-Trimethylcycloheptane                       -50.26    -47.77     2.49    19    CH          1,1,4-trimethylcycloheptane
+ C11H22        Hexyl cyclopentane                                -50.07    -51.74    -1.67    19    CH          hexyl cyclopentane
+ C11H22        Pentyl cyclohexane                                -55.88    -53.89     1.99    19    CH          pentyl cyclohexane
+ C11H24        Undecane                                          -64.60    -63.86     0.74    19    CH          undecane
+ C12H8         Acenaphthylene                                     61.60     72.15    10.55    19    CH          acenaphthylene
+ C12H8         Biphenylene                                       100.48    106.27     5.79    19    CH          biphenylene
+ C12H10        Acenaphthene                                       37.40     38.50     1.10    19    CH          acenaphthene
+ C12H10        Biphenyl                                           43.53     45.65     2.12     6    CH          biphenyl
+ C12H18        Hexamethylbenzene                                 -18.50    -25.19    -6.69    19    CH          hexamethylbenzene
+ C12H24        Hexylcyclohexane                                  -60.80    -59.01     1.79    19    CH          hexylcyclohexane
+ C12H26        n-Duodecane                                       -69.24    -68.97     0.27     6    CH          n-duodecane
+ C13H10        Fluorene                                           41.83     49.01     7.19    19    CH          fluorene
+ C13H28        Tri-t-butylmethane                                -56.20    -49.46     6.74    19    CH          tri-t-butylmethane
+ C13H28        Tridecane                                         -74.45    -74.07     0.38    19    CH          tridecane
+ C14H10        Anthracene                                         55.20     60.37     5.17     6    CH          anthracene
+ C14H10        Diphenylethyne                                     92.00    100.60     8.60    19    CH          diphenylethyne
+ C14H10        Phenanthrene                                       49.50     54.58     5.08     6    CH          phenanthrene
+ C14H12        9,10-Dihydro-phenanthrene                          37.07     37.11     0.04    19    CH          9,10-dihydro-phenanthrene
+ C14H12        9-Methyl-9H-fluorene                               35.38     43.33     7.95    19    CH          9-methyl-9h-fluorene
+ C14H12        Stilbene                                           53.36     59.71     6.35    19    CH          stilbene
+ C14H14        1,2,3,4-Tetrahydrophenanthrene                     22.07     22.76     0.69    19    CH          1,2,3,4-tetrahydrophenanthrene
+ C14H14        4,4'-Dimethylbiphenyl                              26.60     26.08    -0.52    19    CH          4,4'-dimethylbiphenyl
+ C14H14        Bibenzyl                                           32.41     34.41     2.00    19    CH          bibenzyl
+ C14H16        1,4,5,8-Tetramethynaphthalene                      19.50     14.27    -5.23    19    CH          1,4,5,8-tetramethynaphthalene
+ C14H18        1,2,3,4,5,6,7,8-Octahydro-anthracene               -8.90    -12.95    -4.05    19    CH          1,2,3,4,5,6,7,8-octahydro-anthracene
+ C14H20        Diadamantane                                      -34.87    -32.07     2.80    19    CH          diadamantane
+ C14H24        1,3,5,7-Tetramethyladamantane                     -68.00    -59.17     8.83    19    CH          1,3,5,7-tetramethyladamantane
+ C14H28        (E)-3,4-Di-tert-butyl-3-hexene                    -40.22    -47.27    -7.05    19    CH          (e)-3,4-di-tert-butyl-3-hexene
+ C14H28        Cyclotetradecane                                  -57.18    -64.51    -7.33    19    CH          cyclotetradecane
+ C14H28        n-Nonylcyclopentane                               -64.85    -67.05    -2.20    19    CH          n-nonylcyclopentane
+ C14H28        Octylcyclohexane                                  -70.65    -69.23     1.42    19    CH          octylcyclohexane
+ C14H30        3,3,4,4-Tetraethylhexane                          -63.46    -57.64     5.82    19    CH          3,3,4,4-tetraethylhexane
+ C14H30        Octamethylhexane                                  -59.35    -54.23     5.12    19    CH          octamethylhexane
+ C14H30        Tetradecane                                       -79.38    -79.17     0.21    19    CH          tetradecane
+ C15H12        4-Methylphenanthrene                               46.80     50.17     3.37    19    CH          4-methylphenanthrene
+ C15H22        1-Methyldiadamantane                              -39.85    -38.00     1.85    19    CH          1-methyldiadamantane
+ C15H22        3-Methyladamantane                                -37.60    -37.34     0.26    19    CH          3-methyladamantane
+ C15H22        4-Methyldiadamantane                              -43.53    -39.59     3.94    19    CH          4-methyldiadamantane
+ C15H22        6-(1,1-dimethylethyl)-2,3-dihydro-1,1-dimethyl-   -24.90    -24.11     0.79    19    CH          6-(1,1-dimethylethyl)-2,3-dihydro-1,1-dimethyl-1h-indene
+ C15H30        n-Nonylcyclohexane                                -75.58    -74.33     1.25    19    CH          n-nonylcyclohexane
+ C15H32        Pentadecane                                       -84.81    -84.27     0.54    19    CH          pentadecane
+ C16H10        Fluoranthene                                       69.78     78.98     9.20    19    CH          fluoranthene
+ C16H10        Pyrene                                             53.94     62.59     8.65    19    CH          pyrene
+ C16H14        2,7-Dimethylphenanthrene                           34.20     34.98     0.78    19    CH          2,7-dimethylphenanthrene
+ C16H14        4,5,9,10-Tetrahydropyrene                          21.60     27.29     5.69    19    CH          4,5,9,10-tetrahydropyrene
+ C16H14        9,10-Dimethylphenanthrene                          40.00     39.93    -0.07    19    CH          9,10-dimethylphenanthrene
+ C16H16        (2.2)Metaparacyclophane                            52.18     43.30    -8.88    19    CH          (2.2)metaparacyclophane
+ C16H16        [2.2]Metacyclophane                                40.70     41.62     0.92    19    CH          [2.2]metacyclophane
+ C16H16        [2.2]Paracyclophane                                58.48     47.62   -10.86    19    CH          [2.2]paracyclophane
+ C16H18        1,2,3,6,7,8-Hexahydropyrene                         9.73      9.62    -0.11    19    CH          1,2,3,6,7,8-hexahydropyrene
+ C16H28        Tricyclo[8.2.2.2]-hexadecane                      -36.40    -32.78     3.62    19    CH          tricyclo[8.2.2.2]-hexadecane
+ C16H32        1-Hexadecene                                      -59.37    -61.47    -2.10    19    CH          1-hexadecene
+ C16H32        Decylcyclohexane                                  -80.51    -79.44     1.07    19    CH          decylcyclohexane
+ C16H32        n-Undecylcyclopentane                             -74.70    -77.26    -2.56    19    CH          n-undecylcyclopentane
+ C17H34        n-Dodecylcyclopentane                             -79.63    -82.35    -2.72    19    CH          n-dodecylcyclopentane
+ C17H34        Undecylcyclohexane                                -85.43    -84.53     0.90    19    CH          undecylcyclohexane
+ C17H36        Heptadecane                                       -94.15    -94.48    -0.33    19    CH          heptadecane
+ C18H14        p-Terphenyl                                        66.60     67.99     1.39    19    CH          p-terphenyl
+ C18H18        2,5-Diphenyl-1,5-hexadiene                         68.00     58.64    -9.36    19    CH          2,5-diphenyl-1,5-hexadiene
+ C18H18        3,4,5,6-Tetramethylphenanthrene                    38.30     28.33    -9.97    19    CH          3,4,5,6-tetramethylphenanthrene
+ C18H22        1,1'-(1,1,2,2-Tetramethyl-1,2-ethanediyl)bis-be    13.70     18.31     4.61    19    CH          1,1'-(1,1,2,2-tetramethyl-1,2-ethanediyl)bis-benzene
+ C18H36        Dodecylcyclohexane                                -90.36    -89.64     0.72    19    CH          dodecylcyclohexane
+ C18H36        n-Tridecylcyclopentane                            -84.55    -87.46    -2.91    19    CH          n-tridecylcyclopentane
+ C18H38        1,1,2,2-Tetra-t-butylethane                       -59.90    -55.48     4.42    19    CH          1,1,2,2-tetra-t-butylethane
+ C18H38        Octadecane                                        -99.08    -99.58    -0.50    19    CH          octadecane
+ C19H20        2,6-Diphenyl-1,6-heptadiene                        61.90     58.30    -3.60    19    CH          2,6-diphenyl-1,6-heptadiene
+ C19H38        n-Tetradecylcyclopentane                          -89.48    -92.56    -3.08    19    CH          n-tetradecylcyclopentane
+ C19H38        n-Tridecylcyclohexane                             -95.28    -94.74     0.54    19    CH          n-tridecylcyclohexane
+ C19H40        Nonadecane                                       -104.00   -104.69    -0.69    19    CH          nonadecane
+ C20H14        9,10-Dihydro-9,10[1',2']benzanthracene             76.90     79.61     2.71    19    CH          9,10-dihydro-9,10[1',2']benzanthracene
+ C20H16        3,9-Dimethylbenz[a]anthracene                      45.10     53.70     8.60    19    CH          3,9-dimethylbenz[a]anthracene
+ C20H16        5,6-Dimethyl chrysene                              62.70     60.32    -2.38    19    CH          5,6-dimethyl chrysene
+ C20H16        9,10-Dimethyl-1,2-benzanthracene                   66.30     63.67    -2.63    19    CH          9,10-dimethyl-1,2-benzanthracene
+ C20H30        1,3,5-Tri-tert-butyl pentalene                      3.40     12.06     8.66    19    CH          1,3,5-tris(t-butyl) pentalene
+ C20H30        Hexacyclopropylethane                             111.50    114.87     3.37    19    CH          hexacyclopropylethane
+ C20H36        Tetra-tert-butyltetrahedrane                        6.20     25.25    19.05    19    CH          tetra-tert-butyltetrahedrane
+ C20H38        Meso-3,4-dicyclohexyl-2,5-dimethylhexane          -71.60    -81.51    -9.91    19    CH          meso-3,4-dicyclohexyl-2,5-dimethylhexane
+ C20H40        Tetradecylcyclohexane                            -100.21    -99.84     0.37    19    CH          tetradecylcyclohexane
+ C20H42        Eicosane                                         -108.93   -109.79    -0.86    19    CH          eicosane
+ C21H26        1,8-Paracyclophane                                  6.90      3.85    -3.05    19    CH          1,8-paracyclophane
+ C21H42        Hexadecylcyclopentane                             -99.33   -101.57    -2.24    19    CH          hexadecylcyclopentane
+ C21H42        Pentadecylcyclohexane                            -105.14   -104.24     0.90    19    CH          pentadecylcyclohexane
+ C22H26        1,1'-Diphenyl-1,1'-bicyclopentyl                   26.60     22.96    -3.64    19    CH          1,1'-diphenyl-1,1'-bicyclopentyl
+ C22H38        DL-3,4-di-1-cyclohexen-1-yl-2,2,5,5-tetramethyl   -50.40    -54.37    -3.97    19    CH          dl-3,4-di-1-cyclohexen-1-yl-2,2,5,5-tetramethyl hexane
+ C22H38        Meso-3,4-di-1-cyclohexen-1-yl-2,2,5,5-tetrameth   -58.40    -53.94     4.46    19    CH          meso-3,4-di-1-cyclohexen-1-yl-2,2,5,5-tetramethyl hexane
+ C22H44        n-Hexadecylcyclohexane                           -110.06   -110.05     0.01    19    CH          n-hexadecylcyclohexane
+ C24H18        p-Quaterphenyl                                     91.40     90.34    -1.06    19    CH          p-quaterphenyl
+ C24H30        1,1'-Diphenyl-1,1'-bicyclohexyl                    10.40      8.10    -2.30    19    CH          1,1'-diphenyl-1,1'-bicyclohexyl
+ C24H32        6,6'-Paracyclophane                               -18.50    -14.45     4.05    19    CH          6,6'-paracyclophane
+ C25H20        Tetraphenylmethane                                 93.90     96.81     2.91    19    CH          tetraphenylmethane
+ C26H18        9,9'-Bi-9H-fluorene                                95.40    101.37     5.97    25    CH          9,9'-bi-9h-fluorene
+ C26H22        1,1,1,2-Tetraphenylethane                          87.30     89.76     2.46    19    CH          1,1,1,2-tetraphenylethane
+ C26H22        1,1,2,2-Tetraphenylethane                          85.40     85.91     0.51    19    CH          1,1,2,2-tetraphenylethane
+ C26H26        Pentacyclo hexacosa nonane                         78.00     63.91   -14.09    19    CH          pentacyclo hexacosa nonane
+ C26H38        2,3-Dimethyl-2,3-bis(4-t-butylphenyl)butane       -33.30    -30.80     2.50    19    CH          2,3-dimethyl-2,3-bis(4-t-butylphenyl)butane
+ C26H54        11-n-butyl docosane                              -141.80   -139.80     2.00    19    CH          11-n-butyl docosane
+ C26H54        5-n-butyl docosane                               -140.40   -139.68     0.72    19    CH          5-n-butyl docosane
+ C28H22        9,9'-Dimethyl-9,9'-bifluorene                      94.30     93.85    -0.45    25    CH          9,9'-dimethyl-9,9'-bifluorene
+ C28H38        1,1-Diphenyl-1,1-bicyclooctyl                      16.60     10.59    -6.01    19    CH          1,1-diphenyl-1,1-bicyclooctyl
+ C31H64        11-Decyl heneicosane                             -167.30   -166.07     1.23    19    CH          11-decyl heneicosane
+ C32H50        2,4,5,7-Tetramethyl-4,5-bis(4-t-butylphenyl) oc   -60.60    -59.70     0.90    19    CH          2,4,5,7-tetramethyl-4,5-bis(4-t-butylphenyl) octane
+ C32H66        Dotriacontane                                    -166.50   -171.02    -4.52    19    CH          dotriacontane

@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\P450 (7TTP) PDB geometry.PDB" ++ 
+geo_dat="..\protein_files\P450 (7TTP) PM6-ORG geometry.arc"  ++
+compare(backbone) output

@@ -1,0 +1,4 @@
+set="Equilibrium set for survey.txt" &
+ref="../Data Intermolecular interactions/Repulsive Interactions"  &
+ survey references="references.txt" PM6
+end

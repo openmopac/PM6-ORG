@@ -1,0 +1,699 @@
+01_NH3_dimer
+02_water_dimer
+03_formic_acid_dimer
+04_formamide_dimer
+05_uracil_HB
+06_pyridoxine_aminopyridine
+07_adenine_thymine_WC
+08_CH4_dimer
+09_Ethylene_dimer
+10_benzene_methane
+11_benzene_dimer_stack
+12_pyrazine_dimer
+13_uracil_dimer_stack
+14_indole_benzene_stack
+15_adenine_thymine_stack
+16_Ethylene_acetylene
+17_benzene_H2O
+18_benzene_NH3
+19_benzene_HCN
+20_benzene_dimer_T
+21_indole_benzene_T
+22_phenol_dimer
+01 Water - Water
+02 Water - Methanol
+03 Water - MeNH2
+04 Water - Peptide
+05 MeOH - MeOH
+06 MeOH - MeNH2
+07 MeOH - Peptide
+08 MeOH - Water
+09 MeNH2 - MeOH
+10 MeNH2 - MeNH2
+11 MeNH2 - Peptide
+12 MeNH2 - Water
+13 Peptide - MeOH
+14 Peptide - MeNH2
+15 Peptide - Peptide
+16 Peptide - Water
+17 Uracil - Uracil (BP)
+18 Water - Pyridine
+19 MeOH - Pyridine
+20 AcOH - AcOH
+21 AnNH2 - AcNH2
+22 AcOH - Uracil
+23 AcNH2 - Uracil
+24 Benzene - Benzene (pi - pi)
+25 Pyridine - Pyridine (pi - pi)
+26 Uracil - Uracil (pi - pi)
+27 Benzene - Pyridine (pi - pi)
+28 Benzene - Uracil (pi - pi)
+29 Pyridine - uracil (pi - pi)
+30 Benzene - Ethylene
+31 Uracil - Ethylene
+32 Uracil - Ethyne
+33 Pyridine - Ethylene
+34 Pentane - Pentane
+35 Neopentane - Pentane
+36 Neopentane - Neopentane
+37 Cyclopentane - Neopentane
+38 Cyclopentane - Cyclopentane
+39 Benzene - Cyclopentane
+40 Benzene - Neopentane
+41 Uracil - Pentane
+42 Uracil - Cyclopentane
+43 Uracil - Neopentane
+44 Ethylene - Pentane
+45 Ethyne - Pentane
+46 Peptide - Pentane
+47 Benzene - Benzene (TS)
+48 Pyridine - Pyridine (TS)
+49 Benzene - Pyridine (TS)
+50 Benzene - Ethyne (CH - pi)
+51 Ethyne - Ethyne (TS)
+52 Benzene - AcOH (OH - pi)
+53 Benzene - AcNH2 (NH - pi)
+54 Benzene - Water (OH - pi)
+55 Benzene - MeOH (OH - pi)
+56 Benzene - MeNH2 (NH - pi)
+57 Benzene - Peptide (NH - pi)
+58 Pyridine - Pyridine (CH - N)
+59 Ethyne - Water
+60 Ethyne - AcOH (OH-pi)
+61 Pentane - AcOH
+62 Pentane - AcNH2
+63 Benzene - AcOH
+64 Peptide - Ethylene
+65 Pyridine - Ethyne
+66 MeNH2 - Pyridine
+1 Circumcoronene adenine
+2 Circumcoronene GC base pair
+3 Coronene dimer
+4 GCGC base pair stack
+5 Guanine trimer
+6 Octadecane dimer
+7 Phenylalanine residues trimer
+water dimer structure 1 (non-planar open cs)
+water dimer structure 10 (planar bifurcated c2v)
+water dimer structure 2 (open ci)
+water dimer structure 3 (planar open cs)
+water dimer structure 4 (cyclic ci)
+water dimer structure 5 (cyclic c2)
+water dimer structure 6 (cyclic c2h)
+water dimer structure 7 (triply hydrogen bonded cs)
+water dimer structure 8 (non-planar bifurcated c2v)
+water dimer structure 9 (non-planar bifurcated c2v)
+water
+water_ref
+2a TCNA tweezer
+2b DCB tweezer
+3a TNF pincer
+3b NDB pincer
+4a C60 catcher
+4b C70 catcher
+5a GLH mcyle
+5b BQ mcyle
+6a BuNH4 CB6
+6b PrNH4 CB6
+7a FECP CB7
+7b ADOH CB7
+01 Methane - F2
+02 Methane - Cl2
+03 Methane - Br2
+04 Methane - I2
+05 Fluoromethane - methane
+06 Chloromethane - methane
+07 Trifluoromethane - methane
+08 Trichloromethane - methane
+09 Fluoromethane dimer
+10 Chloromethane dimer
+11 Trifluorobenzene - benzene
+12 Hexafluorobenzene - benzene
+13 Chloromethane - formaldehyde
+14 Bromomethane - formaldehyde
+15 Iodomethane - formaldehyde
+16 Trifluorochloromethane - formaldehyde
+17 Trifluorobromomethane - formaldehyde
+18 Trifluoroiodomethane - formaldehyde
+19 Chlorobenzenezene - acetone
+20 Bromobenzenezene - acetone
+21 Iodobenzenezene - acetone
+22 Chlorobenzenezene - trimethylamine
+23 Bromobenzenezene - trimethylamine
+24 Iodobenzenezene - trimethylamine
+25 Bromobenzenezene - methanethiol
+26 Iodobenzenezene - methanethiol
+27 Bromomethane - benzene
+28 Iodomethane - benzene
+29 Trifluorobromomethane - benzene
+30 Trifluoroiodomethane - benzene
+31 Trifluoromethanol - water
+32 Trichloromethanol - water
+33 HF - methanol
+34 HCl - methanol
+35 HBr - methanol
+36 HI - methanol
+37 HF - methylamine
+38 HCl - methylamine
+39 methanol - fluoromethane
+40 methanol - chloromethane
+rep739sys001g03pt100ab
+rep739sys001g05pt100ab
+rep739sys001g06pt100ab
+rep739sys001g08pt100ab
+rep739sys001g09pt100ab
+rep739sys001g10pt100ab
+rep739sys001g12pt100ab
+rep739sys001g13pt100ab
+rep739sys001g14pt100ab
+rep739sys001g15pt100ab
+rep739sys002g02pt100ab
+rep739sys002g04pt100ab
+rep739sys002g06pt100ab
+rep739sys002g07pt100ab
+rep739sys002g08pt100ab
+rep739sys002g09pt100ab
+rep739sys002g10pt100ab
+rep739sys002g11pt100ab
+rep739sys002g12pt100ab
+rep739sys002g14pt100ab
+rep739sys002g15pt100ab
+rep739sys002g16pt100ab
+rep739sys002g17pt100ab
+rep739sys002g18pt100ab
+rep739sys002g19pt100ab
+rep739sys002g20pt100ab
+rep739sys003g01pt100ab
+rep739sys003g02pt100ab
+rep739sys003g03pt100ab
+rep739sys003g04pt100ab
+rep739sys003g05pt100ab
+rep739sys003g06pt100ab
+rep739sys003g07pt100ab
+rep739sys003g08pt100ab
+rep739sys003g09pt100ab
+rep739sys003g10pt100ab
+rep739sys004g02pt100ab
+rep739sys004g03pt100ab
+rep739sys004g05pt100ab
+rep739sys004g06pt100ab
+rep739sys004g07pt100ab
+rep739sys004g08pt100ab
+rep739sys004g09pt100ab
+rep739sys004g10pt100ab
+rep739sys004g12pt100ab
+rep739sys004g13pt100ab
+rep739sys004g14pt100ab
+rep739sys004g15pt100ab
+rep739sys004g17pt100ab
+rep739sys004g18pt100ab
+rep739sys004g19pt100ab
+rep739sys004g20pt100ab
+rep739sys004g22pt100ab
+rep739sys004g23pt100ab
+rep739sys004g24pt100ab
+rep739sys004g25pt100ab
+rep739sys005g01pt100ab
+rep739sys005g02pt100ab
+rep739sys005g03pt100ab
+rep739sys005g04pt100ab
+rep739sys005g05pt100ab
+rep739sys005g06pt100ab
+rep739sys005g07pt100ab
+rep739sys005g08pt100ab
+rep739sys005g09pt100ab
+rep739sys005g10pt100ab
+rep739sys005g11pt100ab
+rep739sys005g12pt100ab
+rep739sys005g13pt100ab
+rep739sys005g14pt100ab
+rep739sys005g15pt100ab
+rep739sys005g16pt100ab
+rep739sys005g17pt100ab
+rep739sys005g18pt100ab
+rep739sys005g19pt100ab
+rep739sys005g20pt100ab
+rep739sys006g01pt100ab
+rep739sys006g02pt100ab
+rep739sys006g03pt100ab
+rep739sys006g04pt100ab
+rep739sys006g05pt100ab
+rep739sys006g06pt100ab
+rep739sys006g07pt100ab
+rep739sys006g08pt100ab
+rep739sys006g09pt100ab
+rep739sys006g10pt100ab
+rep739sys006g11pt100ab
+rep739sys006g12pt100ab
+rep739sys006g13pt100ab
+rep739sys006g14pt100ab
+rep739sys007g02pt100ab
+rep739sys007g03pt100ab
+rep739sys007g05pt100ab
+rep739sys007g06pt100ab
+rep739sys007g07pt100ab
+rep739sys007g08pt100ab
+rep739sys007g09pt100ab
+rep739sys007g10pt100ab
+rep739sys007g12pt100ab
+rep739sys007g13pt100ab
+rep739sys007g14pt100ab
+rep739sys007g15pt100ab
+rep739sys007g17pt100ab
+rep739sys007g18pt100ab
+rep739sys007g19pt100ab
+rep739sys007g20pt100ab
+rep739sys008g01pt100ab
+rep739sys008g02pt100ab
+rep739sys008g03pt100ab
+rep739sys008g04pt100ab
+rep739sys008g05pt100ab
+rep739sys008g06pt100ab
+rep739sys008g07pt100ab
+rep739sys008g08pt100ab
+rep739sys008g09pt100ab
+rep739sys008g10pt100ab
+rep739sys008g11pt100ab
+rep739sys008g12pt100ab
+rep739sys008g13pt100ab
+rep739sys008g14pt100ab
+rep739sys008g15pt100ab
+rep739sys008g16pt100ab
+rep739sys009g01pt100ab
+rep739sys009g02pt100ab
+rep739sys009g03pt100ab
+rep739sys009g04pt100ab
+rep739sys009g05pt100ab
+rep739sys009g06pt100ab
+rep739sys009g07pt100ab
+rep739sys009g08pt100ab
+rep739sys009g09pt100ab
+rep739sys009g10pt100ab
+rep739sys009g11pt100ab
+rep739sys009g12pt100ab
+rep739sys009g13pt100ab
+rep739sys009g14pt100ab
+rep739sys009g15pt100ab
+rep739sys009g16pt100ab
+rep739sys009g17pt100ab
+rep739sys009g18pt100ab
+rep739sys009g19pt100ab
+rep739sys009g20pt100ab
+rep739sys010g01pt100ab
+rep739sys010g02pt100ab
+rep739sys010g03pt100ab
+rep739sys010g04pt100ab
+rep739sys010g05pt100ab
+rep739sys010g06pt100ab
+rep739sys010g07pt100ab
+rep739sys010g08pt100ab
+rep739sys010g09pt100ab
+rep739sys010g10pt100ab
+rep739sys011g02pt100ab
+rep739sys011g03pt100ab
+rep739sys011g04pt100ab
+rep739sys011g05pt100ab
+rep739sys011g07pt100ab
+rep739sys011g08pt100ab
+rep739sys011g09pt100ab
+rep739sys011g10pt100ab
+rep739sys011g12pt100ab
+rep739sys011g13pt100ab
+rep739sys011g14pt100ab
+rep739sys011g15pt100ab
+rep739sys012g01pt100ab
+rep739sys012g02pt100ab
+rep739sys012g03pt100ab
+rep739sys012g04pt100ab
+rep739sys012g05pt100ab
+rep739sys012g06pt100ab
+rep739sys012g07pt100ab
+rep739sys012g08pt100ab
+rep739sys012g09pt100ab
+rep739sys012g10pt100ab
+rep739sys012g11pt100ab
+rep739sys012g12pt100ab
+rep739sys013g01pt100ab
+rep739sys013g02pt100ab
+rep739sys013g03pt100ab
+rep739sys013g04pt100ab
+rep739sys013g05pt100ab
+rep739sys013g06pt100ab
+rep739sys013g07pt100ab
+rep739sys013g08pt100ab
+rep739sys013g09pt100ab
+rep739sys013g10pt100ab
+rep739sys013g11pt100ab
+rep739sys013g12pt100ab
+rep739sys013g13pt100ab
+rep739sys013g14pt100ab
+rep739sys013g15pt100ab
+rep739sys014g01pt100ab
+rep739sys014g02pt100ab
+rep739sys014g03pt100ab
+rep739sys014g04pt100ab
+rep739sys014g05pt100ab
+rep739sys014g06pt100ab
+rep739sys014g07pt100ab
+rep739sys014g08pt100ab
+rep739sys014g09pt100ab
+rep739sys014g10pt100ab
+rep739sys014g11pt100ab
+rep739sys014g12pt100ab
+rep739sys015g01pt100ab
+rep739sys015g02pt100ab
+rep739sys015g03pt100ab
+rep739sys015g04pt100ab
+rep739sys015g05pt100ab
+rep739sys015g06pt100ab
+rep739sys016g02pt100ab
+rep739sys016g03pt100ab
+rep739sys016g04pt100ab
+rep739sys016g05pt100ab
+rep739sys016g07pt100ab
+rep739sys016g08pt100ab
+rep739sys016g09pt100ab
+rep739sys016g10pt100ab
+rep739sys016g12pt100ab
+rep739sys016g13pt100ab
+rep739sys016g14pt100ab
+rep739sys016g15pt100ab
+rep739sys016g17pt100ab
+rep739sys016g18pt100ab
+rep739sys016g19pt100ab
+rep739sys016g20pt100ab
+rep739sys017g01pt100ab
+rep739sys017g02pt100ab
+rep739sys017g03pt100ab
+rep739sys017g04pt100ab
+rep739sys017g05pt100ab
+rep739sys017g06pt100ab
+rep739sys017g07pt100ab
+rep739sys017g08pt100ab
+rep739sys017g09pt100ab
+rep739sys017g10pt100ab
+rep739sys017g11pt100ab
+rep739sys017g12pt100ab
+rep739sys017g13pt100ab
+rep739sys017g14pt100ab
+rep739sys017g15pt100ab
+rep739sys017g16pt100ab
+rep739sys018g01pt100ab
+rep739sys018g02pt100ab
+rep739sys018g03pt100ab
+rep739sys018g04pt100ab
+rep739sys018g05pt100ab
+rep739sys018g06pt100ab
+rep739sys018g07pt100ab
+rep739sys018g08pt100ab
+rep739sys018g09pt100ab
+rep739sys018g10pt100ab
+rep739sys018g11pt100ab
+rep739sys018g12pt100ab
+rep739sys018g13pt100ab
+rep739sys018g14pt100ab
+rep739sys018g15pt100ab
+rep739sys018g16pt100ab
+rep739sys018g17pt100ab
+rep739sys018g18pt100ab
+rep739sys018g19pt100ab
+rep739sys018g20pt100ab
+rep739sys019g01pt100ab
+rep739sys019g02pt100ab
+rep739sys019g03pt100ab
+rep739sys019g04pt100ab
+rep739sys019g05pt100ab
+rep739sys019g06pt100ab
+rep739sys019g07pt100ab
+rep739sys019g08pt100ab
+rep739sys019g09pt100ab
+rep739sys019g10pt100ab
+rep739sys019g11pt100ab
+rep739sys019g12pt100ab
+rep739sys019g13pt100ab
+rep739sys019g14pt100ab
+rep739sys019g15pt100ab
+rep739sys019g16pt100ab
+rep739sys020g01pt100ab
+rep739sys020g02pt100ab
+rep739sys020g03pt100ab
+rep739sys020g04pt100ab
+rep739sys020g05pt100ab
+rep739sys020g06pt100ab
+rep739sys020g07pt100ab
+rep739sys020g08pt100ab
+rep739sys020g09pt100ab
+rep739sys020g10pt100ab
+rep739sys020g11pt100ab
+rep739sys020g12pt100ab
+rep739sys021g01pt100ab
+rep739sys021g02pt100ab
+rep739sys021g03pt100ab
+rep739sys021g04pt100ab
+rep739sys021g05pt100ab
+rep739sys021g06pt100ab
+rep739sys021g07pt100ab
+rep739sys021g08pt100ab
+rep739sys021g09pt100ab
+rep739sys021g10pt100ab
+rep739sys022g02pt100ab
+rep739sys022g03pt100ab
+rep739sys022g04pt100ab
+rep739sys022g05pt100ab
+rep739sys022g07pt100ab
+rep739sys022g08pt100ab
+rep739sys022g09pt100ab
+rep739sys022g10pt100ab
+rep739sys023g01pt100ab
+rep739sys023g02pt100ab
+rep739sys023g03pt100ab
+rep739sys023g04pt100ab
+rep739sys023g05pt100ab
+rep739sys023g06pt100ab
+rep739sys023g07pt100ab
+rep739sys023g08pt100ab
+rep739sys024g01pt100ab
+rep739sys024g02pt100ab
+rep739sys024g03pt100ab
+rep739sys024g04pt100ab
+rep739sys024g05pt100ab
+rep739sys024g06pt100ab
+rep739sys024g07pt100ab
+rep739sys024g08pt100ab
+rep739sys024g09pt100ab
+rep739sys025g01pt100ab
+rep739sys025g02pt100ab
+rep739sys025g03pt100ab
+rep739sys025g04pt100ab
+rep739sys025g05pt100ab
+rep739sys025g06pt100ab
+rep739sys025g07pt100ab
+rep739sys025g08pt100ab
+rep739sys026g01pt100ab
+rep739sys026g02pt100ab
+rep739sys026g03pt100ab
+rep739sys026g04pt100ab
+rep739sys026g05pt100ab
+rep739sys026g06pt100ab
+rep739sys027g01pt100ab
+rep739sys027g02pt100ab
+rep739sys027g03pt100ab
+rep739sys027g04pt100ab
+rep739sys027g05pt100ab
+rep739sys027g06pt100ab
+rep739sys027g07pt100ab
+rep739sys027g08pt100ab
+rep739sys028g01pt100ab
+rep739sys028g02pt100ab
+rep739sys028g03pt100ab
+rep739sys029g02pt100ab
+rep739sys029g03pt100ab
+rep739sys029g04pt100ab
+rep739sys029g05pt100ab
+rep739sys029g07pt100ab
+rep739sys029g08pt100ab
+rep739sys029g09pt100ab
+rep739sys029g10pt100ab
+rep739sys030g01pt100ab
+rep739sys030g02pt100ab
+rep739sys030g03pt100ab
+rep739sys030g04pt100ab
+rep739sys030g05pt100ab
+rep739sys030g06pt100ab
+rep739sys030g07pt100ab
+rep739sys030g08pt100ab
+rep739sys031g01pt100ab
+rep739sys031g02pt100ab
+rep739sys031g03pt100ab
+rep739sys031g04pt100ab
+rep739sys031g05pt100ab
+rep739sys031g06pt100ab
+rep739sys031g07pt100ab
+rep739sys031g08pt100ab
+rep739sys031g09pt100ab
+rep739sys031g10pt100ab
+rep739sys032g01pt100ab
+rep739sys032g02pt100ab
+rep739sys032g03pt100ab
+rep739sys032g04pt100ab
+rep739sys032g05pt100ab
+rep739sys032g06pt100ab
+rep739sys032g07pt100ab
+rep739sys032g08pt100ab
+rep739sys033g01pt100ab
+rep739sys033g02pt100ab
+rep739sys033g03pt100ab
+rep739sys033g04pt100ab
+rep739sys033g05pt100ab
+rep739sys033g06pt100ab
+rep739sys034g01pt100ab
+rep739sys034g02pt100ab
+rep739sys034g03pt100ab
+rep739sys034g04pt100ab
+rep739sys034g05pt100ab
+rep739sys034g06pt100ab
+rep739sys034g07pt100ab
+rep739sys034g08pt100ab
+rep739sys035g01pt100ab
+rep739sys035g02pt100ab
+rep739sys035g03pt100ab
+rep739sys035g04pt100ab
+rep739sys036g01pt100ab
+rep739sys036g02pt100ab
+rep739sys036g03pt100ab
+rep739sys037g02pt100ab
+rep739sys037g03pt100ab
+rep739sys037g04pt100ab
+rep739sys037g05pt100ab
+rep739sys037g07pt100ab
+rep739sys037g08pt100ab
+rep739sys037g09pt100ab
+rep739sys037g10pt100ab
+rep739sys038g01pt100ab
+rep739sys038g02pt100ab
+rep739sys038g03pt100ab
+rep739sys038g04pt100ab
+rep739sys038g05pt100ab
+rep739sys038g06pt100ab
+rep739sys038g07pt100ab
+rep739sys038g08pt100ab
+rep739sys039g01pt100ab
+rep739sys039g02pt100ab
+rep739sys039g03pt100ab
+rep739sys039g04pt100ab
+rep739sys039g05pt100ab
+rep739sys039g06pt100ab
+rep739sys039g07pt100ab
+rep739sys039g08pt100ab
+rep739sys039g09pt100ab
+rep739sys039g10pt100ab
+rep739sys040g01pt100ab
+rep739sys040g02pt100ab
+rep739sys040g03pt100ab
+rep739sys040g04pt100ab
+rep739sys040g05pt100ab
+rep739sys040g06pt100ab
+rep739sys040g07pt100ab
+rep739sys040g08pt100ab
+rep739sys041g01pt100ab
+rep739sys041g02pt100ab
+rep739sys041g03pt100ab
+rep739sys041g04pt100ab
+rep739sys041g05pt100ab
+rep739sys041g06pt100ab
+rep739sys042g01pt100ab
+rep739sys042g02pt100ab
+rep739sys042g03pt100ab
+rep739sys042g04pt100ab
+rep739sys042g05pt100ab
+rep739sys042g06pt100ab
+rep739sys042g07pt100ab
+rep739sys042g08pt100ab
+rep739sys043g01pt100ab
+rep739sys043g02pt100ab
+rep739sys043g03pt100ab
+rep739sys043g04pt100ab
+rep739sys044g01pt100ab
+rep739sys044g02pt100ab
+rep739sys044g03pt100ab
+rep739sys044g04pt100ab
+rep739sys045g01pt100ab
+rep739sys045g02pt100ab
+rep739sys045g03pt100ab
+rep739sys046g02pt100ab
+rep739sys046g03pt100ab
+rep739sys046g04pt100ab
+rep739sys046g05pt100ab
+rep739sys046g07pt100ab
+rep739sys046g08pt100ab
+rep739sys046g09pt100ab
+rep739sys046g10pt100ab
+rep739sys047g01pt100ab
+rep739sys047g02pt100ab
+rep739sys047g03pt100ab
+rep739sys047g04pt100ab
+rep739sys047g05pt100ab
+rep739sys047g06pt100ab
+rep739sys047g07pt100ab
+rep739sys047g08pt100ab
+rep739sys048g01pt100ab
+rep739sys048g02pt100ab
+rep739sys048g03pt100ab
+rep739sys048g04pt100ab
+rep739sys048g05pt100ab
+rep739sys048g06pt100ab
+rep739sys048g07pt100ab
+rep739sys048g08pt100ab
+rep739sys048g09pt100ab
+rep739sys048g10pt100ab
+rep739sys049g01pt100ab
+rep739sys049g02pt100ab
+rep739sys049g03pt100ab
+rep739sys049g04pt100ab
+rep739sys049g05pt100ab
+rep739sys049g06pt100ab
+rep739sys049g07pt100ab
+rep739sys049g08pt100ab
+rep739sys050g01pt100ab
+rep739sys050g02pt100ab
+rep739sys050g03pt100ab
+rep739sys050g04pt100ab
+rep739sys050g05pt100ab
+rep739sys050g06pt100ab
+rep739sys051g01pt100ab
+rep739sys051g02pt100ab
+rep739sys051g03pt100ab
+rep739sys051g04pt100ab
+rep739sys051g05pt100ab
+rep739sys051g06pt100ab
+rep739sys051g07pt100ab
+rep739sys051g08pt100ab
+rep739sys052g01pt100ab
+rep739sys052g02pt100ab
+rep739sys052g03pt100ab
+rep739sys052g04pt100ab
+rep739sys053g01pt100ab
+rep739sys053g02pt100ab
+rep739sys053g03pt100ab
+rep739sys053g04pt100ab
+rep739sys054g01pt100ab
+rep739sys054g02pt100ab
+rep739sys054g03pt100ab
+rep739sys054g04pt100ab
+rep739sys055g01pt100ab
+rep739sys055g02pt100ab
+rep739sys055g03pt100ab
+acetate ... methanol
+acetate ... methylamine
+acetate ... water
+guanidinium ... formaldehyde
+guanidinium ... methanol
+guanidinium ... methylamine
+guanidinium ... water
+imidazolium ... formaldehyde
+imidazolium ... methanol
+imidazolium ... methylamine
+imidazolium ... water
+methylammonium ... formaldehyde
+methylammonium ... methanol
+methylammonium ... methylamine

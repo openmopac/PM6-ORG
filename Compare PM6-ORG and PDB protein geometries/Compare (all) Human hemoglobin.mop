@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Human hemoglobin chain A (5WOH) PDB geometry.arc" ++ 
+geo_dat="..\protein_files\Human hemoglobin chain A (5WOH) PM6-ORG geometry.arc"  ++
+compare  output

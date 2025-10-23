@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Magnesium-loaded ALG-2 (5JJG) PDB geometry.PDB" ++ 
+geo_dat="..\protein_files\Magnesium-loaded ALG-2 (5JJG) PM6-ORG geometry.arc"  ++
+compare(backbone) output

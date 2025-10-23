@@ -1,0 +1,14 @@
+display 1002:A.C
+display add connected(visible)
+display add connected(visible)
+reset;center {12.624125000000001 36.368874999999996 17.042749999999998}; rotate z -107.67; rotate y 15.19; rotate z 143.69; zoom 1311.06; translate x 0.07; translate y 6.7; set rotationRadius 45.0;
+measure off
+measure (1001:A.CO) (1001:A.N21)
+measure (1001:A.CO) (1001:A.N22)
+measure (1001:A.CO) (1001:A.N23)
+measure (1001:A.CO) (1001:A.N24)
+measure (1001:A.CO) (1001:A.N3B)
+measure (1001:A.CO) (1002:A.C)
+measure (1002:A.C) (1002:A.N)
+
+

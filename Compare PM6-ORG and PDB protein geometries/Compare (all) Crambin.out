@@ -1,0 +1,190 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v Jimmy's                  **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Jul 12 10:02:17 2023  *
+ *  COMPARE    - Compare two geometries
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "../protein_files/Crambin (4FC1) PM6-ORG geometry.arc"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "../protein_files//Crambin (4FC1) PDB geometry.arc"
+ *               (NO BIAS TOWARDS THE REFERENCE GEOMETRY WILL BE APPLIED)
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *******************************************************************************
+geo_ref="..\protein_files\\Crambin (4FC1) PDB geometry.arc" geo_dat="..\protein_files\Crambin (4FC1) PM6-ORG geometry.arc" compare output
+
+
+ 
+
+                        After docking
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM  734  H1  DOD A1031)  -6.183 -10.894  -7.339        4.53         4.53
+            (HETATM  733  O   DOD A1031)  -5.289 -11.191  -7.459        4.35         8.88
+            (ATOM    420  HH  TYR A  29)  -5.299   2.169 -24.587        4.11        12.99
+            (ATOM    411  OH  TYR A  29)  -5.633   2.406 -23.719        3.61        16.60
+            (HETATM  749  H1  DOD A1036)   2.625  -8.133   3.095        3.53        20.14
+            (HETATM  689  H1  DOD A1016) -11.957   9.250 -10.469        3.37        23.50
+            (HETATM  690  H2  DOD A1016) -12.568   8.443 -11.750        3.33        26.83
+            (HETATM  735  H2  DOD A1031)  -4.612 -10.550  -7.287        3.32        30.15
+            (HETATM  703  O   DOD A1021) -15.739   0.845 -20.482        3.31        33.46
+            (HETATM  748  O   DOD A1036)   2.480  -7.198   3.184        3.27        36.74
+            (HETATM  747  H2  DOD A1035)  -1.110  -7.419   4.829        3.27        40.01
+            (HETATM  711  H2  DOD A1023) -16.511  -3.036 -11.966        3.25        43.26
+            (HETATM  709  O   DOD A1023) -16.030  -2.798 -11.131        3.20        46.46
+            (HETATM  745  O   DOD A1035)  -0.488  -7.699   4.161        3.17        49.63
+            (HETATM  645  H2  DOD A1001)  -7.216   1.287  -3.807        3.15        52.77
+            (HETATM  688  O   DOD A1016) -12.613   9.221 -11.146        3.14        55.91
+            (HETATM  704  H1  DOD A1021) -16.661   1.042 -20.566        3.12        59.03
+            (HETATM  700  O   DOD A1020) -17.281  -3.400 -13.490        3.10        62.13
+            (HETATM  710  H1  DOD A1023) -16.569  -2.723 -10.346        3.01        65.14
+            (HETATM  705  H2  DOD A1021) -15.448   0.441 -19.682        2.99        68.13
+            (HETATM  702  H2  DOD A1020) -18.167  -3.042 -13.381        2.97        71.10
+            (HETATM  644  H1  DOD A1001)  -8.642   0.575  -4.085        2.90        74.00
+            (ATOM    419  HE2 TYR A  29)  -6.404   2.651 -21.261        2.87        76.87
+            (HETATM  696  H2  DOD A1018) -20.078   3.886 -19.786        2.80        79.67
+            (HETATM  746  H1  DOD A1035)  -0.342  -8.639   4.084        2.79        82.45
+            (ATOM    418  HE1 TYR A  29)  -4.869  -0.059 -24.191        2.76        85.22
+            (ATOM    410  CZ  TYR A  29)  -5.638   1.383 -22.796        2.70        87.92
+            (HETATM  662  H1  DOD A1007)   7.043  11.190 -11.736        2.65        90.57
+            (HETATM  768  H2  DOD A1042)   2.644   8.958  -5.371        2.63        93.20
+            (HETATM  695  H1  DOD A1018) -19.753   2.977 -18.472        2.61        95.81
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+    DOD1020( 1.90)    DOD1021( 1.73)    DOD1031( 1.68)    DOD1036( 1.65)    DOD1001( 1.58)
+    DOD1029( 1.57)    DOD1033( 1.44)    DOD1042( 1.39)    DOD1023( 1.38)    DOD1035( 1.38)
+    DOD1022( 1.34)    DOD1002( 1.29)    DOD1038( 1.28)    DOD1025( 1.25)    DOD1018( 1.25)
+    Asn  46( 1.23)    DOD1016( 1.16)    DOD1019( 1.14)    DOD1028( 1.14)    DOD1034( 1.13)
+    Ala  45( 1.06)    DOD1037( 1.06)    DOD1007( 1.04)    DOD1027( 0.98)    DOD1024( 0.94)
+    DOD1017( 0.93)    DOD1039( 0.88)    DOD1010( 0.88)    DOD1030( 0.87)    DOD1003( 0.87)
+    DOD1012( 0.81)    DOD1011( 0.78)    DOD1041( 0.78)    Asp  43( 0.77)    DOD1040( 0.75)
+    DOD1032( 0.74)    DOD1014( 0.72)    DOD1008( 0.71)    DOD1026( 0.71)    Tyr  44( 0.68)
+    DOD1004( 0.68)    DOD1009( 0.67)    DOD1015( 0.67)    DOD1005( 0.63)    DOD1006( 0.61)
+
+   Difference between GEO_DAT and GEO_REF: 810.837 = total,  1.0558 = Average,  1.2482 = RMS, in Angstroms
+
+                             Differences between bond-lengths for the two geometries
+
+           Diff.                 Atom 1                       Atom 2                  Bond length      Bond length
+                                                                                      in GEO_DAT      in GEO_REF
+   1      -0.115     S(ATOM     46  SG  CYS A   4)    S(ATOM    447  SG  CYS A  32)      1.988            2.103
+   2      -0.096     S(ATOM    225  SG  CYS A  16)    S(ATOM    371  SG  CYS A  26)      1.994            2.090
+   3      +0.059     C(ATOM    513  CB  PRO A  36)    C(ATOM    514  CG  PRO A  36)      1.537            1.478
+   4      +0.057     C(ATOM    312  CB  PRO A  22)    C(ATOM    313  CG  PRO A  22)      1.537            1.480
+   5      -0.054     O(HETATM  721  O   DOD A1027)    H(HETATM  723  H2  DOD A1027)      0.951            1.005
+   6      +0.054     N(ATOM    220  N   CYS A  16)    C(ATOM    206  C   VAL A  15)      1.364            1.310
+   7      +0.054     N(ATOM    618  N   ALA A  45)    C(ATOM    599  C   TYR A  44)      1.364            1.310
+   8      +0.050     N(ATOM    237  NE  ARG A  17)    C(ATOM    238  CZ  ARG A  17)      1.389            1.339
+   9      +0.049     N(ATOM    128  NE  ARG A  10)    C(ATOM    129  CZ  ARG A  10)      1.374            1.325
+  10      +0.048     C(ATOM     55  CB  PRO A   5)    C(ATOM     56  CG  PRO A   5)      1.535            1.487
+  11      +0.047     N(ATOM     65  N   SER A   6)    C(ATOM     53  C   PRO A   5)      1.357            1.309
+  12      +0.047     N(ATOM    523  N   GLY A  37)    C(ATOM    511  C   PRO A  36)      1.361            1.314
+  13      -0.047     N(ATOM      1  N   THR A   1)    H(ATOM     10  H3  THR A   1)      0.971            1.017
+  14      -0.047     O(HETATM  706  O   DOD A1022)    H(HETATM  707  H1  DOD A1022)      0.938            0.985
+  15      +0.046     N(ATOM    130  NH1 ARG A  10)    C(ATOM    129  CZ  ARG A  10)      1.367            1.322
+  16      +0.046     C(ATOM    278  CG  PRO A  19)    C(ATOM    279  CD  PRO A  19)      1.536            1.490
+  17      -0.045     O(HETATM  709  O   DOD A1023)    H(HETATM  711  H2  DOD A1023)      0.947            0.992
+  18      +0.045     N(ATOM     31  N   CYS A   3)    C(ATOM     19  C   THR A   2)      1.362            1.317
+  19      +0.045     N(ATOM    435  N   GLY A  31)    C(ATOM    423  C   THR A  30)      1.360            1.315
+  20      +0.045     C(ATOM    568  CB  PRO A  41)    C(ATOM    569  CG  PRO A  41)      1.535            1.490
+  21      +0.045     N(ATOM    400  N   TYR A  29)    C(ATOM    388  C   THR A  28)      1.363            1.318
+  22      +0.044     C(ATOM    277  CB  PRO A  19)    C(ATOM    278  CG  PRO A  19)      1.533            1.489
+  23      +0.042     C(ATOM     52  CA  PRO A   5)    C(ATOM     53  C   PRO A   5)      1.549            1.507
+  24      +0.042     N(ATOM    347  N   LEU A  25)    C(ATOM    339  C   ALA A  24)      1.355            1.313
+  25      +0.042     C(ATOM    295  CA  THR A  21)    C(ATOM    298  CB  THR A  21)      1.569            1.528
+
+    GEO_DAT:  '..\protein_files\Crambin (4FC1) PM6-ORG geometry.arc'
+    GEO_REF:  '..\protein_files\\Crambin (4FC1) PDB geometry.arc'
+ 
+          Heat of formation of GEO_DAT system:   -6493.925 Kcal/mol
+          Heat of formation of GEO_REF system:   -6122.988 Kcal/mol
+                                        Diff.:    -370.937 Kcal/mol
+
+
+                    Analysis of Non-Covalent Interactions
+
+          Total non-covalent energy of GEO_DAT system:   -937.64 Kcal/mol
+          Total non-covalent energy of GEO_REF system:   -858.37 Kcal/mol
+                                           Difference:    -79.27 Kcal/mol
+
+          Number of hydrogen bonds common to both systems:  120
+
+
+                            Hydrogen bonds in GEO_DAT but not in GEO_REF
+
+               Donor atom                     Hydrogen atom            H-bond length(A)     Energy    Sum
+
+   1   "ATOM    581  O   GLY A  42"      "HETATM  651  H2  DOD A1003"       1.838           -2.840   -2.840
+   2   "ATOM    631  O   ASN A  46"      "ATOM     47  H   CYS A   4"       1.676           -2.802   -5.642
+   3   "HETATM  715  O   DOD A1025"      "HETATM  668  H1  DOD A1009"       1.869           -2.583   -8.225
+   4   "ATOM    233  O   ARG A  17"      "ATOM    301  H   THR A  21"       2.178           -2.106  -10.331
+   5   "ATOM    543  O   THR A  39"      "HETATM  741  H2  DOD A1033"       1.997           -1.951  -12.283
+   6   "HETATM  709  O   DOD A1023"      "ATOM    253 HH22 ARG A  17"       2.087           -1.708  -13.991
+   7   "HETATM  742  O   DOD A1034"      "HETATM  747  H2  DOD A1035"       1.987           -1.673  -15.663
+   8   "ATOM    294  N   THR A  21"      "ATOM    250 HH11 ARG A  17"       2.948           -1.594  -17.257
+   9   "ATOM    379  O   ALA A  27"      "ATOM    448  H   CYS A  32"       2.226           -1.530  -18.787
+  10   "HETATM  670  O   DOD A1010"      "HETATM  761  H1  DOD A1040"       2.566           -1.382  -20.169
+  11   "ATOM     22  OG1 THR A   2"      "ATOM    144 HH22 ARG A  10"       2.322           -1.299  -21.468
+  12   "HETATM  700  O   DOD A1020"      "ATOM    251 HH12 ARG A  17"       2.145           -1.294  -22.762
+  13   "ATOM    490  N   ILE A  35"      "HETATM  731  H1  DOD A1030"       2.660           -1.293  -24.055
+  14   "HETATM  685  O   DOD A1015"      "HETATM  689  H1  DOD A1016"       2.152           -1.287  -25.342
+  15   "ATOM     41  N   CYS A   4"      "ATOM    637  H   ASN A  46"       2.839           -1.256  -26.599
+  16   "ATOM    240  NH2 ARG A  17"      "HETATM  707  H1  DOD A1022"       2.588           -1.256  -27.855
+  17   "ATOM     79  O   ILE A   7"      "HETATM  672  H2  DOD A1010"       2.095           -1.247  -29.102
+  18   "ATOM    329  OE1 GLU A  23"      "HETATM  644  H1  DOD A1001"       2.142           -1.242  -30.344
+  19   "HETATM  748  O   DOD A1036"      "HETATM  743  H1  DOD A1034"       2.069           -1.224  -31.568
+  20   "HETATM  661  O   DOD A1007"      "HETATM  657  H2  DOD A1005"       2.149           -1.169  -32.737
+  21   "HETATM  697  O   DOD A1019"      "HETATM  695  H1  DOD A1018"       2.116           -1.165  -33.902
+  22   "HETATM  754  O   DOD A1038"      "HETATM  759  H2  DOD A1039"       2.095           -1.157  -35.059
+  23   "ATOM    257  O   LEU A  18"      "HETATM  690  H2  DOD A1016"       2.247           -1.134  -36.193
+  24   "ATOM    474  O   ILE A  34"      "HETATM  734  H1  DOD A1031"       2.088           -1.124  -37.317
+  25   "ATOM    254  N   LEU A  18"      "HETATM  687  H2  DOD A1015"       2.516           -1.119  -38.436
+
+
+                            Hydrogen bonds in GEO_REF but not in GEO_DAT
+
+               Donor atom                     Hydrogen atom            H-bond length(A)     Energy    Sum
+
+   1   "ATOM    276  O   PRO A  19"      "HETATM  695  H1  DOD A1018"       1.640           -4.876   -4.876
+   2   "HETATM  700  O   DOD A1020"      "HETATM  711  H2  DOD A1023"       1.746           -4.030   -8.905
+   3   "HETATM  745  O   DOD A1035"      "HETATM  743  H1  DOD A1034"       1.764           -3.989  -12.894
+   4   "HETATM  685  O   DOD A1015"      "HETATM  690  H2  DOD A1016"       1.604           -3.740  -16.634
+   5   "ATOM    196  OD1 ASN A  14"      "HETATM  668  H1  DOD A1009"       1.911           -2.233  -18.867
+   6   "HETATM  679  O   DOD A1013"      "ATOM    168 HD21 ASN A  12"       2.426           -1.806  -20.673
+   7   "ATOM     20  O   THR A   2"      "ATOM    144 HH22 ARG A  10"       2.110           -1.165  -21.838
+   8   "HETATM  760  O   DOD A1040"      "HETATM  764  H1  DOD A1041"       2.219           -1.140  -22.978
+
+
+    The following files will be written to "G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/":
+              'Compare (all) Crambin.html'
+From GEO_REF: 'G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/Compare (all) Crambin_Crambin (4FC1) PDB geometry.pdb'
+From GEO_DAT: 'G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/Compare (all) Crambin_Crambin (4FC1) PM6-ORG geometry.pdb'
+
+          GEO_REF with 0SCF: Job complete
+
+ ******************************************************************************
+ *                                                                            *
+ *     Error and normal termination messages reported in this calculation     *
+ *                                                                            *
+ * GEO_REF with 0SCF: Job complete                                            *
+ * JOB ENDED NORMALLY                                                         *
+ *                                                                            *
+ ******************************************************************************
+
+
+
+ TOTAL JOB TIME:             0.02 SECONDS
+
+ == MOPAC DONE ==

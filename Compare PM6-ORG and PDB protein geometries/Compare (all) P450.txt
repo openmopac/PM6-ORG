@@ -1,0 +1,13 @@
+display @5398
+display add connected(visible)
+reset;center {35.20842857142857 -2.724857142857143 -9.572428571428569}; rotate z -169.15; rotate y 113.52; rotate z -121.79; zoom 1005.07; translate x -0.27; translate y 9.7; set rotationRadius 36.52;
+measure off
+measure (401:A.FE/2.1) (402:A.O3/2.1); measure (401:A.FE/1.1) (402:A.O3/1.1)
+measure (401:A.FE/2.1) (401:A.NA/2.1); measure (401:A.FE/1.1) (401:A.NA/1.1)
+measure (401:A.FE/2.1) (401:A.NB/2.1); measure (401:A.FE/1.1) (401:A.NB/1.1)
+measure (401:A.FE/2.1) (401:A.NC/2.1); measure (401:A.FE/1.1) (401:A.NC/1.1)
+measure (401:A.FE/2.1) (401:A.ND/2.1); measure (401:A.FE/1.1) (401:A.ND/1.1)
+measure (401:A.FE/2.1) (332:A.SG/2.1); measure (401:A.FE/1.1) (332:A.SG/1.1)
+select visible
+font measure 20
+select off

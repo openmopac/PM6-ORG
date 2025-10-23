@@ -1,0 +1,899 @@
+ Formula        Molecule                     Geometric        Exp.    Calc.   Ref.
+                                             Parameter
+ H2            Hydrogen                        H-H            0.741   0.764     1  0.022          1  1  0  0  h2r
+ CH2           Methylene, singlet              C-H            1.110   1.080     1 -0.030          1  6  0  0  ch2sir
+                                               H-C-H        102.400 114.360               11.960  1  6  1  0  ch2sir
+ CH2           Methylene, triplet              C-H            1.029   1.023     1 -0.006          1  6  0  0  ch2tr
+                                               H-C-H        136.000 180.609               44.609  1  6  1  0  ch2tr
+ CH4           Methane                         C-H            1.094   1.109     2  0.015          1  6  0  0  ch4r
+ C2H2          Acetylene                       C-C            1.207   1.203     2 -0.005          6  6  0  0  c2h2r
+                                               C-H            1.063   1.034       -0.029          1  6  0  0  c2h2r
+ C2H4          Ethylene                        C-C            1.328   1.328     2  0.000          6  6  0  0  c2h4r
+                                               C-H            1.081   1.090        0.009          1  6  0  0  c2h4r
+                                               H-C-C        123.509 122.477               -1.032  1  6  6  0  c2h4r
+ C2H6          Ethane                          C-C            1.536   1.527     2 -0.009          6  6  0  0  c2h6r
+                                               C-H            1.091   1.113        0.022          1  6  0  0  c2h6r
+                                               H-C-C        110.900 110.124               -0.776  1  6  6  0  c2h6r
+ C3H4          Allene                          C-C            1.308   1.299     3 -0.009          6  6  0  0  allener
+                                               C-H            1.087   1.090        0.003          1  6  0  0  allener
+                                               H-C-C        120.900 121.969                1.069  1  6  6  0  allener
+ C3H4          Cyclopropene                    C2-C3          1.509   1.512     4  0.003          6  6  0  0  cyc3h4r
+                                               C1-C2          1.296   1.312        0.016          6  6  0  0  cyc3h4r
+                                               C1-H           1.072   1.047       -0.025          1  6  0  0  cyc3h4r
+                                               H-C1-C2      149.900 153.177                3.277  1  6  6  0  cyc3h4r
+ C3H4          Propyne                         C2-C1          1.206   1.205     5 -0.001          6  6  0  0  propyner
+                                               C1-H           1.056   1.031       -0.025          1  6  0  0  propyner
+                                               C2-C3          1.459   1.435       -0.024          6  6  0  0  propyner
+                                               C3-H           1.105   1.120        0.015          1  6  0  0  propyner
+                                               H-C-C        111.000 110.064               -0.936  1  6  6  0  propyner
+ C3H6          Cyclopropane                    C-C            1.510   1.518     6  0.008          6  6  0  0  cyc3h6r
+                                               C-H            1.089   1.096        0.007          1  6  0  0  cyc3h6r
+ C3H6          Propene                         C=C            1.336   1.333     7 -0.003          6  6  0  0  propener
+                                               C-C            1.501   1.495       -0.006          6  6  0  0  propener
+                                               C-C-C        124.300 124.511                0.211  6  6  6  0  propener
+                                               C3-H           1.085   1.114        0.029          1  6  0  0  propener
+                                               H-C3-C2      111.200 111.498                0.298  1  6  6  0  propener
+                                               C2-H           1.090   1.094        0.004          1  6  0  0  propener
+                                               H-C2-C1      119.000 121.201                2.201  1  6  6  0  propener
+                                               H-C1           1.081   1.087        0.006          1  6  0  0  propener
+                                               H-C1-C2      123.194 122.124               -1.069  1  6  6  0  propener
+ C3H8          Propane                         C-C            1.526   1.532     7  0.006          6  6  0  0  propaner
+                                               C-C-C        112.400 112.295               -0.105  6  6  6  0  propaner
+                                               C2-H           1.115   1.117        0.003          1  6  0  0  propaner
+                                               H-C2-C1      109.453 109.013               -0.440  1  6  6  0  propaner
+                                               C1-H           1.096   1.112        0.016          1  6  0  0  propaner
+                                               H-C1-C2      111.800 110.025               -1.775  1  6  6  0  propaner
+ C4H2          Diacetylene                     C1-C2          1.205   1.208     8  0.003          6  6  0  0  c4h2r
+                                               C2-C3          1.376   1.368       -0.008          6  6  0  0  c4h2r
+                                               C-H            1.046   1.034       -0.012          1  6  0  0  c4h2r
+ C4H4          CH2=C=C=CH2                     C-H            1.083   1.090     9  0.007          1  6  0  0  c4h4r
+                                               C1-C2          1.318   1.304       -0.014          6  6  0  0  c4h4r
+                                               C2-C3          1.283   1.275       -0.008          6  6  0  0  c4h4r
+ C4H4          Vinylacetylene                  C3-C4          1.341   1.336    10 -0.005          6  6  0  0  vinylacetr
+                                               C2-C3          1.431   1.417       -0.014          6  6  0  0  vinylacetr
+                                               C2-C3-C4     123.100 123.139                0.039  6  6  6  0  vinylacetr
+                                               C1-C2          1.208   1.206       -0.002          6  6  0  0  vinylacetr
+ C4H6          Bicyclobutane                   C1-C2          1.498   1.524    11  0.026          6  6  0  0  bicycbutr
+                                               C1-C3          1.497   1.504        0.007          6  6  0  0  bicycbutr
+                                               C2-C3-C1-C4  121.700 120.622               -1.078  6  6  6  6  bicycbutr
+                                               C1-H           1.071   1.060       -0.011          1  6  0  0  bicycbutr
+                                               C2-H           1.093   1.096        0.003          1  6  0  0  bicycbutr
+ C4H6          2-Butyne                        C2-C3          1.213   1.207    10 -0.006          6  6  0  0  but2yner
+                                               C1-C2          1.467   1.435       -0.032          6  6  0  0  but2yner
+                                               C-H            1.115   1.120        0.005          1  6  0  0  but2yner
+                                               H-C-C        110.700 109.945               -0.755  1  6  6  0  but2yner
+ C4H6          1,3-Butadiene                   C1C2           1.344   1.336    12 -0.008          6  6  0  0  transc4h6r
+                                               C2C3           1.467   1.470        0.003          6  6  0  0  transc4h6r
+                                               CCC          122.900 123.154                0.254  6  6  6  0  transc4h6r
+ C4H8          1-Butene                        C2-C3          1.347   1.333    13 -0.014          6  6  0  0  but1ener
+                                               C1-C2          1.508   1.503       -0.005          6  6  0  0  but1ener
+                                               C-C-C        123.800 123.223               -0.577  6  6  6  0  but1ener
+ C4H8          Cyclobutane                     C-C            1.548   1.550    14  0.002          6  6  0  0  cyc4h8r
+                                               C1-C2-C4-C3  153.000 179.555               26.555  6  6  6  6  cyc4h8r
+                                               C-H            1.105   1.103       -0.001          1  6  0  0  cyc4h8r
+ C4H8          Isobutene                       C1-C2          1.330   1.337    15  0.007          6  6  0  0  ibutener
+                                               C2-C3          1.507   1.504       -0.003          6  6  0  0  ibutener
+                                               C1-C2-C3     122.400 122.426                0.026  6  6  6  0  ibutener
+ C4H8          trans-2-Butene                  C=C            1.347   1.337    13 -0.010          6  6  0  0  tbut2ener
+                                               C-C            1.508   1.494       -0.014          6  6  0  0  tbut2ener
+                                               C-C=C        123.800 123.771               -0.029  6  6  6  0  tbut2ener
+ C4H10         n-Butane                        C1-C2          1.533   1.531     5 -0.002          6  6  0  0  butaner
+                                               C2-C3          1.533   1.539        0.006          6  6  0  0  butaner
+                                               C-C-C        112.800 111.873               -0.927  6  6  6  0  butaner
+ C4H10         Isobutane                       C-C            1.533   1.539    16  0.006          6  6  0  0  ic4h10r
+ C5H6          Cyclopentadiene                 C1-C2          1.342   1.353    15  0.011          6  6  0  0  cyc5h6r
+                                               C2-C3          1.469   1.475        0.006          6  6  0  0  cyc5h6r
+                                               C1-C5          1.509   1.516        0.007          6  6  0  0  cyc5h6r
+ C5H8          Spiropentane                    C2-C3          1.519   1.492    17 -0.027          6  6  0  0  spiranr
+ C5H12         Neopentane                      C-C            1.540   1.545    18  0.005          6  6  0  0  neoc5r
+                                               C-H            1.095   1.111        0.016          1  6  0  0  neoc5r
+                                               H-C-C        111.100 110.101               -0.999  1  6  6  0  neoc5r
+ C6H6          Benzene                         C-C            1.399   1.399    19 -0.000          6  6  0  0  benzener
+                                               C-H            1.084   1.089        0.005          1  6  0  0  benzener
+ C6H6          Fulvene                         C3-C4          1.476   1.484    20  0.008          6  6  0  0  fulvener
+                                               C2-C3          1.355   1.354       -0.001          6  6  0  0  fulvener
+                                               C1-C2          1.470   1.493        0.023          6  6  0  0  fulvener
+                                               C1-C6          1.349   1.333       -0.016          6  6  0  0  fulvener
+ C6H10         Cyclohexene                     C1-C2          1.335   1.337    21  0.002          6  6  0  0  chexenr
+                                               C2-C3          1.504   1.502       -0.002          6  6  0  0  chexenr
+                                               C3-C4          1.515   1.540        0.025          6  6  0  0  chexenr
+                                               C4-C5          1.550   1.537       -0.013          6  6  0  0  chexenr
+                                               C5-C4-C2-C1   21.800  27.083                5.283  6  6  6  6  chexenr
+ C6H12         Cyclohexane                     C-C            1.536   1.538    22  0.002          6  6  0  0  cyc6h12r
+                                               C-C-C        111.400 111.359               -0.041  6  6  6  0  cyc6h12r
+                                               C-C-C-C       54.900  55.149                0.249  6  6  6  6  cyc6h12r
+ C10H8         Naphthalene                     C1-C2          1.364   1.372    23  0.008          6  6  0  0  c10h8r
+                                               C2-C3          1.415   1.426        0.011          6  6  0  0  c10h8r
+                                               C1-C9          1.421   1.432        0.011          6  6  0  0  c10h8r
+                                               C9-C10         1.418   1.419        0.001          6  6  0  0  c10h8r
+ NH3           Ammonia                         N-H            1.012   1.026     1  0.014          1  7  0  0  nh3r
+                                               H-N-H        106.670 110.537                3.867  1  7  1  0  nh3r
+ CNH           Hydrogen cyanide                C-N            1.154   1.153    24 -0.001          6  7  0  0  hcnr
+                                               C-H            1.063   1.053       -0.010          1  6  0  0  hcnr
+ CNH5          Methylamine                     C-N            1.474   1.491    25  0.017          6  7  0  0  ch3nh2r
+                                               N-H            1.011   1.027        0.016          1  7  0  0  ch3nh2r
+                                               H-N-C        112.000 109.743               -2.257  1  7  6  0  ch3nh2r
+                                               H-N-H        105.900 110.027                4.127  1  7  1  0  ch3nh2r
+ C2NH3         Acetonitrile                    C-C            1.458   1.444    26 -0.014          6  6  0  0  ch3cnr
+                                               C-H            1.104   1.121        0.017          1  6  0  0  ch3cnr
+                                               H-C-C        109.500 110.032                0.532  1  6  6  0  ch3cnr
+                                               C-N            1.157   1.156       -0.001          6  7  0  0  ch3cnr
+ C2NH3         Methyl isocyanide               C-N            1.424   1.441    26  0.017          6  7  0  0  ch3ncr
+                                               C-H            1.101   1.122        0.021          1  6  0  0  ch3ncr
+                                               H-C-N        109.100 109.411                0.311  1  6  7  0  ch3ncr
+                                               C-N            1.166   1.167        0.001          6  7  0  0  ch3ncr
+ C2NH5         Ethyleneimine (Azirane)         C-C            1.481   1.519    27  0.038          6  6  0  0  c2h4nhr
+                                               C-N            1.475   1.494        0.019          6  7  0  0  c2h4nhr
+ C2NH7         Dimethylamine                   C-N            1.462   1.493    28  0.031          6  7  0  0  me2nhr
+                                               N-H            1.019   1.027        0.008          1  7  0  0  me2nhr
+                                               H-N-C        108.900 108.927                0.027  1  7  6  0  me2nhr
+                                               C-N-C        112.200 111.974               -0.226  6  7  6  0  me2nhr
+ C3NH          CH.C.CN                         N-C3           1.159   1.158    26 -0.001          6  7  0  0  chccnr
+                                               C3-C2          1.378   1.380        0.002          6  6  0  0  chccnr
+                                               C2-C1          1.205   1.207        0.002          6  6  0  0  chccnr
+                                               C-H            1.057   1.037       -0.020          1  6  0  0  chccnr
+ C3NH3         Acrylonitrile                   C1-C2          1.339   1.334    26 -0.005          6  6  0  0  ch2chcnr
+                                               C2-C3          1.426   1.431        0.005          6  6  0  0  ch2chcnr
+                                               C-C-C        122.600 122.592               -0.008  6  6  6  0  ch2chcnr
+                                               C-N            1.164   1.157       -0.007          6  7  0  0  ch2chcnr
+ C3NH9         Trimethylamine                  C-N            1.451   1.496    29  0.045          6  7  0  0  me3nr
+                                               C-N-C        110.900 110.660               -0.240  6  7  6  0  me3nr
+ C4NH5         Pyrrole                         C-N            1.370   1.400    30  0.030          6  7  0  0  c4h4nhr
+                                               C-N-C        109.800 108.943               -0.857  6  7  6  0  c4h4nhr
+                                               C3-C2          1.382   1.395        0.013          6  6  0  0  c4h4nhr
+                                               C-C-N        107.700 107.728                0.028  6  6  7  0  c4h4nhr
+                                               C4-C3          1.417   1.425        0.008          6  6  0  0  c4h4nhr
+ C5NH5         Pyridine                        N-C1           1.338   1.359    31  0.021          6  7  0  0  c5h5nr
+                                               C1-C2          1.394   1.405        0.011          6  6  0  0  c5h5nr
+                                               N-C-C        123.800 122.644               -1.156  6  6  7  0  c5h5nr
+                                               C2-C3          1.392   1.398        0.006          6  6  0  0  c5h5nr
+                                               C1-C2-C3     118.500 118.657                0.157  6  6  6  0  c5h5nr
+ N2            Nitrogen                        N-N            1.094   1.117    32  0.023          7  7  0  0  n2r
+ C2N2          Cyanogen                        C-N            1.154   1.155     2  0.001          6  7  0  0  c2n2r
+                                               C-C            1.389   1.398        0.009          6  6  0  0  c2n2r
+ C2N2H6        Dimethyldiazene                 N-N            1.254   1.247     2 -0.007          7  7  0  0  mennmer
+                                               C-N            1.474   1.481        0.007          6  7  0  0  mennmer
+                                               C-N-N        111.900 115.902                4.002  6  7  7  0  mennmer
+ N3            Azide                           N-N            1.181   1.185     1  0.003          7  7  0  0  n3r
+ C3N3H3        s-Triazine                      CN             1.338   1.367    33  0.029          6  7  0  0  triaziner
+                                               NCN          126.800 123.968               -2.832  7  6  7  0  triaziner
+ H2O           Water                           O-H            0.957   0.963     2  0.006          1  8  0  0  h2or
+                                               H-O-H        104.500 111.535                7.035  1  8  1  0  h2or
+ CO            Carbon monoxide                 C-O            1.128   1.140    32  0.012          6  8  0  0  cor
+ CH2O          Formaldehyde                    C-O            1.208   1.212    34  0.004          6  8  0  0  ch2or
+                                               C-H            1.116   1.104       -0.012          1  6  0  0  ch2or
+                                               H-C-O        121.750 121.171               -0.579  1  6  8  0  ch2or
+ CH4O          Methanol                        C-O            1.425   1.437    35  0.012          6  8  0  0  ch3ohr
+                                               C-H            1.094   1.110        0.016          1  6  0  0  ch3ohr
+                                               H-C-O        108.500 109.241                0.741  1  6  8  0  ch3ohr
+                                               O-H            0.945   0.978        0.033          1  8  0  0  ch3ohr
+                                               C-O-H        107.000 110.396                3.396  1  8  6  0  ch3ohr
+ C2H2O         Ketene                          C-O            1.161   1.165    36  0.004          6  8  0  0  ch2cor
+                                               C-C            1.314   1.305       -0.009          6  6  0  0  ch2cor
+                                               C-H            1.083   1.087        0.004          1  6  0  0  ch2cor
+                                               H-C-C        118.700 122.577                3.877  1  6  6  0  ch2cor
+ C2H4O         Acetaldehyde                    C1-C2          1.501   1.503    37  0.002          6  6  0  0  ch3chor
+                                               C2-O           1.210   1.210        0.000          6  8  0  0  ch3chor
+                                               O-C2-C1      123.900 122.690               -1.210  6  6  8  0  ch3chor
+                                               C2-H           1.114   1.102       -0.012          1  6  0  0  ch3chor
+                                               C1-C2-H      117.500 115.690               -1.810  1  6  6  0  ch3chor
+ C2H6O         Dimethyl ether                  C-O            1.410   1.441    38  0.031          6  8  0  0  ch3och3r
+                                               C-O-C        111.300 114.036                2.736  6  8  6  0  ch3och3r
+ C3H4O         Acrolein                        C3-C2          1.335   1.334    39 -0.001          6  6  0  0  ch2chchor
+                                               C2-C1          1.478   1.487        0.009          6  6  0  0  ch2chchor
+                                               C-C-C        121.000 121.961                0.961  6  6  6  0  ch2chchor
+                                               C-O            1.208   1.213        0.005          6  8  0  0  ch2chchor
+                                               O-C-C        124.000 123.247               -0.753  6  6  8  0  ch2chchor
+ C3H6O         Acetone                         C=O            1.222   1.210    40 -0.012          6  8  0  0  acetoner
+                                               C-C            1.507   1.506       -0.001          6  6  0  0  acetoner
+                                               C-C=O        121.400 121.698                0.298  6  6  8  0  acetoner
+ C4H4O         Furan                           C2-O1          1.362   1.399    41  0.037          6  8  0  0  furanr
+                                               C2-O1-C5     106.600 105.952               -0.648  6  8  6  0  furanr
+                                               C3-C2          1.361   1.369        0.008          6  6  0  0  furanr
+                                               C3-C2-O1     110.700 110.303               -0.397  6  6  8  0  furanr
+ C5O           C-C-C-C-C-O                     C1-O           1.155   1.160    42  0.004          6  8  0  0  c5or
+                                               C1-C2          1.283   1.283       -0.000          6  6  0  0  c5or
+                                               C2-C3          1.259   1.268        0.009          6  6  0  0  c5or
+                                               C3-C4          1.290   1.283       -0.007          6  6  0  0  c5or
+                                               C4-C5          1.274   1.275        0.000          6  6  0  0  c5or
+ NO            Nitrogen oxide                  N-O            1.151   1.135     1 -0.016          7  8  0  0  nor
+ CNH3O         Formamide                       C-N            1.376   1.396    43  0.020          6  7  0  0  hconh2r
+                                               N-H            1.002   1.013        0.011          1  7  0  0  hconh2r
+                                               C-H            1.102   1.100       -0.002          1  6  0  0  hconh2r
+                                               C-O            1.193   1.219        0.026          6  8  0  0  hconh2r
+                                               O-C-N        123.800 119.639               -4.161  7  6  8  0  hconh2r
+ N2O           Nitrous oxide                   N-N            1.128   1.132     1  0.004          7  7  0  0  n2or
+                                               N-O            1.184   1.179       -0.005          7  8  0  0  n2or
+ C13N2H12O     CEB (Torsion angle)             C-C-C-C       54.510  53.413    18         -1.097  6  6  6  6  ceb r
+ C14N2H14O     1D88_B3P (Torsion angle)        C-C-C-C       39.075  53.874    18         14.799  6  6  6  6  1d88_b3p r
+ C22N4H26O     2ME_B3P (Torsion angle)         C-C-C-C       48.364  45.418    18         -2.945  6  6  6  6  2me_b3p r
+ H2O2          Hydrogen peroxide               O-O            1.475   1.428    44 -0.047          8  8  0  0  h2o2r
+                                               O-H            0.950   1.005        0.055          1  8  0  0  h2o2r
+                                               H-O-O         94.800  97.814                3.014  1  8  8  0  h2o2r
+                                               H-O-O-H      119.800 179.753               59.953  1  8  8  1  h2o2r
+ CO2           Carbon dioxide                  C-O            1.162   1.170     2  0.008          6  8  0  0  co2r
+ CH2O2         Formic acid                     C=O            1.202   1.205    45  0.003          6  8  0  0  hcoohr
+                                               C-O            1.343   1.369        0.026          6  8  0  0  hcoohr
+                                               O-C-O        124.900 120.748               -4.152  8  6  8  0  hcoohr
+                                               O-H            0.972   0.994        0.022          1  8  0  0  hcoohr
+                                               H-O-C        106.300 114.003                7.703  1  8  6  0  hcoohr
+                                               C-H            1.097   1.090       -0.007          1  6  0  0  hcoohr
+                                               H-C-O        124.100 131.011                6.911  1  6  8  0  hcoohr
+ C2H2O2        trans Glyoxal                   C-O            1.207   1.204    39 -0.003          6  8  0  0  chochor
+                                               C-C            1.525   1.550        0.025          6  6  0  0  chochor
+                                               C-C-O        121.200 119.761               -1.439  6  6  8  0  chochor
+ C2H4O2        Methyl formate                  C=O            1.200   1.206    46  0.006          6  8  0  0  hcooch3r
+                                               C-O            1.334   1.369        0.035          6  8  0  0  hcooch3r
+                                               O-C=O        125.900 122.908               -2.992  8  6  8  0  hcooch3r
+                                               O-CH3          1.437   1.454        0.017          6  8  0  0  hcooch3r
+                                               C-O-C        114.800 118.088                3.288  6  8  6  0  hcooch3r
+ C3O2          Carbon suboxide                 C-O            1.163   1.162    47 -0.002          6  8  0  0  c3o2r
+                                               C-C            1.289   1.276       -0.013          6  6  0  0  c3o2r
+ C6H4O2        p-Benzoquinone                  C1-C2          1.477   1.499    48  0.022          6  6  0  0  pquinoner
+                                               C2-C3          1.322   1.333        0.011          6  6  0  0  pquinoner
+                                               C-C-C        121.100 121.841                0.741  6  6  6  0  pquinoner
+                                               C-O            1.222   1.209       -0.013          6  8  0  0  pquinoner
+ NO2           Nitrogen dioxide                N-O            1.197   1.172     1 -0.025          7  8  0  0  no2r
+                                               O-N-O        136.026 142.789                6.763  8  7  8  0  no2r
+ NHO2          Nitrous acid (cis)              N-O            1.400   1.343    49 -0.057          7  8  0  0  hno2r
+                                               N=O            1.210   1.180       -0.030          7  8  0  0  hno2r
+                                               O-N-O        115.900 118.740                2.840  8  7  8  0  hno2r
+                                               O-H            0.960   1.017        0.057          1  8  0  0  hno2r
+                                               H-O-N        103.000 116.203               13.203  1  8  7  0  hno2r
+ NHO2          Nitrous acid (trans) (https://aiN-O            1.400   1.392     1 -0.008          7  8  0  0  hno2transr
+                                               N=O            1.190   1.172       -0.018          7  8  0  0  hno2transr
+                                               O-N-O        113.900 113.121               -0.779  8  7  8  0  hno2transr
+                                               O-H            0.960   1.006        0.046          1  8  0  0  hno2transr
+                                               H-O-N        102.100 106.646                4.546  1  8  7  0  hno2transr
+ C7NH7O2       Salicylaldoxime                 N(14)-H(17)    1.834   1.976    50  0.142          1  7  0  0  salr
+                                               O(10)-N(14)    2.626   2.790        0.164          7  8  0  0  salr
+ N2H2O2        NH2-NO2                         N-N            1.427   1.381    51 -0.046          7  7  0  0  nh2no2r
+                                               N-O            1.206   1.217        0.011          7  8  0  0  nh2no2r
+                                               N-H            1.005   1.027        0.022          1  7  0  0  nh2no2r
+                                               O-N-O        130.100 128.844               -1.256  8  7  8  0  nh2no2r
+ O3            Ozone                           O-O            1.198   1.168     2 -0.029          8  8  0  0  o3r
+                                               O-O-O        114.861 129.235               14.374  8  8  8  0  o3r
+ NHO3          Nitric acid                     N=O            1.206   1.205     1 -0.001          7  8  0  0  hno3r
+                                               O=N=O        130.000 133.245                3.245  8  7  8  0  hno3r
+                                               N-O            1.405   1.419        0.014          7  8  0  0  hno3r
+                                               O-H            0.960   1.012        0.052          1  8  0  0  hno3r
+                                               N-O-H        102.000 109.761                7.761  1  8  7  0  hno3r
+ N2O3          Dinitrogen trioxide             N-N            2.080   1.548     1 -0.532          7  7  0  0  n2o3r
+                                               N-O            1.120   1.157        0.037          7  8  0  0  n2o3r
+                                               N-NO-        110.000 115.883                5.883  7  7  8  0  n2o3r
+                                               N-O'           1.180   1.216        0.036          7  8  0  0  n2o3r
+                                               O'-N-O'      134.000 129.816               -4.184  8  7  8  0  n2o3r
+ C10N2H16O3    Pro-pro                         Phi          -60.591 -73.751    52        -13.160  6  6  7  6  aa_20_pro-pro r
+                                               Psi          162.729 158.832               -3.897  7  6  6  7  aa_20_pro-pro r
+ C10N2H20O3    Val-val                         Phi         -126.538-110.824    52         15.714  6  6  7  6  aa_03_val-val r
+                                               Psi          122.984 140.131               17.148  7  6  6  7  aa_03_val-val r
+ C12N2H24O3    Ile-ile                         Phi         -150.196 -92.048    52         58.148  6  6  7  6  aa_05_ile-ile r
+                                               Psi          124.210 138.548               14.337  7  6  6  7  aa_05_ile-ile r
+ C21N2H20O3    Naphthoquinone dye (Torsion anglC-C-C-C       43.116  46.435    18          3.319  6  6  6  6  naphthoquinone_b3p r
+ N2O4          Dinitrogen tetroxide            N-N            1.750   1.631     1 -0.119          7  7  0  0  n2o4r
+                                               N-O            1.180   1.196        0.016          7  8  0  0  n2o4r
+                                               O-N-N        113.150 113.303                0.153  7  7  8  0  n2o4r
+ CN3HO6        Trinitromethane                 C-N            1.505   1.554    53  0.049          6  7  0  0  meno23r
+                                               N-C-N        110.700 106.876               -3.824  1  6  7  0  meno23r
+                                               N=O            1.219   1.204       -0.015          7  8  0  0  meno23r
+ HF            Hydrogen fluoride               H-F            0.917   0.966    54  0.049          1  9  0  0  hfr
+ CF            Fluoromethylidyne               C-F            1.266   1.256     1 -0.011          6  9  0  0  cfr
+ CHF           Fluoromethylene                 C-H            1.121   1.108     1 -0.013          1  6  0  0  chfr
+                                               C-F            1.314   1.287       -0.027          6  9  0  0  chfr
+                                               F-C-H        101.600 108.020                6.420  1  6  9  0  chfr
+ CH3F          Fluoromethane                   C-H            1.098   1.113    55  0.015          1  6  0  0  ch3fr
+                                               C-F            1.382   1.368       -0.014          6  9  0  0  ch3fr
+                                               F-C-H        108.500 110.062                1.562  1  6  9  0  ch3fr
+ C2HF          Fluoroacetylene                 H-C            1.053   1.033    56 -0.020          1  6  0  0  c2hfr
+                                               C-C            1.198   1.201        0.003          6  6  0  0  c2hfr
+                                               C-F            1.279   1.279       -0.000          6  9  0  0  c2hfr
+ C2H3F         Fluoroethylene                  C-C            1.333   1.328    57 -0.005          6  6  0  0  c2h3fr
+                                               C-H(g)         1.076   1.085        0.009          1  6  0  0  c2h3fr
+                                               C-C-H(g)     127.700 129.647                1.947  1  6  6  0  c2h3fr
+                                               C-H(t)         1.085   1.089        0.004          1  6  0  0  c2h3fr
+                                               C-C-H(t)     123.900 121.586               -2.314  1  6  6  0  c2h3fr
+                                               C-H(c)         1.090   1.090        0.000          1  6  0  0  c2h3fr
+                                               C-C-H(c)     121.400 123.087                1.687  1  6  6  0  c2h3fr
+ C3H3F         Fluoroallene                    C1-C2          1.301   1.306    58  0.005          6  6  0  0  cf2cch2r
+                                               C1-H           1.083   1.083        0.000          1  6  0  0  cf2cch2r
+                                               H-C1-C2      124.300 128.690                4.390  1  6  6  0  cf2cch2r
+                                               C1-F           1.360   1.342       -0.018          6  9  0  0  cf2cch2r
+                                               F-C1-C2      121.900 118.707               -3.193  6  6  9  0  cf2cch2r
+                                               C2-C3          1.309   1.299       -0.010          6  6  0  0  cf2cch2r
+                                               C3-H           1.086   1.093        0.007          1  6  0  0  cf2cch2r
+                                               H-C3-C2      120.800 121.880                1.080  1  6  6  0  cf2cch2r
+ CNF           Cyanogen fluoride               C-N            1.159   1.151    56 -0.008          6  7  0  0  fcnr
+                                               C-F            1.262   1.288        0.026          6  9  0  0  fcnr
+ NOF           Nitrosyl fluoride               N-F            1.520   1.520     1  0.000          7  9  0  0  fnor
+                                               N-O            1.130   1.130        0.000          7  8  0  0  fnor
+                                               F-N-O        110.200 110.200                0.000  8  7  9  0  fnor
+ F2            Fluorine                        F-F            1.412   1.428     1  0.016          9  9  0  0  f2r
+ H2F2          Hydrogen fluoride dimer         H'-F           1.870   2.798     1  0.928          1  9  0  0  h2f2r
+                                               H'-F-H       108.000 117.216                9.216  1  9  1  0  h2f2r
+ CF2           Difluoromethylene               C-F            1.300   1.299     1 -0.001          6  9  0  0  cf2r
+                                               F-C-F        104.900 104.878               -0.022  9  6  9  0  cf2r
+ CN2F2         NF2-CN                          N-C            1.386   1.418    59  0.032          6  7  0  0  nf2-cnr
+                                               N-C            1.158   1.155       -0.003          6  7  0  0  nf2-cnr
+                                               C-F            1.399   1.394       -0.005          7  9  0  0  nf2-cnr
+                                               F-N-C        105.400 107.120                1.720  6  7  9  0  nf2-cnr
+ OF2           F2O                             O-F            1.412   1.414     1  0.002          8  9  0  0  f2or
+                                               F-O-F        103.167  97.744               -5.423  9  8  9  0  f2or
+ COF2          Carbonyl difluoride             C-O            1.174   1.180     1  0.006          6  8  0  0  cof2r
+                                               C-F            1.312   1.313        0.001          6  9  0  0  cof2r
+                                               F-C-O        126.000 126.294                0.294  8  6  9  0  cof2r
+ CHF3          Trifluoromethane                C-H            1.098   1.107     1  0.009          1  6  0  0  chf3r
+                                               C-F            1.333   1.341        0.008          6  9  0  0  chf3r
+                                               F-C-H        110.330 114.010                3.680  1  6  9  0  chf3r
+ NF3           Nitrogen trifluoride            N-F            1.371   1.379     1  0.008          7  9  0  0  nf3r
+                                               F-N-F        102.150 100.365               -1.785  9  7  9  0  nf3r
+ C2NF3         Trifluoroacetonitrile           C-C            1.461   1.470     1  0.009          6  6  0  0  cf3cnr
+                                               C-F            1.335   1.339        0.004          6  9  0  0  cf3cnr
+                                               C-C-F        111.380 113.420                2.040  6  6  9  0  cf3cnr
+                                               C-N            1.153   1.151       -0.002          6  7  0  0  cf3cnr
+ CF4           Carbon tetrafluoride            C-F            1.321   1.320    60 -0.001          6  9  0  0  cf4r
+ C2F4          Tetrafluoroethylene             C-C            1.311   1.335    57  0.024          6  6  0  0  c2f4r
+                                               C-F            1.319   1.317       -0.002          6  9  0  0  c2f4r
+                                               F-C-C        123.800 126.023                2.223  6  6  9  0  c2f4r
+ C2F6          Hexafluoroethane                C-C            1.545   1.563    61  0.018          6  6  0  0  c2f6r
+                                               C-F            1.314   1.337        0.024          6  9  0  0  c2f6r
+                                               F-C-C        109.759 113.259                3.500  6  6  9  0  c2f6r
+ C2OF6         Dimethyl perfluoroether         C-O-C        119.953 124.578    52          4.625  6  8  6  0  (cf3)2or
+ C3F8          Perfluoropropane                C-C            1.551   1.565    61  0.014          6  6  0  0  c3f8r
+                                               C-C-C        115.728 115.338               -0.390  6  6  6  0  c3f8r
+                                               C-F            1.314   1.337        0.023          6  9  0  0  c3f8r
+                                               F-C-C        110.660 113.444                2.784  6  6  9  0  c3f8r
+ C3O2F8        Perfluorodimethoxymethane       C1-O           1.358   1.397    61  0.039          6  8  0  0  c3o2f8r
+                                               O-C2           1.357   1.397        0.040          6  8  0  0  c3o2f8r
+                                               C1-O-C2      123.310 123.208               -0.101  6  8  6  0  c3o2f8r
+                                               C1-F           1.305   1.319        0.014          6  9  0  0  c3o2f8r
+ C4F10         Perfluoro-n-butane              C1-C2          1.554   1.567    61  0.013          6  6  0  0  c4f10r
+                                               C2-C3          1.554   1.567        0.013          6  6  0  0  c4f10r
+                                               C-C-C        115.005 115.855                0.850  6  6  6  0  c4f10r
+                                               C1-F           1.314   1.338        0.024          6  9  0  0  c4f10r
+                                               F-C1-C2      108.462 113.290                4.828  6  6  9  0  c4f10r
+ PH3           Phosphine                       P-H            1.420   1.455     1  0.035          1 15  0  0  ph3r
+                                               H-P-H         93.830 100.952                7.122  1 15  1  0  ph3r
+ CPH5          Methylphosphine                 C-P            1.858   1.913    53  0.055          6 15  0  0  ch3ph2r
+                                               P-H            1.423   1.455        0.032          1 15  0  0  ch3ph2r
+                                               H-P-C         97.500 101.213                3.713  1 15  6  0  ch3ph2r
+                                               H-P-H         93.400 100.579                7.179  1 15  1  0  ch3ph2r
+ C3PH9         Trimethylphosphine              C-P            1.843   1.913    53  0.070          6 15  0  0  me3pr
+                                               C-P-C         98.900 102.097                3.197  6 15  6  0  me3pr
+ C5PH5         Phosphole                       C1-C2          1.384   1.383    53 -0.001          6  6  0  0  c5h5pr
+                                               C-P            1.733   1.759        0.026          6 15  0  0  c5h5pr
+                                               C2-C3          1.413   1.383       -0.030          6  6  0  0  c5h5pr
+ PO            Phosphorus oxide                P-O            1.476   1.478     1  0.003          8 15  0  0  por
+ C18PH15O      Triphenyl phosphine oxide       P=O            1.517   1.504    52 -0.012          8 15  0  0  triphenyl phosphine oxide r
+                                               P-C            1.846   1.855        0.010          6 15  0  0  triphenyl phosphine oxide r
+ C2PH4O4       Ethylene phosphate anion        P-O            1.512   1.488    52 -0.024          8 15  0  0  ethylene phosphate anion r
+                                               P=O            1.422   1.414       -0.008          6  8  0  0  ethylene phosphate anion r
+ C2PH6O4       Dimethyl phosphate anion        P=O            1.522   1.504    52 -0.018          8 15  0  0  dimethyl phosphate anion r
+                                               P-O            1.714   1.722        0.008          8 15  0  0  dimethyl phosphate anion r
+                                               O=P-O        107.519 106.531               -0.988  8 15  8  0  dimethyl phosphate anion r
+                                               C-O            1.427   1.428        0.002          6  8  0  0  dimethyl phosphate anion r
+                                               P-O-C        114.851 112.220               -2.631  6  8 15  0  dimethyl phosphate anion r
+ C2PH7O4       Dimethyl hydrogen phosphate     P=O            1.494   1.471    52 -0.023          8 15  0  0  me2hpo4r
+                                               P-O            1.622   1.637        0.014          8 15  0  0  me2hpo4r
+                                               O-P=O        116.412 117.840                1.428  8 15  8  0  me2hpo4r
+                                               C-O            1.457   1.453       -0.005          6  8  0  0  me2hpo4r
+                                               C-O-P        117.760 114.330               -3.430  6  8 15  0  me2hpo4r
+ C3PH9O4       Trimethyl phosphate             P=O            1.495   1.475    52 -0.019          8 15  0  0  me3po4r
+                                               P-O            1.637   1.642        0.004          8 15  0  0  me3po4r
+                                               O-P=O        113.192 117.030                3.837  8 15  8  0  me3po4r
+                                               C-O            1.456   1.451       -0.005          6  8  0  0  me3po4r
+                                               C-O-P        118.804 114.412               -4.391  6  8 15  0  me3po4r
+ C3PN3O4       PO(OCN)3                        P=O            1.474   1.462    52 -0.012          8 15  0  0  po(ocn)3r
+                                               P-N            1.680   1.732        0.052          7 15  0  0  po(ocn)3r
+ CPH2F         CH2=P-F                         P-F            1.598   1.585    62 -0.013          9 15  0  0  ch2pfr
+                                               C=P            1.644   1.667        0.023          6 15  0  0  ch2pfr
+ PF3           Phosphorus trifluoride          P-F            1.570   1.565     1 -0.005          9 15  0  0  pf3r
+                                               F-P-F         97.800  95.840               -1.960  9 15  9  0  pf3r
+ POF3          Phosphous oxyfluoride           P-F            1.520   1.523     1  0.003          9 15  0  0  pof3r
+                                               F-P-F        102.500  99.207               -3.293  9 15  9  0  pof3r
+                                               P-O            1.450   1.448       -0.002          8 15  0  0  pof3r
+ PF5           Phosphorus pentafluoride        P-F(ax)        1.577   1.547     1 -0.030          9 15  0  0  pf5r
+                                               P-F(eq)        1.534   1.532       -0.002          9 15  0  0  pf5r
+ P2H4O7        Pyrophosphoric acid             P-O(P)         1.636   1.648    52  0.013          8 15  0  0  pyrophosphoric acid r
+                                               P-O(H)         1.630   1.622       -0.008          8 15  0  0  pyrophosphoric acid r
+                                               O-P-O        106.836 101.925               -4.911  8 15  8  0  pyrophosphoric acid r
+                                               P=O            1.484   1.448       -0.036          8 15  0  0  pyrophosphoric acid r
+                                               P-O-P        119.294 138.472               19.179 15  8 15  0  pyrophosphoric acid r
+ P2F4          P2F4                            P-P            2.281   2.239    63 -0.042         15 15  0  0  p2f4r
+                                               P-F            1.587   1.578       -0.009          9 15  0  0  p2f4r
+                                               P-P-F         95.400  93.865               -1.535  9 15 15  0  p2f4r
+ CP3H7O10      Methyl triphosphate             P-O(H)         1.618   1.647    52  0.029          8 15  0  0  methyl triphosphate r
+                                               P-O(C)         1.602   1.623        0.021          8 15  0  0  methyl triphosphate r
+                                               P=O            1.485   1.457       -0.027          8 15  0  0  methyl triphosphate r
+                                               C-O            1.462   1.465        0.003          6  8  0  0  methyl triphosphate r
+                                               P-O-C        118.673 112.662               -6.010  6  8 15  0  methyl triphosphate r
+ P4O6          Phosphorus trioxide             PO             1.650   1.708     1  0.058          8 15  0  0  p4o6r
+                                               OPO           99.000  99.345                0.345  8 15  8  0  p4o6r
+ P4O10         Phosphorus pentoxide            P-O            1.600   1.654     1  0.054          8 15  0  0  p4o10r
+                                               O-P-O        101.000  97.470               -3.530  8 15  8  0  p4o10r
+ H2S           Hydrogen sulfide                H-S            1.328   1.353     1  0.025          1 16  0  0  h2sr
+                                               H-S-H         92.200  96.817                4.617  1 16  1  0  h2sr
+ CS            Carbon sulfide                  CS             1.534   1.523    64 -0.011          6 16  0  0  csr
+ CH2S          Thioformaldehyde                C-S            1.611   1.583    43 -0.028          6 16  0  0  ch2sr
+                                               C-H            1.093   1.098        0.005          1  6  0  0  ch2sr
+                                               H-C-S        121.565 122.821                1.256  1  6 16  0  ch2sr
+ CH4S          Thiomethanol                    C-S            1.818   1.818    65  0.000          6 16  0  0  ch3shr
+                                               S-H            1.329   1.329        0.000          1 16  0  0  ch3shr
+                                               H-S-C        100.300 100.300                0.000  1 16  6  0  ch3shr
+                                               H-C-S-H      180.000 180.000                0.000  1 16  6  1  ch3shr
+ C2H4S         Thioacetaldehyde                C-S            1.610   1.601    63 -0.009          6 16  0  0  ch3chsr
+                                               C-C-S        125.300 123.334               -1.966  6  6 16  0  ch3chsr
+ C2H6S         Thioethanol                     C-S            1.820   1.832    63  0.012          6 16  0  0  c2h6shr
+                                               S-H            1.322   1.349        0.027          1 16  0  0  c2h6shr
+                                               H-S-C         96.200  99.517                3.317  1 16  6  0  c2h6shr
+ C2H6S         Dimethyl thioether              C-S            1.802   1.810    53  0.008          6 16  0  0  me2sr
+                                               C-S-C         98.900 102.689                3.789  6 16  6  0  me2sr
+                                               H-C-S        106.600 108.319                1.719  1  6 16  0  me2sr
+                                               H'-C-S        62.032  61.339               -0.693  1  6 16  6  me2sr
+ C4H4S         Thiophene                       C-S            1.714   1.740    66  0.026          6 16  0  0  thiophener
+                                               C-C-S         92.200  93.255                1.055  6 16  6  0  thiophener
+                                               C3-C2          1.370   1.360       -0.010          6  6  0  0  thiophener
+                                               C-C-C        111.500 109.948               -1.552  6  6 16  0  thiophener
+ NS            Sulfur nitride                  S-N            1.495   1.456     1 -0.039          7 16  0  0  snr
+ C2NH3S        Methyl isothiocyanate           C-N            1.479   1.440    67 -0.039          6  7  0  0  ch3ncsr
+                                               C=N            1.192   1.188       -0.004          6  7  0  0  ch3ncsr
+                                               C-N=C        141.600 155.992               14.392  6  7  6  0  ch3ncsr
+                                               C-S            1.597   1.579       -0.018          6 16  0  0  ch3ncsr
+ C2H6SO        Dimethyl sulfoxide              S-C            1.856   1.820    52 -0.036          6 16  0  0  me2sor
+                                               C-S-C         95.667  98.581                2.914  6 16  6  0  me2sor
+                                               S=O            1.526   1.485       -0.040          8 16  0  0  me2sor
+ SO2           Sulfur dioxide                  S-O            1.432   1.406     1 -0.026          8 16  0  0  so2r
+                                               O-S-O        119.530 137.477               17.947  8 16  8  0  so2r
+ C2H6SO2       Dimethyl sulfone                S-C            1.832   1.757    52 -0.075          6 16  0  0  me2so2r
+                                               C-S-C        102.831 104.104                1.274  6 16  6  0  me2so2r
+                                               S=O            1.484   1.451       -0.034          8 16  0  0  me2so2r
+ SO3           Sulfur trioxide                 S-O            1.430   1.417     1 -0.013          8 16  0  0  so3r
+ C2H6SO3       Dimethyl sulfite                S-O            1.703   1.672    52 -0.030          8 16  0  0  me2so3r
+                                               O-S-O        100.755 101.080                0.325  8 16  8  0  me2so3r
+                                               C-O            1.454   1.432       -0.023          6  8  0  0  me2so3r
+                                               C-O-S        117.416 120.585                3.169  6  8 16  0  me2so3r
+ H2SO4         Sulfuric acid                   S-O            1.628   1.661    18  0.033          8 16  0  0  h2so4r
+                                               S=O            1.447   1.421       -0.026          8 16  0  0  h2so4r
+                                               O-H            0.970   0.975        0.005          1  8  0  0  h2so4r
+                                               S-O-H        107.900 116.490                8.590  1  8 16  0  h2so4r
+ C2H6SO4       Dimethyl sulfate                S=O            1.462   1.425    52 -0.036          8 16  0  0  me2so4r
+                                               O=S=O        123.836 125.021                1.185  8 16  8  0  me2so4r
+                                               S-O            1.656   1.672        0.016          8 16  0  0  me2so4r
+                                               C-O            1.464   1.440       -0.024          6  8  0  0  me2so4r
+                                               C-O-S        115.355 116.479                1.124  6  8 16  0  me2so4r
+ CH3SO3F       Methyl fluorosulfate            S=O            1.410   1.418    68  0.008          8 16  0  0  ch3so3fr
+                                               O=S=O        124.400 125.649                1.249  8 16  8  0  ch3so3fr
+                                               S-F            1.545   1.546        0.001          9 16  0  0  ch3so3fr
+                                               F-S=O        106.800 105.919               -0.881  8 16  9  0  ch3so3fr
+                                               O-S=O        109.500 110.076                0.576  8 16  8  0  ch3so3fr
+                                               C-O            1.420   1.441        0.021          6  8  0  0  ch3so3fr
+                                               C-O-S        116.500 117.484                0.984  6  8 16  0  ch3so3fr
+ SF2           Sulfur difluoride               S-F            1.592   1.583     1 -0.009          9 16  0  0  sf2r
+                                               F-S-F         98.197  96.435               -1.762  9 16  9  0  sf2r
+ CSF2          Thiocarbonyl difluoride         C-S            1.589   1.583    53 -0.006          6 16  0  0  f2csr
+                                               C-F            1.315   1.311       -0.004          6  9  0  0  f2csr
+                                               F-C-S        126.450 127.112                0.662  9  6 16  0  f2csr
+ SOF2          Thionyl fluoride                S-O            1.412   1.433     1  0.021          8 16  0  0  osf2r
+                                               S-F            1.585   1.587        0.002          9 16  0  0  osf2r
+                                               F-S-O        106.820 107.578                0.758  8 16  9  0  osf2r
+                                               F-S-F         92.820  89.293               -3.527  9 16  9  0  osf2r
+ SO2F2         Sulfuryl fluoride               S-F            1.530   1.536     1  0.006          9 16  0  0  so2f2r
+                                               F-S-F         96.120  94.426               -1.694  9 16  9  0  so2f2r
+                                               S-O            1.405   1.410        0.005          8 16  0  0  so2f2r
+                                               O-S-O        123.970 126.864                2.894  8 16  8  0  so2f2r
+ SF4           Sulfur tetrafluoride            F-S-F        101.550  98.064     1         -3.486  9 16  9  0  sf4r
+ SOF4          Sulfur oxide tetrafluoride      S=O            1.403   1.407    59  0.004          8 16  0  0  sof4r
+                                               S-F(a)         1.575   1.585        0.010          9 16  0  0  sof4r
+                                               F(a)-S=O      90.700 100.613                9.913  8 16  9  0  sof4r
+                                               S-F(b)         1.552   1.559        0.007          9 16  0  0  sof4r
+                                               F(b)-S=O     124.900 120.413               -4.487  8 16  9  0  sof4r
+ CNSOF5        Pentafluoro(isocyanato)sulfur   S-F            1.567   1.561    68 -0.006          9 16  0  0  sf5ncor
+                                               N=C            1.234   1.228       -0.006          6  7  0  0  sf5ncor
+                                               S-N=C        124.900 145.914               21.014  6  7 16  0  sf5ncor
+                                               C=O            1.179   1.169       -0.010          6  8  0  0  sf5ncor
+                                               N=C=O        173.800 171.237               -2.563  7  6  8  0  sf5ncor
+ SF6           Sulfur hexafluoride             S-F            1.564   1.553     1 -0.011          9 16  0  0  sf6r
+ PSF3          Thiophosphoryl fluoride         P=S            1.848   1.859    63  0.011         15 16  0  0  psf3r
+                                               P-F            1.537   1.535       -0.002          9 15  0  0  psf3r
+ H2S2          H2S2                            S-S            2.055   2.067    69  0.012         16 16  0  0  h2s2r
+                                               S-H            1.327   1.350        0.023          1 16  0  0  h2s2r
+                                               H-S-S         91.300 101.697               10.397  1 16 16  0  h2s2r
+                                               H-S-S-H       90.500  90.670                0.170  1 16 16  1  h2s2r
+ CS2           Carbon disulfide                C-S            1.553   1.531    53 -0.022          6 16  0  0  cs2r
+ C2H6S2        2,3-Dithiabutane                C-S            1.810   1.802    70 -0.008          6 16  0  0  ch3ssch3r
+                                               S-S            2.038   2.044        0.006         16 16  0  0  ch3ssch3r
+                                               C-S-S        102.800 106.526                3.726  6 16 16  0  ch3ssch3r
+                                               C-S-S-C       84.700  84.821                0.121  6 16 16  6  ch3ssch3r
+ C2H6S2        2,3-Dithiabutane                CS             1.810   1.802    53 -0.008          6 16  0  0  me2s2r
+                                               SS             2.038   2.044        0.006         16 16  0  0  me2s2r
+                                               SSC          102.800 106.546                3.746  6 16 16  0  me2s2r
+                                               CSSC           1.810   1.802       -0.008          6 16  0  0  me2s2r
+ C6N2H12S2O3   Cys-cys                         Phi         -151.478-134.852    52         16.626  6  6  7  6  aa_16_cys-cys r
+                                               Psi           22.018  47.185               25.166  7  6  6  7  aa_16_cys-cys r
+ C10N2H20S2O3  Met-met                         Phi         -122.732-130.346    52         -7.614  6  6  7  6  aa_19_met-met r
+                                               Psi          154.540 163.778                9.238  7  6  6  7  aa_19_met-met r
+ S2F2          FSSF                            S-F            1.635   1.574     1 -0.061          9 16  0  0  fssfr
+                                               S-S            1.888   1.945        0.057         16 16  0  0  fssfr
+                                               F-S-S        108.300 110.468                2.168  9 16 16  0  fssfr
+                                               F-S-S-F       87.900  89.018                1.118  9 16 16  9  fssfr
+ S2F2          SSF2                            S-S            1.860   1.911     1  0.051         16 16  0  0  s2f2r
+                                               S-F            1.598   1.580       -0.018          9 16  0  0  s2f2r
+                                               F-S-S        107.500 107.930                0.430  9 16 16  0  s2f2r
+                                               F-S-F         92.500  90.010               -2.490  9 16  9  0  s2f2r
+ HCl           Hydrogen chloride               HCl            1.275   1.298     1  0.023          1 17  0  0  hclr
+ CHCl          Chloromethylene                 C-H            1.120   1.093     1 -0.027          1  6  0  0  chclr
+                                               C-Cl           1.689   1.690        0.001          6 17  0  0  chclr
+                                               Cl-C-H       103.400 112.426                9.026  1  6 17  0  chclr
+ CH3Cl         Chloromethane                   C-Cl           1.781   1.782     1  0.001          6 17  0  0  ch3clr
+                                               C-H            1.096   1.112        0.016          1  6  0  0  ch3clr
+                                               H-C-Cl       110.900 107.892               -3.008  1  6 17  0  ch3clr
+ C2HCl         Chloroacetylene                 H-C            1.055   1.034    71 -0.021          1  6  0  0  c2hclr
+                                               C-C            1.203   1.204        0.001          6  6  0  0  c2hclr
+                                               C-Cl           1.637   1.607       -0.030          6 17  0  0  c2hclr
+ C2H5Cl        Chloroethane                    C-Cl           1.802   1.804    63  0.002          6 17  0  0  c2h5clr
+                                               C-C-Cl       110.700 108.920               -1.780  6  6 17  0  c2h5clr
+ C3H5Cl        2-Chloropropene                 C-Cl           1.744   1.753    63  0.009          6 17  0  0  2-chloropropener
+                                               C=C-Cl       119.000 118.870               -0.130  6  6 17  0  2-chloropropener
+ C3H7Cl        1-Chloropropane                 C-Cl           1.796   1.801    63  0.005          6 17  0  0  1-chloropropaner
+                                               C-C-Cl       111.300 108.513               -2.787  6  6 17  0  1-chloropropaner
+ C3H7Cl        2-Chloropropane                 C-Cl           1.812   1.828    63  0.016          6 17  0  0  2-chloropropaner
+                                               C-C-Cl       109.000 107.262               -1.738  6  6 17  0  2-chloropropaner
+ C4H9Cl        2-Chloro-2-methylpropane        C-Cl           1.828   1.851    63  0.023          6 17  0  0  2-chloro-2-methylpropaner
+                                               C-C-Cl       111.700 105.721               -5.979  6  6 17  0  2-chloro-2-methylpropaner
+ C6H5Cl        Chlorobenzene                   C-Cl           1.722   1.729    63  0.007          6 17  0  0  chlorobenzener
+ CNCl          Cyanogen Chloride               Cl-C           1.629   1.636    59  0.007          6 17  0  0  clcnr
+                                               C-N            1.160   1.157       -0.003          6  7  0  0  clcnr
+ CNCl          Cyanogen chloride               C-Cl           1.629   1.636    63  0.007          6 17  0  0  cyanogen chlorider
+ ClO           Chlorine monoxide               ClO            1.546   2.949     1  1.403          8 17  0  0  clor
+ C2H3ClO       Acetyl chloride                 C-Cl           1.798   1.849    63  0.051          6 17  0  0  acetyl chlorider
+                                               C-C-Cl       111.600 107.303               -4.297  6  6 17  0  acetyl chlorider
+ NClO          NOCl                            Cl-N           1.950   2.624     1  0.674          7 17  0  0  noclr
+                                               N-O            1.170   1.106       -0.064          7  8  0  0  noclr
+                                               C-N-Cl       114.000 100.094              -13.906  8  7 17  0  noclr
+ NClO2         NO2Cl                           Cl-N           1.830   2.214     1  0.384          7 17  0  0  no2clr
+                                               N-O-Cl         1.210   1.113       -0.097          7  8  0  0  no2clr
+ HClO4         HOClO3                          Cl=O           1.407   3.887    59  2.480          8 17  0  0  hclo4r
+                                               Cl-O(H)        1.639   3.087        1.448          8 17  0  0  hclo4r
+                                               O-Cl-O(H)    104.100  32.749              -71.351  8 17  8  0  hclo4r
+ ClF           Chlorine fluoride               ClF            1.628   1.639     1  0.011          9 17  0  0  clfr
+ CClOF         Carbonyl chloride fluoride      C=O            1.173   1.190    59  0.017          6  8  0  0  coclfr
+                                               C-Cl           1.725   1.767        0.042          6 17  0  0  coclfr
+                                               Cl-C-O       127.500 132.387                4.887  8  6 17  0  coclfr
+                                               C-F            1.334   1.333       -0.001          6  9  0  0  coclfr
+                                               F-C-Cl       108.800 109.453                0.653  9  6 17  0  coclfr
+ ClO3F         ClO3F                           ClF            1.630   1.634     1  0.004          9 17  0  0  clo3fr
+                                               ClO            1.460   2.655        1.195          8 17  0  0  clo3fr
+                                               OClF          95.170  95.497                0.327  8 17  9  0  clo3fr
+ CHClF2        Chlorodifluoromethane           C-H            1.090   1.114    72  0.024          1  6  0  0  chclf2r
+                                               C-Cl           1.740   1.790        0.050          6 17  0  0  chclf2r
+                                               Cl-C-H       107.000 111.199                4.199  1  6 17  0  chclf2r
+                                               C-F            1.350   1.348       -0.002          6  9  0  0  chclf2r
+                                               F-C-Cl       110.500 109.637               -0.863  9  6 17  0  chclf2r
+                                               F-C-Cl-H     120.000 124.024                4.024  1 17  6  9  chclf2r
+ ClF3          Chlorine trifluoride            ClF            1.598   1.630     1  0.032          9 17  0  0  clf3r
+                                               ClF'           1.698   1.698        0.000          9 17  0  0  clf3r
+                                               FClF'         87.500  84.868               -2.632  9 17  9  0  clf3r
+ ClF5          Chlorine pentafluoride          Cl-F(ax)       1.571   1.585    63  0.014          9 17  0  0  clf5r
+                                               Cl-F(eq)       1.669   1.634       -0.035          9 17  0  0  clf5r
+                                               F-Cl-F        86.000  90.379                4.379  9 17  9  0  clf5r
+ CH3SCl        CH3SCl                          C-S            1.823   1.792    52 -0.031          6 16  0  0  ch3sclr
+                                               S-Cl           2.091   2.049       -0.042         16 17  0  0  ch3sclr
+ CH2Cl2        Dichloromethane                 C-Cl           1.772   1.768    60 -0.004          6 17  0  0  ch2cl2r
+                                               Cl-C-Cl      111.800 108.045               -3.755 17  6 17  0  ch2cl2r
+                                               C-H            1.103   1.115        0.012          1  6  0  0  ch2cl2r
+ C2H2Cl2       cis-Dichloroethylene            C=C            1.354   1.331    63 -0.023          6  6  0  0  cis-dichloroethylener
+                                               C-Cl           1.718   1.714       -0.004          6 17  0  0  cis-dichloroethylener
+                                               C-C-Cl       123.800 122.384               -1.416  6  6 17  0  cis-dichloroethylener
+ C2H4Cl2       1,1-Dichloroethane              C-Cl           1.766   1.784    63  0.018          6 17  0  0  1,1-dichloroethaner
+                                               C-C-Cl       111.000 110.207               -0.793  6  6 17  0  1,1-dichloroethaner
+ C2H4Cl2       trans-1,2-Dichloroethane        C-Cl           1.790   1.793    63  0.003          6 17  0  0  trans-1,2-dichloroethaner
+                                               C-C-Cl       109.000 107.526               -1.474  6  6 17  0  trans-1,2-dichloroethaner
+ Cl2O          Cl2O                            Cl-O           1.701   2.516     1  0.815          8 17  0  0  cl2or
+                                               Cl-O-Cl      110.800  97.123              -13.677 17  8 17  0  cl2or
+ CCl2O         Carbonyl chloride               C-O            1.166   1.195     1  0.029          6  8  0  0  cocl2r
+                                               C-Cl           1.746   1.784        0.038          6 17  0  0  cocl2r
+                                               Cl-C-O       124.350 128.169                3.819  8  6 17  0  cocl2r
+ C2Cl2O2       Oxalyl chloride                 C-Cl           1.744   1.794    63  0.050          6 17  0  0  oxalyl chlorider
+                                               C-C-Cl       111.700 107.703               -3.997  6  6 17  0  oxalyl chlorider
+ CCl2F2        Dichlorodifluoromethane         C-Cl           1.770   1.767     1 -0.003          6 17  0  0  cf2cl2r
+                                               Cl-C-Cl      108.500 108.864                0.364 17  6 17  0  cf2cl2r
+                                               C-F            1.330   1.345        0.015          6  9  0  0  cf2cl2r
+                                               F-C-Cl       109.833 111.272                1.439  9  6 17  0  cf2cl2r
+ SCl2O         Thionyl chloride                S-O            1.430   1.431    68  0.001          8 16  0  0  oscl2r
+                                               S-Cl           2.074   2.087        0.013         16 17  0  0  oscl2r
+                                               Cl-S-O       108.000 112.301                4.301  8 16 17  0  oscl2r
+ SCl2O2        Sulfuryl chloride               S=O            1.418   1.415    68 -0.003          8 16  0  0  so2cl2r
+                                               S-Cl           2.012   2.089        0.077         16 17  0  0  so2cl2r
+                                               O=S-Cl       108.000 109.089                1.089  8 16 17  0  so2cl2r
+ CPH3SCl2O     O-Methyldichlorothiophosphate   P=S            1.922   1.887    68 -0.035         15 16  0  0  ch3opscl2r
+                                               P-Cl           2.013   2.037        0.024         15 17  0  0  ch3opscl2r
+                                               S=P-Cl       115.900 119.452                3.552 16 15 17  0  ch3opscl2r
+                                               P-O            1.628   1.653        0.025          8 15  0  0  ch3opscl2r
+                                               S=P-O        115.200 110.136               -5.064  8 15 16  0  ch3opscl2r
+                                               O-C            1.452   1.450       -0.002          6  8  0  0  ch3opscl2r
+                                               C-H            1.113   1.111       -0.002          1  6  0  0  ch3opscl2r
+ CPH3SCl2O     S-Methyldichlorothiophosphate   P=O            1.445   1.478    68  0.033          8 15  0  0  ch3spocl2r
+                                               P-Cl           2.021   2.037        0.016         15 17  0  0  ch3spocl2r
+                                               O=P-Cl       115.000 114.801               -0.199  8 15 17  0  ch3spocl2r
+                                               P-S            2.097   2.088       -0.009         15 16  0  0  ch3spocl2r
+                                               O=P-S        115.000 113.060               -1.940  8 15 16  0  ch3spocl2r
+                                               S-C            1.830   1.820       -0.010          6 16  0  0  ch3spocl2r
+                                               C-H            1.140   1.114       -0.026          1  6  0  0  ch3spocl2r
+ CHCl3         Chloroform                      C-Cl           1.782   1.756    60 -0.026          6 17  0  0  chcl3r
+                                               Cl-C-H       107.500 110.254                2.754  1  6 17  0  chcl3r
+ CCl3F         Trichlorofluoromethane          C-F            1.330   1.357     1  0.027          6  9  0  0  ccl3fr
+                                               C-Cl           1.760   1.758       -0.002          6 17  0  0  ccl3fr
+ PCl3O         Phosphorus oxychloride          P=O            1.445   1.476    63  0.031          8 15  0  0  pocl3r
+                                               P-Cl           1.988   2.002        0.014         15 17  0  0  pocl3r
+                                               O=P-Cl       114.900 116.408                1.508  8 15 17  0  pocl3r
+ CCl4          Carbon tetrachloride            C-Cl           1.760   1.746    60 -0.014          6 17  0  0  ccl4r
+ C2Cl4         Tetrachloroethylene             C-Cl           1.718   1.695    63 -0.023          6 17  0  0  c2cl4r
+                                               C=C-Cl       124.200 123.301               -0.899  6  6 17  0  c2cl4r
+ C6Cl4O2       2,3,5,6-Tetrachloro-1,4-benzoquiC-Cl           1.701   1.694    63 -0.007          6 17  0  0  2,3,5,6-tetrachloro-1,4-benzoquinoner
+ C2Cl6         Hexachloroethane                C-C            1.550   1.548     1 -0.002          6  6  0  0  c2cl6r
+                                               C-Cl           1.740   1.753        0.013          6 17  0  0  c2cl6r
+                                               Cl-C-C       109.000 110.440                1.440  6  6 17  0  c2cl6r
+ C6Cl6         Hexachlorobenzene               C-Cl           1.717   1.700    63 -0.017          6 17  0  0  c6cl6r
+ HBr           Hydrogen bromide                HBr            1.415   1.450    73  0.035          1 35  0  0  hbrr
+ CH3Br         Bromomethane                    C-Br           1.933   1.950    53  0.017          6 35  0  0  ch3brr
+                                               C-H            1.086   1.109        0.023          1  6  0  0  ch3brr
+                                               H-C-Br       107.710 107.721                0.011  1  6 35  0  ch3brr
+ C2HBr         Bromoacetylene                  H-C            1.055   1.036    74 -0.020          1  6  0  0  c2hbrr
+                                               C-C            1.204   1.205        0.001          6  6  0  0  c2hbrr
+                                               C-Br           1.792   1.777       -0.015          6 35  0  0  c2hbrr
+ CNBr          Cyanogen bromide                Br-C           1.789   1.789     1  0.000          6 35  0  0  brcnr
+                                               C-N            1.158   1.158        0.000          6  7  0  0  brcnr
+ C2HBrO        Bromoketene                     C-Br           1.880   1.869    75 -0.011          6 35  0  0  brhccor
+                                               C-H            1.082   1.087        0.005          1  6  0  0  brhccor
+                                               H-C-Br       124.450 115.125               -9.325  1  6 35  0  brhccor
+                                               C=C            1.316   1.315       -0.001          6  6  0  0  brhccor
+                                               Br-C=C       118.450 121.293                2.843  6  6 35  0  brhccor
+                                               C=O            1.161   1.161        0.000          6  8  0  0  brhccor
+ C2H3BrO       Acetyl bromide                  C-C            1.516   1.484    53 -0.032          6  6  0  0  ch3cobrr
+                                               C-Br           1.973   2.015        0.042          6 35  0  0  ch3cobrr
+                                               Br-C-C       111.000 109.915               -1.085  6  6 35  0  ch3cobrr
+                                               C-O            1.183   1.187        0.004          6  8  0  0  ch3cobrr
+                                               C-C-O        127.100 128.240                1.140  6  6  8  0  ch3cobrr
+ NBrO          BrNO                            Br-N           2.140   2.464    53  0.324          7 35  0  0  brnor
+                                               N-O            1.146   1.123       -0.023          7  8  0  0  brnor
+                                               Br-N-O       114.500 113.008               -1.492  8  7 35  0  brnor
+ BrF           Bromine fluoride                Br-F           1.756   1.766     1  0.010          9 35  0  0  brfr
+ BrO3F         Perbromyl fluoride              Br-F           1.708   1.770    68  0.062          9 35  0  0  brfo3r
+                                               Br=O           1.582   1.933        0.351          8 35  0  0  brfo3r
+                                               F-Br=O       103.300 102.671               -0.629  8 35  9  0  brfo3r
+ BrF3          Bromine trifluoride             Br-F           1.721   1.766     1  0.045          9 35  0  0  brf3r
+                                               Br-F'          1.806   1.766       -0.040          9 35  0  0  brf3r
+                                               F-Br-F'       86.210 119.781               33.571  9 35  9  0  brf3r
+ CBrF3         Trifluorobromomethane           C-Br           1.909   1.982     1  0.073          6 35  0  0  cbrf3r
+                                               C-F            1.328   1.338        0.010          6  9  0  0  cbrf3r
+                                               F-C-Br       110.330 114.047                3.717  9  6 35  0  cbrf3r
+ BrF5          Bromine pentafluoride           Br-F(ax)       1.697   1.780    68  0.083          9 35  0  0  brf5r
+                                               Br-F(eq)       1.768   1.756       -0.012          9 35  0  0  brf5r
+                                               F(ax)-B-F(eq  84.780  88.605                3.825  9 35  9  0  brf5r
+ SBrF5         Sulfur pentafluoride bromide    S-Br           2.303   2.292    52 -0.011         16 35  0  0  brsf5r
+                                               S-F(eq)        1.647   1.572       -0.075          9 16  0  0  brsf5r
+                                               Br-S-F(eq)    90.950  93.735                2.785  9 16 35  0  brsf5r
+                                               S-F(ax)        1.635   1.580       -0.055          9 16  0  0  brsf5r
+ PSBrF2        Thiophosphoryl monobromide difluP=S            1.881   1.883    68  0.002         15 16  0  0  brf2psr
+                                               P-F            1.543   1.557        0.014          9 15  0  0  brf2psr
+                                               F-P-S        118.200 114.315               -3.885  9 15 16  0  brf2psr
+                                               P-Br           2.155   2.185        0.030         15 35  0  0  brf2psr
+                                               Br-P=S       118.200 121.903                3.703 16 15 35  0  brf2psr
+ CH2BrCl       Bromochloromethane              C-Cl           1.768   1.765    76 -0.003          6 17  0  0  ch2clbrr
+                                               C-Br           1.930   1.952        0.022          6 35  0  0  ch2clbrr
+                                               Br-C-Cl      112.267 111.983               -0.284 17  6 35  0  ch2clbrr
+                                               C-H            1.074   1.114        0.040          1  6  0  0  ch2clbrr
+ CH2Br2        Dibromomethane                  C-H            1.079   1.111    53  0.032          1  6  0  0  ch2br2r
+                                               H-C-H        113.600 112.988               -0.612  1  6  1  0  ch2br2r
+                                               C-Br           1.927   1.939        0.012          6 35  0  0  ch2br2r
+                                               Br-C-H       106.486 108.044                1.558  1  6 35  0  ch2br2r
+ CBr2O         Carbonyl bromide                C-O            1.178   1.181    59  0.003          6  8  0  0  cobr2r
+                                               C-Br           1.923   1.952        0.029          6 35  0  0  cobr2r
+                                               Br-C-Br      124.350 126.150                1.800  8  6 35  0  cobr2r
+ C4Br2O2       1,2-Dibromocyclobutene-3,4-dioneC=C2           1.356   1.349    77 -0.007          6  6  0  0  c4o2br2r
+                                               C2-C3          1.518   1.529        0.011          6  6  0  0  c4o2br2r
+                                               C=C2-C3       94.400  94.572                0.172  6  6  6  0  c4o2br2r
+                                               C-Br           1.831   1.828       -0.003          6 35  0  0  c4o2br2r
+                                               Br-C=C       133.000 136.190                3.190  6  6 35  0  c4o2br2r
+                                               C-O            1.185   1.179       -0.006          6  8  0  0  c4o2br2r
+                                               O-C3-C2      135.000 137.470                2.470  6  6  8  0  c4o2br2r
+ SBr2O         Thionyl bromide                 S=O            1.449   1.443    68 -0.006          8 16  0  0  sobr2r
+                                               S-Br           2.255   2.178       -0.077         16 35  0  0  sobr2r
+                                               Br-S-O       107.600 115.014                7.414  8 16 35  0  sobr2r
+                                               Br-S-Br        2.255   2.175       -0.080         16 35  0  0  sobr2r
+ PBr3O         Phosphorus oxybromide           P=O            1.455   1.489    68  0.034          8 15  0  0  pobr3r
+                                               P-Br           2.174   2.185        0.011         15 35  0  0  pobr3r
+                                               O=P-Br       114.200 115.043                0.843  8 15 35  0  pobr3r
+ CBr4          Carbon tetrabromide             C-Br           1.935   1.934    59 -0.001          6 35  0  0  cbr4r
+ C2Br4         Tetrabromoethylene              C-C            1.362   1.334    53 -0.028          6  6  0  0  c2br4r
+                                               C-Br           1.881   1.886        0.005          6 35  0  0  c2br4r
+                                               Br-C-C       122.400 123.188                0.788  6  6 35  0  c2br4r
+ HI            Hydrogen iodide                 H-I            1.609   1.641    73  0.032          1 53  0  0  hir
+ CH3I          Iodomethane                     C-H            1.084   1.105    53  0.021          1  6  0  0  ch3ir
+                                               C-I            2.132   2.139        0.007          6 53  0  0  ch3ir
+                                               H-C-H        111.200 111.301                0.101  1  6  1  0  ch3ir
+ C6H5I         Iodobenzene                     C-I            2.134   2.117    52 -0.017          6 53  0  0  c6h5ir
+ IF            Iodine fluoride                 I-F            1.906   1.924     1  0.018          9 53  0  0  ifr
+ CIF3          Trifluoroiodomethane            C-I            2.130   2.154     1  0.024          6 53  0  0  cf3ir
+                                               C-F            1.332   1.331       -0.001          6  9  0  0  cf3ir
+                                               F-C-I        110.620 113.141                2.521  9  6 53  0  cf3ir
+ IF5           Iodine pentafluoride            I-F(ax)        1.844   1.916    78  0.072          9 53  0  0  if5r
+                                               I-F(eq)        1.869   1.836       -0.033          9 53  0  0  if5r
+                                               F(ax)-I-F(eq  81.900  90.405                8.505  9 53  9  0  if5r
+ C4H4IBr       1-Bromo-4-iodobutadiene         Br-I           3.946   4.852    52  0.905         35 53  0  0  c4h4brir
+                                               C-I            2.112   2.103       -0.009          6 53  0  0  c4h4brir
+                                               C-Br           1.906   1.904       -0.001          6 35  0  0  c4h4brir
+ CH2I2         Diiodomethane                   C-H            1.092   1.106    52  0.013          1  6  0  0  ch2i2r
+                                               H-C-H        112.004 112.442                0.438  1  6  1  0  ch2i2r
+                                               C-I            2.177   2.125       -0.051          6 53  0  0  ch2i2r
+ C2H2I2        E-1,2-Diiodoethylene            C=C            1.338   1.314    52 -0.024          6  6  0  0  e-c2h2i2r
+                                               C-H            1.092   1.087       -0.005          1  6  0  0  e-c2h2i2r
+                                               H-C-C        124.621 127.203                2.582  1  6  6  0  e-c2h2i2r
+                                               C-I            2.123   2.112       -0.011          6 53  0  0  e-c2h2i2r
+                                               C-C-I        121.567 121.657                0.089  6  6 53  0  e-c2h2i2r
+ C2H2I2        Z-1,2-Diiodoethylene            C-C            1.341   1.315    52 -0.025          6  6  0  0  z-c2h2i2r
+                                               C-H            1.094   1.092       -0.003          1  6  0  0  z-c2h2i2r
+                                               H-C-C        119.974 123.695                3.721  1  6  6  0  z-c2h2i2r
+                                               C-I            2.108   2.099       -0.009          6 53  0  0  z-c2h2i2r
+                                               C-C-I        127.027 126.434               -0.593  6  6 53  0  z-c2h2i2r
+ C6H4I2        1,2-Diiodobenzene               I-I            3.764   3.692    52 -0.072         53 53  0  0  1,2-diiodobenzener
+ CHI3          Iodoform                        C-H            1.091   1.111    52  0.020          1  6  0  0  chi3r
+                                               C-I            2.183   2.131       -0.053          6 53  0  0  chi3r
+                                               I-C-H        105.792 105.003               -0.789  1  6 53  0  chi3r
+ CI4           Carbon tetraiodide              C-I            2.154   2.145    16 -0.009          6 53  0  0  ci4r
+********************************************************************************
+ 
+    1: M. W. Chase, C. A. Davies, J. R. Downey, D. R. Frurip, R. A. McDonald,  A. N. Syverud, JANAF Thermochemical Tables, Third Edition,  J. Phys. Chem. Ref. Data 14, Suppl. 1 (1985).
+ 
+    2: G. Herzberg, "Molecular Spectra and Molecular Structure III. Electronic  Spectra and Electronic Structure of Polyatomic Molecules,"  Van Nostrand, New York, N.Y., 1966.
+ 
+    3: A. G. Maki, R. A. Toth, J. Mol. Spectr., 17, 136 (1965).
+ 
+    4: W. M. Stigliani, V. W. Laurie, J. C. Li, J. Chem. Phys., 62, 1890 (1975).
+ 
+    5: R. A. Bonham, L. S. Bartell, J. Am. Chem. Soc., 81, 3491 (1959).
+ 
+    6: O. Bastiansen, F. N. Fritsch, K. Hedberg, Acta. Crystallogr., 17, 538  (1964).
+ 
+    7: D. R. Lide, D. Christensen, J. Chem. Phys., 35, 1374 (1961).
+ 
+    8: J. H. Callomon, B. P. Stoicheff, Can. J. Phys., 35, 373 (1957).
+ 
+    9: A. Almenningen, O. Bastiansen, M. Traetteberg, Acta Chem. Scand., 15, 1557  (1961).
+ 
+   10: T. Fukuyama, K. Kuchitsu, Y. Morino, Bull. Chem. Soc. Jap., 42, 379 (1969).
+ 
+   11: K. W. Cox, M. D. Harmony, G. Nelson, K. B. Wiburg, J. Chem. Phys., 50,  1976 (1969).
+ 
+   12: W. Haugen, M. Traetteberg, Acta Chem. Scand., 20, 1226 (1966).
+ 
+   13: A. Almenningen, I. M. Anfinsen, A. Haaland, Acta Chem. Scand., 24, 43  (1970).
+ 
+   14: S. Meiboom, L. C. Snyder, J. Chem. Phys., 52, 3857 (1970).
+ 
+   15: L. R. H. Scharpen, V. W. Laurie, J. Chem. Phys., 39, 1972 (1963).
+ 
+   16: The Cambridge Structural Database: a quarter of a million crystal structures and rising.  F. H. Allen, Acta Cryst. B58, 380-388, (2002)
+ 
+   17: G. Dallinga, R. K. van der, Draai, and L. H. Toneman,Recl.  Trav. Chim. Pays-Bas, 87, 897 (1968).
+ 
+   18: 6-31G(d) basis set using the B3LYP Density Functional
+ 
+   19: K. Tamagawa, T. Iijima, M. Kimura, J. Mol. Struct., 30, 243 (1976).
+ 
+   20: P. A. Baron, R. D. Brown, F. R. Burden, P. J. Domaille, J. E. Kent,  J. Mol. Spectrosc., 43, 401 (1970).
+ 
+   21: J. F. Chiang, S. H. Bauer, J. Am. Chem. Soc., 91, 1898 (1969).
+ 
+   22: O. Bastiansen, L. Fernholt, H. M. Seip, H. Kambara, K. Kuchitsu, J. Mol.  Struct., 18, 163 (1973).
+ 
+   23: D. W. J. Cruickshanck and R. A. Sparks, Proc. R. Soc.  London, Ser. A. 258, 270 (1960).
+ 
+   24: D. G. Lister, J. K. Tyler, J. H. Hog, N. W. Larson, J. Mol. Struct., 23,  253 (1974).
+ 
+   25: D. R. Lide, J. Chem. Phys., 27, 343 (1957).
+ 
+   26: C. C. Costain, J. Chem. Phys., 29, 864 (1958).
+ 
+   27: L. Nygaard, J. T. Nielsen, J. Kirchheimer, G. Maltesen, J. Rastrup-Andersen,  and G. O. Sorensen, J. Mol. Struct., 3, 491, (1969).
+ 
+   28: J. E. Wollrab, V. W. Laurie, J. Chem. Phys., 48, 5058 (1968).
+ 
+   29: J. E. Wollrab, V. W. Laurie, J. Chem. Phys., 51, 1580 (1969).
+ 
+   30: NIST Chemistry WebBook, NIST Standard Reference Database, No. 69; W. G. Mallard,  P. J. Linstrom, Eds., National Institute of  Standards and Technology, Gaithersberg, http://webbook.nist.gov/chemistry.
+ 
+   31: G. O. Sorensen, L. Mahler, J. Rastrup-Andersen, J. Mol. Struct.,  20, 119 (1974).
+ 
+   32: G. Herzberg, "Molecular Spectra and Molecular Structure I. Spectra of  Diatomic Molecules," 2nd ed, Van Nostrand, New York, N.Y., 1950.
+ 
+   33: J. E. Lancaster, B. J. Stoicheff, Can. J. Phys., 34, 1016 (1965).
+ 
+   34: K. Takagi, T. Oka, J. Phys. Soc. Jap., 18, 1174 (1963).
+ 
+   35: R. M. Lees, J. G. Baker, J. Chem. Phys., 48, 5299 (1968).
+ 
+   36: A. P. Cox, L. F. Thomas, J. Sheridan, Spectrochim. Acta, 15, 542 (1959).
+ 
+   37: R. W. Kilb, C. C. Lin, E. B. Wilson, Jr., J. Chem. Phys., 26, 1695 (1957).
+ 
+   38: U. Blukis, P. H. Kasai, R. J. Myers, J. Chem. Phys., 38, 2753 (1963).
+ 
+   39: K. Kuchitsu, T. Fukuyama, Y. Marino, J. Mol. Struct., 1, 463 (1968).
+ 
+   40: R. Nelson, L. Pierce, J. Mol. Spectrosc. 18, 344 (1965).
+ 
+   41: B. Bak, D. Christensen, W. B. Dixon, L. Hansen-Nygarrd,  J. Rastrup-Anderson, M. Shottlander, J. Mol. Spectrosc., 9, 124 (1962).
+ 
+   42: R. Janoschek, IUPAC Report, (2001).
+ 
+   43: D. R. Johnson, F. J. Lovas, W. H. Kirchhoff, J. Phys. Chem. Ref. Data,  1, 1011 (1972).
+ 
+   44: W. C. Oelfke, W. Gordy, J. Chem. Phys., 51, 5336 (1969).
+ 
+   45: G. H. Kwei, R. F. Curl, J. Chem. Phys., 32, 1592 (1960).
+ 
+   46: R. F. Curl, Jr. J. Chem. Phys., 30, 1529 (1959).
+ 
+   47: R. Janoschek, Sulfur Rep., 21 (1999).
+ 
+   48: J. Trotter, Acta Crystallogr., 13, 86 (1960).
+ 
+   49:A. Peter Cox, Jose M. Riveros, "Microwave Spectrum and Structure of Nitric Acid" J. Chem. Phys. 42, 3106–3112 (1965)
+ 
+   50: J. O. Morley, J. Chem. Soc. Perkin Trans. II, (1987), (in press).
+ 
+   51: J. K. Tyler, J. Mol. Spectrosc., 11, 39 (1963).
+ 
+   52: Estimated from DGauss results of DFT calculations, using the B88-PW91 functional and  the DZVP basis set, in CAChe 6.0, Fujitsu Ltd, 2003.
+ 
+   53: J. H. Callomon, E. Hirota, K. Kuchitsu, W. J. Lafferty, A. G. Maki,  C. S. Pote, "Structure Data on Free Polyatomic Molecules,"  Landolt-Bornstein, New Series, Group II, Vol. 7, Springer, Berlin (1976).
+ 
+   54: G. A. Kuipers, D. F. Smith, A. N. Nielsen, J. Chem. Phys., 25, 275 (1956).
+ 
+   55: J. L. Duncan, J. Mol. Struct., 6, 447 (1970).
+ 
+   56: J. K. Tyler, J. Sheridan, Trans. Faraday Soc., 59, 2661 (1963).
+ 
+   57: J. L. Carlos, R. R. Karl, S. H. Bauer, J. Chem. Soc., Faraday Trans. 2,  177 (1974).
+ 
+   58: T. Ogata, K. Fujii, M. Yoshikawa, F. Hirota, J. Am. Chem. Soc., 109,  7639 (1987).
+ 
+   59: "CRC Handbook of Chemistry and Physics," 85th Edition, D. R. Lide, (Ed.),  CRC Press, Boca Raton, FL, 2005.
+ 
+   60: A. S. Rodgers, J. Chao, R. C. Wilhoit, B. J. Zwolinski, J. Phys. Chem.  Ref. Data, 3, 117 (1974).
+ 
+   61: Private Communication by Dr Dave Dixon, DuPont.
+ 
+   62: O. I. Osman, B. J. Whitaker, N. P. C. Simmons, D. R. M. Walton,  J. F. Nixon, H. W. Krojo, J. Mol. Spect., 137, 373 (1989).
+ 
+   63: P. Winget, A.H.C. Horn, C. Seloki, B. Martin, T. Clark, J. Mol. Model.  9, 408 (2003).
+ 
+   64: L.E. Sutton, "Tables of Interatomic Distances and Configurations in  Molecules and Ions," Special Publication No. 11 + 18, Chem. Soc.,  London (1958), (1965).
+ 
+   65: R. W. Kilb, J. Chem. Phys., 23, 1736 (1955).
+ 
+   66: B. Bak, D. Christensen, L. Hansen-Nygarrd, J. Rastrup-Anderson,  J. Mol. Spectrosc., 7, 58 (1961).
+ 
+   67: D. W. W. Anderson, D. W. H. Rankin, A. Robertson, J. Mol. Struct., 14  385 (1972).
+ 
+   68: J. H. Callomon, E. Hirota, T. Iijima, K. Kuchitsu, W. J. Lafferty,  "Structure Data on Free Polyatomic Molecules," Landolt-Bornstein,  New Series, Group II, Vol. 15, Springer, Berlin (1977).
+ 
+   69: G. Winnewisser, M. Winnewisser, W. Gordy, J. Chem. Phys., 49, 3465 (1968).
+ 
+   70: R. Sutter, H. Driezler, F. Z. Rudolph, Naturforschung A, 20 1676 (1965).
+ 
+   71: H. Jones, M. Takami, J. Sheridan, Z. Naturforsch., A33, 156 (1978).
+ 
+   72: S. S. Chen, A. C. Wilhoit, B. J. Zwolinski, J. Phys. Chem. Ref. Data 5,  571 (1975).
+ 
+   73: K. P. Huber, G. Herzberg, "Molecular Spectra and Molecular Structure,"  IV. "Constants for Diatomic Molecules," Van Nostrand, Reinhold,  New York, (1979).
+ 
+   74: H. Jones, J. Sheridan, O. Stiefvater, Z. Naturforsch., A32, 866 (1977).
+ 
+   75: N. P. C. Westwood, W. Lewis-Bevan, M. C. L. Gerry,  J. Mol. Spectr., 136, 93 (1989).
+ 
+   76: Y. Niide, I. Ohkoshi, J. Mol. Spectr., 136, 17 (1989).
+ 
+   77: K. Hagen, B. Lunelli, J. Phys. Chem., 93, 1326 (1989).
+ 
+   78: N. N. Greenwood, A. Earnshaw, "Chemistry of the Elements," Pergamon Press,  Oxford, p.976 (1984).

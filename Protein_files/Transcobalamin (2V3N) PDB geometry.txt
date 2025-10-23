@@ -1,0 +1,3 @@
+display 1001:A.CO, 1002:A.N
+display add connected(visible)
+reset;center {13.02868571428571 37.07857142857143 16.958399999999997}; rotate z -157.93; rotate y 143.56; rotate z 176.32; zoom 1233.07; translate x 0.67; translate y -19.8; set rotationRadius 41.61;

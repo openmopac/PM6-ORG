@@ -1,0 +1,334 @@
+ ***************************************************************************
+
+                  PARAMETRIZATION CALCULATION RESULTS
+
+ ***************************************************************************
+ *                                                  Sun Jul 16 17:37:27 2023
+Sun Jul 16 17:37:27     0  UNSIGNED AVE. ERROR
+ *  PM6         -  Default parameter set: PM6
+ *  SURVEY      -  GENERATE TABLES FOR STATISTICS, ETC
+ *
+ ***************************************************************************
+ *
+ *  SET=n       -  THE LIST OF COMPOUNDS TO BE USED IS IN FILE: 
+ *                 "X40 set for survey.txt"
+ *
+ *  REF=n       -  REFERENCE DATA ARE IN DIRECTORY: 
+ *                 "../Data Intermolecular interactions/X40 Intermolecular"
+ *             and "../Data Intermolecular interactions/X40 Separated"
+ *
+ ***************************************************************************
+
+
+           FILE NAMES OF MOLECULES USED
+
+  01 methane - f2 separated
+  01 Methane - F2
+  02 methane - cl2 separated
+  02 Methane - Cl2
+  03 methane - br2 separated
+  03 Methane - Br2
+  04 methane - i2 separated
+  04 Methane - I2
+  05 fluoromethane - methane separated
+  05 Fluoromethane - methane
+  06 chloromethane - methane separated
+  06 Chloromethane - methane
+  07 trifluoromethane - methane separated
+  07 Trifluoromethane - methane
+  08 trichloromethane - methane separated
+  08 Trichloromethane - methane
+  09 fluoromethane dimer separated
+  09 Fluoromethane dimer
+  10 chloromethane dimer separated
+  10 Chloromethane dimer
+  11 trifluorobenzene - benzene separated
+  11 Trifluorobenzene - benzene
+  12 hexafluorobenzene - benzene separated
+  12 Hexafluorobenzene - benzene
+  13 chloromethane - formaldehyde separated
+  13 Chloromethane - formaldehyde
+  14 bromomethane - formaldehyde separated
+  14 Bromomethane - formaldehyde
+  15 iodomethane - formaldehyde separated
+  15 Iodomethane - formaldehyde
+  16 trifluorochloromethane - formaldehyde separated
+  16 Trifluorochloromethane - formaldehyde
+  17 trifluorobromomethane - formaldehyde separated
+  17 Trifluorobromomethane - formaldehyde
+  18 trifluoroiodomethane - formaldehyde separated
+  18 Trifluoroiodomethane - formaldehyde
+  19 chlorobenzene - acetone separated
+  19 Chlorobenzene - acetone
+  20 bromobenzene - acetone separated
+  20 Bromobenzene - acetone
+  21 iodobenzene - acetone separated
+  21 Iodobenzene - acetone
+  22 chlorobenzene - trimethylamine separated
+  22 Chlorobenzene - trimethylamine
+  23 bromobenzene - trimethylamine separated
+  23 Bromobenzene - trimethylamine
+  24 iodobenzene - trimethylamine separated
+  24 Iodobenzene - trimethylamine
+  25 bromobenzene - methanethiol separated
+  25 Bromobenzene - methanethiol
+  26 iodobenzene - methanethiol separated
+  26 Iodobenzene - methanethiol
+  27 bromomethane - benzene separated
+  27 Bromomethane - benzene
+  28 iodomethane - benzene separated
+  28 Iodomethane - benzene
+  29 trifluorobromomethane - benzene separated
+  29 Trifluorobromomethane - benzene
+  30 trifluoroiodomethane - benzene separated
+  30 Trifluoroiodomethane - benzene
+  31 trifluoromethanol - water separated
+  31 Trifluoromethanol - water
+  32 trichloromethanol - water separated
+  32 Trichloromethanol - water
+  33 hf - methanol separated
+  33 HF - methanol
+  34 hcl - methanol separated
+  34 HCl - methanol
+  35 hbr - methanol separated
+  35 HBr - methanol
+  36 hi - methanol separated
+  36 HI - methanol
+  37 hf - methylamine separated
+  37 HF - methylamine
+  38 hcl - methylamine separated
+  38 HCl - methylamine
+  39 methanol - fluoromethane separated
+  39 methanol - fluoromethane
+  40 methanol - chloromethane separated
+  40 methanol - chloromethane
+1
+
+     MOLECULE                                             H-EXP   WT   D-EXP   WT   I-EXP   WT  GEO-WT
+ 01 Methane - F2 separated                            0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "01 methane - f2 separated" 
+ 01 Methane - F2                                      0   -0.48   4.50 0.000   0.0   0.00   0.0   0.00 
+ 02 Methane - Cl2 separated                           0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "02 methane - cl2 separated" 
+ 02 Methane - Cl2                                     0   -1.00   4.50 0.000   0.0   0.00   0.0   0.00 
+ 03 Methane - Br2 separated                           0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "03 methane - br2 separated" 
+ 03 Methane - Br2                                     0   -1.27   4.50 0.000   0.0   0.00   0.0   0.00 
+ 04 Methane - I2 separated                            0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "04 methane - i2 separated" 
+ 04 Methane - I2                                      0   -1.53   4.50 0.000   0.0   0.00   0.0   0.00 
+ 05 Fluoromethane - methane separated                 0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "05 fluoromethane - methane separated" 
+ 05 Fluoromethane - methane                           0   -0.58   4.50 0.000   0.0   0.00   0.0   0.00 
+ 06 Chloromethane - methane separated                 0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "06 chloromethane - methane separated" 
+ 06 Chloromethane - methane                           0   -0.85   4.50 0.000   0.0   0.00   0.0   0.00 
+ 07 Trifluoromethane - methane separated              0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "07 trifluoromethane - methane separated" 
+ 07 Trifluoromethane - methane                        0   -0.35   4.50 0.000   0.0   0.00   0.0   0.00 
+ 08 Trichloromethane - methane separated              0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "08 trichloromethane - methane separated" 
+ 08 Trichloromethane - methane                        0   -1.08   4.50 0.000   0.0   0.00   0.0   0.00 
+ 09 Fluoromethane dimer separated                     0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "09 fluoromethane dimer separated" 
+ 09 Fluoromethane dimer                               0   -1.17   4.50 0.000   0.0   0.00   0.0   0.00 
+ 10 Chloromethane dimer separated                     0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "10 chloromethane dimer separated" 
+ 10 Chloromethane dimer                               0   -1.12   4.50 0.000   0.0   0.00   0.0   0.00 
+ 11 Trifluorobenzene - benzene separated              0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "11 trifluorobenzene - benzene separated" 
+ 11 Trifluorobenzene - benzene                        0   -4.89   4.50 0.000   0.0   0.00   0.0   0.00 
+ 12 Hexafluorobenzene - benzene separated             0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "12 hexafluorobenzene - benzene separated" 
+ 12 Hexafluorobenzene - benzene                       0   -6.55   4.50 0.000   0.0   0.00   0.0   0.00 
+ 13 Chloromethane - formaldehyde separated            0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "13 chloromethane - formaldehyde separated" 
+ 13 Chloromethane - formaldehyde                      0   -1.03   4.50 0.000   0.0   0.00   0.0   0.00 
+ 14 Bromomethane - formaldehyde separated             0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "14 bromomethane - formaldehyde separated" 
+ 14 Bromomethane - formaldehyde                       0   -1.56   4.50 0.000   0.0   0.00   0.0   0.00 
+ 15 Iodomethane - formaldehyde separated              0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "15 iodomethane - formaldehyde separated" 
+ 15 Iodomethane - formaldehyde                        0   -2.56   4.50 0.000   0.0   0.00   0.0   0.00 
+ 16 Trifluorochloromethane - formaldehyde separated   0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "16 trifluorochloromethane - formaldehyde separated" 
+ 16 Trifluorochloromethane - formaldehyde             0   -2.01   4.50 0.000   0.0   0.00   0.0   0.00 
+ 17 Trifluorobromomethane - formaldehyde separated    0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "17 trifluorobromomethane - formaldehyde separated" 
+ 17 Trifluorobromomethane - formaldehyde              0   -2.77   4.50 0.000   0.0   0.00   0.0   0.00 
+ 18 Trifluoroiodomethane - formaldehyde separated     0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "18 trifluoroiodomethane - formaldehyde separated" 
+ 18 Trifluoroiodomethane - formaldehyde               0   -4.14   4.50 0.000   0.0   0.00   0.0   0.00 
+ 19 Chlorobenzenezene - acetone separated             0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "19 chlorobenzene - acetone separated" 
+ 19 Chlorobenzene - acetone                           0   -1.31   4.50 0.000   0.0   0.00   0.0   0.00 
+ 20 Bromobenzenezene - acetone separated              0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "20 bromobenzene - acetone separated" 
+ 20 Bromobenzene - acetone                            0   -2.22   4.50 0.000   0.0   0.00   0.0   0.00 
+ 21 Iodobenzenezene - acetone separated               0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "21 iodobenzene - acetone separated" 
+ 21 Iodobenzene - acetone                             0   -3.76   4.50 0.000   0.0   0.00   0.0   0.00 
+ 22 Chlorobenzenezene - trimethylamine separated      0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "22 chlorobenzene - trimethylamine separated" 
+ 22 Chlorobenzene - trimethylamine                    0   -2.35   4.50 0.000   0.0   0.00   0.0   0.00 
+ 23 Bromobenzenezene - trimethylamine separated       0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "23 bromobenzene - trimethylamine separated" 
+ 23 Bromobenzene - trimethylamine                     0   -4.00   0.90 0.000   0.0   0.00   0.0   0.00 
+ 24 Iodobenzenezene - trimethylamine separated        0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "24 iodobenzene - trimethylamine separated" 
+ 24 Iodobenzene - trimethylamine                      0   -6.72   4.50 0.000   0.0   0.00   0.0   0.00 
+ 25 Bromobenzenezene - methanethiol separated         0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "25 bromobenzene - methanethiol separated" 
+ 25 Bromobenzene - methanethiol                       0   -2.47   4.50 0.000   0.0   0.00   0.0   0.00 
+ 26 Iodobenzenezene - methanethiol separated          0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "26 iodobenzene - methanethiol separated" 
+ 26 Iodobenzene - methanethiol                        0   -3.80   4.50 0.000   0.0   0.00   0.0   0.00 
+ 27 Bromomethane - benzene separated                  0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "27 bromomethane - benzene separated" 
+ 27 Bromomethane - benzene                            0   -1.96   4.50 0.000   0.0   0.00   0.0   0.00 
+ 28 Iodomethane - benzene separated                   0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "28 iodomethane - benzene separated" 
+ 28 Iodomethane - benzene                             0   -3.11   4.50 0.000   0.0   0.00   0.0   0.00 
+ 29 Trifluorobromomethane - benzene separated         0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "29 trifluorobromomethane - benzene separated" 
+ 29 Trifluorobromomethane - benzene                   0   -3.12   4.50 0.000   0.0   0.00   0.0   0.00 
+ 30 Trifluoroiodomethane - benzene separated          0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "30 trifluoroiodomethane - benzene separated" 
+ 30 Trifluoroiodomethane - benzene                    0   -4.48   4.50 0.000   0.0   0.00   0.0   0.00 
+ 31 Trifluoromethanol - water separated               0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "31 trifluoromethanol - water separated" 
+ 31 Trifluoromethanol - water                         0   -9.60   4.50 0.000   0.0   0.00   0.0   0.00 
+ 32 Trichloromethanol - water separated               0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "32 trichloromethanol - water separated" 
+ 32 Trichloromethanol - water                         0  -10.81   4.50 0.000   0.0   0.00   0.0   0.00 
+ 33 HF - methanol separated                           0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "33 hf - methanol separated" 
+ 33 HF - methanol                                     0   -9.74   0.90 0.000   0.0   0.00   0.0   0.00 
+ 34 HCl - methanol separated                          0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "34 hcl - methanol separated" 
+ 34 HCl - methanol                                    0   -6.44   4.50 0.000   0.0   0.00   0.0   0.00 
+ 35 HBr - methanol separated                          0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "35 hbr - methanol separated" 
+ 35 HBr - methanol                                    0   -5.60   4.50 0.000   0.0   0.00   0.0   0.00 
+ 36 HI - methanol separated                           0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "36 hi - methanol separated" 
+ 36 HI - methanol                                     0   -4.11   4.50 0.000   0.0   0.00   0.0   0.00 
+ 37 HF - methylamine separated                        0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "37 hf - methylamine separated" 
+ 37 HF - methylamine                                  0  -15.04   0.90 0.000   0.0   0.00   0.0   0.00 
+ 38 HCl - methylamine separated                       0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "38 hcl - methylamine separated" 
+ 38 HCl - methylamine                                 0  -12.69   4.50 0.000   0.0   0.00   0.0   0.00 
+ 39 methanol - fluoromethane separated                0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "39 methanol - fluoromethane separated" 
+ 39 methanol - fluoromethane                          0   -3.54   0.90 0.000   0.0   0.00   0.0   0.00 
+ 40 methanol - chloromethane separated                0    0.00   0.00 0.000   0.0   0.00   0.0   0.00 
+ TO THE REF. H.O.F MUST BE ADDED THE CALC. HEAT OF "40 methanol - chloromethane separated" 
+ 40 methanol - chloromethane                          0   -3.66   4.50 0.000   0.0   0.00   0.0   0.00 
+
+
+           REFERENCES PRESENT FOR ALL DATA.
+ 
+
+
+           ADVICE ON STORAGE SPACE REQUIREMENTS
+
+
+           STORE   SPACE USED   TOTAL SPACE AVAILABLE
+ 
+           IGEO      1050        190000
+           ISYM         0         20000
+           ILIN     70452      10000000
+           NMOL        80         10000
+ Number of reference data:   80
+ Number of parameters:        0
+   Molecule                                        Time  Heat      Dipole   I.P.     Geometry     Total
+01 Methane - F2 separated                           0
+01 Methane - F2                                     0    0.867     0.000   0.00       0.000       0.867
+02 Methane - Cl2 separated                          0
+02 Methane - Cl2                                    0    0.018     0.000   0.00       0.000       0.018
+03 Methane - Br2 separated                          0
+03 Methane - Br2                                    0   -0.525     0.000   0.00       0.000      -0.525
+04 Methane - I2 separated                           0
+04 Methane - I2                                     0   -0.283     0.000   0.00       0.000      -0.283
+05 Fluoromethane - methane separated                0
+05 Fluoromethane - methane                          0    0.480     0.000   0.00       0.000       0.480
+06 Chloromethane - methane separated                0
+06 Chloromethane - methane                          0    0.506     0.000   0.00       0.000       0.506
+07 Trifluoromethane - methane separated             0
+07 Trifluoromethane - methane                       0    0.360     0.000   0.00       0.000       0.360
+08 Trichloromethane - methane separated             0
+08 Trichloromethane - methane                       0    0.548     0.000   0.00       0.000       0.548
+09 Fluoromethane dimer separated                    0
+09 Fluoromethane dimer                              0    1.089     0.000   0.00       0.000       1.089
+10 Chloromethane dimer separated                    0
+10 Chloromethane dimer                              0    0.140     0.000   0.00       0.000       0.140
+11 Trifluorobenzene - benzene separated             0
+11 Trifluorobenzene - benzene                       0    4.158     0.000   0.00       0.000       4.158
+12 Hexafluorobenzene - benzene separated            0
+12 Hexafluorobenzene - benzene                      0    5.114     0.000   0.00       0.000       5.114
+13 Chloromethane - formaldehyde separated           0
+13 Chloromethane - formaldehyde                     0    0.531     0.000   0.00       0.000       0.531
+14 Bromomethane - formaldehyde separated            0
+14 Bromomethane - formaldehyde                      0   -0.353     0.000   0.00       0.000      -0.353
+15 Iodomethane - formaldehyde separated             0
+15 Iodomethane - formaldehyde                       0   -0.079     0.000   0.00       0.000      -0.079
+16 Trifluorochloromethane - formaldehyde separat    0
+16 Trifluorochloromethane - formaldehyde            0    0.138     0.000   0.00       0.000       0.138
+17 Trifluorobromomethane - formaldehyde separate    0
+17 Trifluorobromomethane - formaldehyde             0   -0.935     0.000   0.00       0.000      -0.935
+18 Trifluoroiodomethane - formaldehyde separated    0
+18 Trifluoroiodomethane - formaldehyde              0   -1.573     0.000   0.00       0.000      -1.573
+19 Chlorobenzenezene - acetone separated            0
+19 Chlorobenzene - acetone                          0    0.618     0.000   0.00       0.000       0.618
+20 Bromobenzenezene - acetone separated             0
+20 Bromobenzene - acetone                           0   -0.509     0.000   0.00       0.000      -0.509
+21 Iodobenzenezene - acetone separated              0
+21 Iodobenzene - acetone                            0   -0.166     0.000   0.00       0.000      -0.166
+22 Chlorobenzenezene - trimethylamine separated     0
+22 Chlorobenzene - trimethylamine                   0    1.682     0.000   0.00       0.000       1.682
+23 Bromobenzenezene - trimethylamine separated      0
+23 Bromobenzene - trimethylamine                    0   -5.571     0.000   0.00       0.000      -5.571
+24 Iodobenzenezene - trimethylamine separated       0
+24 Iodobenzene - trimethylamine                     0    1.060     0.000   0.00       0.000       1.060
+25 Bromobenzenezene - methanethiol separated        0
+25 Bromobenzene - methanethiol                      0    2.293     0.000   0.00       0.000       2.293
+26 Iodobenzenezene - methanethiol separated         0
+26 Iodobenzene - methanethiol                       0   -0.126     0.000   0.00       0.000      -0.126
+27 Bromomethane - benzene separated                 0
+27 Bromomethane - benzene                           0    0.354     0.000   0.00       0.000       0.354
+28 Iodomethane - benzene separated                  0
+28 Iodomethane - benzene                            0    0.586     0.000   0.00       0.000       0.586
+29 Trifluorobromomethane - benzene separated        0
+29 Trifluorobromomethane - benzene                  0    0.441     0.000   0.00       0.000       0.441
+30 Trifluoroiodomethane - benzene separated         0
+30 Trifluoroiodomethane - benzene                   0    0.360     0.000   0.00       0.000       0.360
+31 Trifluoromethanol - water separated              0
+31 Trifluoromethanol - water                        0    3.410     0.000   0.00       0.000       3.410
+32 Trichloromethanol - water separated              0
+32 Trichloromethanol - water                        0    3.732     0.000   0.00       0.000       3.732
+33 HF - methanol separated                          0
+33 HF - methanol                                    0    6.157     0.000   0.00       0.000       6.157
+34 HCl - methanol separated                         0
+34 HCl - methanol                                   0    0.715     0.000   0.00       0.000       0.715
+35 HBr - methanol separated                         0
+35 HBr - methanol                                   0    0.130     0.000   0.00       0.000       0.130
+36 HI - methanol separated                          0
+36 HI - methanol                                    0   -0.588     0.000   0.00       0.000      -0.588
+37 HF - methylamine separated                       0
+37 HF - methylamine                                 0   11.966     0.000   0.00       0.000      11.966
+38 HCl - methylamine separated                      0
+38 HCl - methylamine                                0    4.410     0.000   0.00       0.000       4.410
+39 methanol - fluoromethane separated               0
+39 methanol - fluoromethane                         0    4.744     0.000   0.00       0.000       4.744
+40 methanol - chloromethane separated               0
+40 methanol - chloromethane                         0    1.696     0.000   0.00       0.000       1.696
+                                          TOTALS      2415.441     0.00    0.00       0.000    2415.441
+                           UNSIGNED AVE. ERROR     40    1.73   0  0.00  0 0.00     0 0.000
+
+     Average Errors for Various Quantities
+                              No. in set
+ Delta Hf:      1.73  kcal/mol    40
+
+ All systems calculated; now generating references
+ References generated

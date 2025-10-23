@@ -1,0 +1,7 @@
+<h1 align="center">Set of Individual Molecules </h1>
+<p align="center"><a href="../index.html">Home</a> - <a href="Accuracy of PM6-ORG PM6-D3H4X and PM7.html">Accuracy</a> - <a href="../manual/index.html">Manual</a>)
+<p align="left">
+<P ALIGN="LEFT"> <PRE>          #         GUI         Species </PRE> <font face="Courier New">
+++++
+<a href="../Accuracy of PM6-ORG PM6-D3H4X and PM7.html">Accuracy</a>
+++++

@@ -1,0 +1,30 @@
+reset;center {70.335 26.892 14.422}; rotate z -1.41; rotate y 159.44; rotate z -116.52; zoom 631.89; set rotationRadius 44.85;
+display potassium
+display within(3.4,visible)
+select 806
+display add within(1.2,selected)
+select off
+display add 78:*.O
+display add 75:A.OG1, 75:B.OG1
+hide add 76:C.HA, 76:B.HA, 76:D.HA, 75:C.HB
+measure off
+measure (75:A.OG1) (75:B.OG1)
+measure (75:B.OG1) (75:C.OG1)
+measure (75:C.OG1) (75:D.OG1)
+measure (75:D.OG1) (75:A.OG1)
+measure (75:A.O) (75:B.O)
+measure (75:B.O) (75:C.O)
+measure (75:C.O) (75:D.O)
+measure (75:D.O) (75:A.O)
+measure (76:A.O) (76:B.O)
+measure (76:B.O) (76:C.O)
+measure (76:C.O) (76:D.O)
+measure (76:D.O) (76:A.O)
+measure (77:A.O) (77:B.O)
+measure (77:B.O) (77:C.O)
+measure (77:C.O) (77:D.O)
+measure (77:D.O) (77:A.O)
+measure (78:A.O) (78:B.O)
+measure (78:B.O) (78:C.O)
+measure (78:C.O) (78:D.O)
+measure (78:D.O) (78:A.O)

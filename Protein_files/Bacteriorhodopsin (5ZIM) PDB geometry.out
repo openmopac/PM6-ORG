@@ -1,0 +1,444 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v Jimmy's                  **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM6-ORG CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sat Jul 15 17:05:31 2023  *
+ *  PM6-ORG    - The PM6-ORG Hamiltonian to be used (IN DEVELOPMENT)
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *  NOOPT      - DO NOT OPTIMIZE ANY COORDINATES
+ *  OPT-H      - OPTIMIZE COORDINATES OF ATOMS OF TYPE H
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  EPS=78.4   - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  LET        - OVERRIDE SOME SAFETY CHECKS
+ *  THREADS    - INACTIVE (THREAD CONTROLS DISABLED)
+ *  T=         - A TIME OF 2.0 WEEKS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  CUTOFF=    - CUTOFF FOR NDDO AND DIPOLE INTERACTIONS =  6.00A
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+ CHARGE=0  HTML NOOPT OPT-H EPS=78.4 MOZYME OUTPUT PM6-ORG CUTOFF=6 T=2W THREADS=1 LET(60)
+ Bacteriorhodopsin (5ZIM) Original PDB geometry
+
+ 
+
+ General Reference for PM6-ORG will be added when available.
+
+           Empirical Formula: C1357 H2223 N269 O342 S9  =  4200 atoms
+
+ 
+
+   Ion     <--------PDB Label------->   Charge     Distance        PDB label for Salt Bridge   Charge
+
+    1     (ATOM     31  NE  ARG A   7)   +1         2.70         (ATOM     69  OE1 GLU A   9)   -1
+    2     (ATOM    559  NZ  LYS A  41)   +1         2.95         (ATOM    513  OD1 ASP A  38)   -1
+    3     (ATOM   2425  NZ  LYS A 159)   +1         3.43         (ATOM   1570  OD1 ASP A 104)   -1
+    4     (ATOM   2499  NE  ARG A 164)   +1         2.65         (ATOM   2538  OE2 GLU A 166)   -1
+
+                 All other ions
+ 
+    1     (ATOM      1  N   THR A   5)   +1
+    2     (ATOM    409  NZ  LYS A  30)   +1
+    3     (ATOM    537  NZ  LYS A  40)   +1
+    4     (ATOM   1207  CZ  ARG A  82)   +1
+    5     (ATOM   1909  NZ  LYS A 129)   +1
+    6     (ATOM   2000  CZ  ARG A 134)   +1
+    7     (ATOM   2624  NZ  LYS A 172)   +1
+    8     (ATOM   2681  CZ  ARG A 175)   +1
+    9     (ATOM   3467  CZ  ARG A 225)   +1
+   10     (ATOM   3502  CZ  ARG A 227)   +1
+   11     (HETATM 3595  C11 RET A 250)   +1
+ 
+    1     (ATOM    488  OD2 ASP A  36)   -1
+    2     (ATOM   1073  OE2 GLU A  74)   -1
+    3     (ATOM   1261  OD2 ASP A  85)   -1
+    4     (ATOM   1454  OD2 ASP A  96)   -1
+    5     (ATOM   1549  OD2 ASP A 102)   -1
+    6     (ATOM   1721  OD2 ASP A 115)   -1
+    7     (ATOM   2457  OE2 GLU A 161)   -1
+    8     (ATOM   2992  OE2 GLU A 194)   -1
+    9     (ATOM   3132  OE2 GLU A 204)   -1
+   10     (ATOM   3270  OD2 ASP A 212)   -1
+   11     (ATOM   3579  OXT GLU A 232)   -1
+
+          COMPUTED CHARGE ON SYSTEM: +0, THIS IS THE SAME AS THE CHARGE DEFINED IN THE DATA-SET.
+
+          Geometry optimization using L-BFGS
+
+          Keyword "LET" re-set the number of cycles used in identifying the lowest-energy geometry to  60
+ CYCLE:     1 TIME: 335.949 TIME LEFT:  2.00W  GRAD.:    38.963 HEAT: -18952.06
+ CYCLE:     2 TIME: 118.449 TIME LEFT:  2.00W  GRAD.:    39.069 HEAT: -18952.10
+ CYCLE:     3 TIME: 148.289 TIME LEFT:  2.00W  GRAD.:   592.631 HEAT: -18767.92
+ CYCLE:     4 TIME: 171.766 TIME LEFT:  2.00W  GRAD.:    39.327 HEAT: -18952.17
+ CYCLE:     5 TIME: 106.320 TIME LEFT:  2.00W  GRAD.:   595.498 HEAT: -18769.98
+ CYCLE:     6 TIME: 130.082 TIME LEFT:  2.00W  GRAD.:    86.568 HEAT: -18947.97
+ CYCLE:     7 TIME: 114.070 TIME LEFT:  2.00W  GRAD.:   329.646 HEAT: -18874.18
+ CYCLE:     8 TIME: 113.562 TIME LEFT:  2.00W  GRAD.:   297.891 HEAT: -18885.15
+ CYCLE:     9 TIME: 111.367 TIME LEFT:  2.00W  GRAD.:   131.146 HEAT: -18938.71
+ CYCLE:    10 TIME: 109.871 TIME LEFT:  2.00W  GRAD.:   230.297 HEAT: -18928.04
+ CYCLE:    11 TIME: 119.473 TIME LEFT:  2.00W  GRAD.:    78.723 HEAT: -18948.48
+ CYCLE:    12 TIME: 122.809 TIME LEFT:  2.00W  GRAD.:    91.302 HEAT: -18954.61
+ CYCLE:    13 TIME: 109.578 TIME LEFT:  2.00W  GRAD.:    46.973 HEAT: -18959.64
+ CYCLE:    14 TIME: 133.645 TIME LEFT:  2.00W  GRAD.:    46.763 HEAT: -18958.90
+ CYCLE:    15 TIME: 133.074 TIME LEFT:  2.00W  GRAD.:    44.210 HEAT: -18960.58
+ CYCLE:    16 TIME: 111.426 TIME LEFT:  2.00W  GRAD.:    30.679 HEAT: -18962.59
+ CYCLE:    17 TIME: 108.594 TIME LEFT:  2.00W  GRAD.:    10.627 HEAT: -18963.46
+ CYCLE:    18 TIME: 112.082 TIME LEFT:  2.00W  GRAD.:     9.165 HEAT: -18963.79
+ CYCLE:    19 TIME: 111.777 TIME LEFT:  2.00W  GRAD.:    11.643 HEAT: -18964.12
+ CYCLE:    20 TIME: 109.234 TIME LEFT:  2.00W  GRAD.:    23.959 HEAT: -18964.07
+ CYCLE:    21 TIME: 112.516 TIME LEFT:  2.00W  GRAD.:     3.740 HEAT: -18964.36
+ CYCLE:    22 TIME: 109.930 TIME LEFT:  2.00W  GRAD.:     2.966 HEAT: -18964.47
+ CYCLE:    23 TIME: 113.547 TIME LEFT:  2.00W  GRAD.:     4.063 HEAT: -18964.27
+ CYCLE:    24 TIME: 114.109 TIME LEFT:  1.99W  GRAD.:     1.876 HEAT: -18964.22
+ CYCLE:    25 TIME: 113.043 TIME LEFT:  1.99W  GRAD.:     1.571 HEAT: -18964.48
+ CYCLE:    26 TIME: 115.070 TIME LEFT:  1.99W  GRAD.:     1.281 HEAT: -18964.50
+ CYCLE:    27 TIME: 111.453 TIME LEFT:  1.99W  GRAD.:     1.272 HEAT: -18964.50
+ CYCLE:    28 TIME: 114.324 TIME LEFT:  1.99W  GRAD.:     2.212 HEAT: -18964.49
+ CYCLE:    29 TIME: 114.414 TIME LEFT:  1.99W  GRAD.:     1.195 HEAT: -18964.44
+ CYCLE:    30 TIME: 114.840 TIME LEFT:  1.99W  GRAD.:     1.253 HEAT: -18964.48
+ CYCLE:    31 TIME: 112.496 TIME LEFT:  1.99W  GRAD.:     1.061 HEAT: -18964.32
+ CYCLE:    32 TIME: 111.797 TIME LEFT:  1.99W  GRAD.:     0.805 HEAT: -18964.38
+
+
+          CURRENT BEST VALUE OF HEAT OF FORMATION = -18964.502171
+
+ -------------------------------------------------------------------------------
+ CHARGE=0  HTML NOOPT OPT-H EPS=78.4 MOZYME OUTPUT PM6-ORG CUTOFF=6 T=2W THREADS=1 LET(60)
+ Bacteriorhodopsin (5ZIM) Original PDB geometry
+
+
+
+     HERBERTS TEST WAS SATISFIED IN BFGS                      
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM6-ORG CALCULATION
+                                                       MOPAC vunknown unknown
+                                                       Sat Jul 15 18:13:35 2023
+
+
+
+
+          FINAL HEAT OF FORMATION =     -18964.50217 KCAL/MOL =  -79347.47709 KJ/MOL
+          VAN DER WAALS AREA      =       9921.52 SQUARE ANGSTROMS
+
+
+
+          DIELECTRIC ENERGY       =        -63.31557 EV
+          COSMO AREA              =       9921.52 SQUARE ANGSTROMS
+          COSMO VOLUME            =      35477.63 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          1.27208          =       0.01963 PER ATOM
+          NO. OF FILLED LEVELS    =       5551
+          MOLECULAR WEIGHT        =      28067.6258
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H  4075    H  3513    65.56322
+            O  2456    H    13    57.01612
+            H  3764    H  3975    43.23492
+
+
+          SCF CALCULATIONS        =         33
+ 
+          WALL-CLOCK TIME         =          1 HOUR 8 MINUTES AND 4.340 SECONDS
+          COMPUTATION TIME        =          1 HOUR 8 MINUTES AND 3.783 SECONDS
+
+           Empirical Formula: C1357 H2223 N269 O342 S9  =  4200 atoms
+
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      THR A   5       +0.879  CATION
+      GLY A   6       +0.032
+      ARG A   7       +0.942  CATION
+      PRO A   8       +0.014
+      GLU A   9       -0.902  ANION
+      TRP A  10       +0.033
+      ILE A  11       -0.016
+      TRP A  12       +0.030
+      LEU A  13       -0.025
+      ALA A  14       -0.007
+      LEU A  15       +0.017
+      GLY A  16       +0.026
+      THR A  17       -0.030
+      ALA A  18       -0.002
+      LEU A  19       -0.001
+      MET A  20       +0.020
+      GLY A  21       -0.011
+      LEU A  22       -0.006
+      GLY A  23       +0.014
+      THR A  24       +0.002
+      LEU A  25       +0.000
+      TYR A  26       -0.022
+      PHE A  27       -0.019
+      LEU A  28       +0.034
+      VAL A  29       +0.034
+      LYS A  30       +0.969  CATION
+      GLY A  31       -0.017
+      MET A  32       -0.007
+      GLY A  33       -0.004
+      VAL A  34       +0.061
+      SER A  35       -0.085
+      ASP A  36       -0.949  ANION
+      PRO A  37       -0.016
+      ASP A  38       -0.970  ANION
+      ALA A  39       +0.019
+      LYS A  40       +0.944  CATION
+      LYS A  41       +1.018  CATION
+      PHE A  42       +0.100
+      TYR A  43       -0.082
+      ALA A  44       -0.010
+      ILE A  45       +0.029
+      THR A  46       +0.016
+      THR A  47       -0.078
+      LEU A  48       -0.003
+      VAL A  49       +0.044
+      PRO A  50       -0.020
+      ALA A  51       -0.010
+      ILE A  52       -0.014
+      ALA A  53       +0.039
+      PHE A  54       +0.054
+      THR A  55       -0.089
+      MET A  56       -0.021
+      TYR A  57       +0.040
+      LEU A  58       +0.024
+      SER A  59       -0.034
+      MET A  60       +0.000
+      LEU A  61       +0.023
+      LEU A  62       +0.002
+      GLY A  63       -0.017
+      TYR A  64       +0.031
+      GLY A  65       -0.041
+      LEU A  66       -0.029
+      THR A  67       +0.030
+      MET A  68       -0.021
+      VAL A  69       +0.015
+      PRO A  70       +0.007
+      PHE A  71       -0.017
+      GLY A  72       +0.055
+      GLY A  73       -0.001
+      GLU A  74       -1.006  ANION
+      GLN A  75       -0.023
+      ASN A  76       -0.007
+      PRO A  77       +0.011
+      ILE A  78       -0.007
+      TYR A  79       +0.025
+      TRP A  80       +0.015
+      ALA A  81       -0.033
+      ARG A  82       +1.003  CATION
+      TYR A  83       -0.024
+      ALA A  84       -0.030
+      ASP A  85       -0.874  ANION
+      TRP A  86       -0.011
+      LEU A  87       +0.047
+      PHE A  88       -0.041
+      THR A  89       -0.024
+      THR A  90       +0.033
+      PRO A  91       -0.028
+      LEU A  92       -0.011
+      LEU A  93       +0.018
+      LEU A  94       -0.024
+      LEU A  95       -0.047
+      ASP A  96       -0.829  ANION
+      LEU A  97       -0.060
+      ALA A  98       -0.024
+      LEU A  99       +0.006
+      LEU A 100       +0.022
+      VAL A 101       -0.018
+      ASP A 102       -0.955  ANION
+      ALA A 103       -0.011
+      ASP A 104       -1.025  ANION
+      GLN A 105       +0.008
+      GLY A 106       +0.005
+      THR A 107       +0.014
+      ILE A 108       -0.010
+      LEU A 109       +0.016
+      ALA A 110       -0.018
+      LEU A 111       +0.006
+      VAL A 112       +0.028
+      GLY A 113       -0.073
+      ALA A 114       +0.017
+      ASP A 115       -0.906  ANION
+      GLY A 116       -0.022
+      ILE A 117       -0.055
+      MET A 118       +0.014
+      ILE A 119       +0.090
+      GLY A 120       -0.051
+      THR A 121       -0.023
+      GLY A 122       +0.016
+      LEU A 123       +0.040
+      VAL A 124       -0.046
+      GLY A 125       +0.005
+      ALA A 126       +0.006
+      LEU A 127       +0.027
+      THR A 128       -0.008
+      LYS A 129       +1.007  CATION
+      VAL A 130       -0.042
+      TYR A 131       +0.008
+      SER A 132       -0.001
+      TYR A 133       -0.033
+      ARG A 134       +1.038  CATION
+      PHE A 135       -0.047
+      VAL A 136       +0.010
+      TRP A 137       -0.011
+      TRP A 138       -0.006
+      ALA A 139       +0.004
+      ILE A 140       -0.001
+      SER A 141       +0.012
+      THR A 142       -0.067
+      ALA A 143       +0.010
+      ALA A 144       +0.024
+      MET A 145       +0.010
+      LEU A 146       -0.031
+      TYR A 147       +0.025
+      ILE A 148       +0.019
+      LEU A 149       -0.019
+      TYR A 150       +0.010
+      VAL A 151       +0.003
+      LEU A 152       +0.022
+      PHE A 153       -0.011
+      PHE A 154       -0.014
+      GLY A 155       +0.033
+      PHE A 156       -0.038
+      THR A 157       +0.003
+      SER A 158       +0.041
+      LYS A 159       +1.021  CATION
+      ALA A 160       -0.069
+      GLU A 161       -0.964  ANION
+      SER A 162       -0.007
+      MET A 163       -0.046
+      ARG A 164       +0.954  CATION
+      PRO A 165       -0.009
+      GLU A 166       -0.915  ANION
+      VAL A 167       +0.016
+      ALA A 168       -0.003
+      SER A 169       -0.003
+      THR A 170       -0.024
+      PHE A 171       +0.031
+      LYS A 172       +0.967  CATION
+      VAL A 173       +0.002
+      LEU A 174       +0.017
+      ARG A 175       +0.981  CATION
+      ASN A 176       -0.007
+      VAL A 177       +0.017
+      THR A 178       -0.021
+      VAL A 179       +0.002
+      VAL A 180       +0.014
+      LEU A 181       +0.002
+      TRP A 182       -0.001
+      SER A 183       +0.008
+      ALA A 184       -0.056
+      TYR A 185       +0.049
+      PRO A 186       -0.032
+      VAL A 187       +0.000
+      VAL A 188       +0.018
+      TRP A 189       +0.066
+      LEU A 190       -0.073
+      ILE A 191       -0.085
+      GLY A 192       +0.039
+      SER A 193       -0.032
+      GLU A 194       -0.930  ANION
+      GLY A 195       +0.017
+      ALA A 196       -0.032
+      GLY A 197       -0.003
+      ILE A 198       -0.013
+      VAL A 199       +0.053
+      PRO A 200       -0.020
+      LEU A 201       +0.052
+      ASN A 202       -0.085
+      ILE A 203       -0.006
+      GLU A 204       -0.781  ANION
+      THR A 205       -0.090
+      LEU A 206       +0.009
+      LEU A 207       +0.004
+      PHE A 208       +0.099
+      MET A 209       -0.063
+      VAL A 210       -0.028
+      LEU A 211       -0.035
+      ASP A 212       -0.842  ANION
+      VAL A 213       -0.020
+      SER A 214       -0.065
+      ALA A 215       +0.090
+      LYS A 216       +0.265
+      VAL A 217       -0.035
+      GLY A 218       +0.021
+      PHE A 219       +0.000
+      GLY A 220       +0.000
+      LEU A 221       -0.019
+      ILE A 222       +0.003
+      LEU A 223       +0.048
+      LEU A 224       -0.013
+      ARG A 225       +0.987  CATION
+      SER A 226       +0.015
+      ARG A 227       +1.012  CATION
+      ALA A 228       -0.016
+      ILE A 229       +0.002
+      PHE A 230       -0.064
+      GLY A 231       +0.047
+      GLU A 232       -0.926  ANION
+      RET A 250       +0.689  CATION
+      L2P A 270       -0.008
+      L2P A 290       -0.020
+      L2P A 300       +0.004
+      L2P A 310       +0.000
+ 
+
+
+                   Salt Bridges Found (Up to 8.0 Angstroms)
+
+     No.          Cationic site                            Anionic site                Dist. (Angstroms)
+
+      1  (ATOM   2499  NE  ARG A 164)  A164(+)    (ATOM   2538  OE2 GLU A 166)  A166(-)      2.65
+      2  (ATOM     31  NE  ARG A   7)    A7(+)    (ATOM     69  OE1 GLU A   9)    A9(-)      2.70
+      3  (ATOM    559  NZ  LYS A  41)   A41(+)    (ATOM    513  OD1 ASP A  38)   A38(-)      2.95
+      4  (ATOM   2425  NZ  LYS A 159)  A159(+)    (ATOM   1570  OD1 ASP A 104)  A104(-)      3.43
+      5  (ATOM   1208  NH1 ARG A  82)   A82(+)    (ATOM   3270  OD2 ASP A 212)  A212(-)      4.06
+      6  (ATOM   1206  NE  ARG A  82)   A82(+)    (ATOM   2992  OE2 GLU A 194)  A194(-)      4.59
+      7  (ATOM   1206  NE  ARG A  82)   A82(+)    (ATOM   3132  OE2 GLU A 204)  A204(-)      4.91
+      8  (ATOM   2425  NZ  LYS A 159)  A159(+)    (ATOM   1549  OD2 ASP A 102)  A102(-)      5.55
+      9  (ATOM   2501  NH1 ARG A 164)  A164(+)    (ATOM    514  OD2 ASP A  38)   A38(-)      5.72
+     10  (ATOM   2501  NH1 ARG A 164)  A164(+)    (ATOM   3578  OXT GLU A 232)  A232(-)      6.41
+     11  (ATOM   2002  NH2 ARG A 134)  A134(+)    (ATOM   2991  OE1 GLU A 194)  A194(-)      6.44
+     12  (ATOM    559  NZ  LYS A  41)   A41(+)    (ATOM   1548  OD1 ASP A 102)  A102(-)      6.77
+     13  (ATOM   1208  NH1 ARG A  82)   A82(+)    (ATOM   1261  OD2 ASP A  85)   A85(-)      6.79
+     14  (ATOM   2501  NH1 ARG A 164)  A164(+)    (ATOM    488  OD2 ASP A  36)   A36(-)      6.99
+     15  (ATOM    559  NZ  LYS A  41)   A41(+)    (ATOM    488  OD2 ASP A  36)   A36(-)      7.75
+     16  (ATOM   3500  NE  ARG A 227)  A227(+)    (ATOM   2538  OE2 GLU A 166)  A166(-)      7.87
+     17  (ATOM   1209  NH2 ARG A  82)   A82(+)    (ATOM     69  OE1 GLU A   9)    A9(-)      7.88
+     18  (ATOM   3500  NE  ARG A 227)  A227(+)    (ATOM   3576  O   GLU A 232)  A232(-)      7.99
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.  -179.554  -178.268   212.414   330.362
+ HYBRID       -18.481    -3.949    10.337    21.541
+ SUM         -198.035  -182.217   222.751   349.341
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:          4084.77 SECONDS
+
+ == MOPAC DONE ==

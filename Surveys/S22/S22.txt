@@ -1,0 +1,4 @@
+OUTPUT: ..\..\Test a utility program\HTML files\Statistics for Intermolecular interactions.html
+Methods: PM6-ORG, PM6-D3H4X, PM6-D3H4, PM6, PM7
+elements:  
+Heading:  Intermolecular Interaction Energies in kcal/mol

@@ -1,0 +1,266 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v Jimmy's                  **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Jul 12 10:02:03 2023  *
+ *  COMPARE    - Compare two geometries
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "../protein_files/Bacteriorhodopsin (5ZIM) PM6-ORG geometry.arc"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "../protein_files/Bacteriorhodopsin (5ZIM) PDB geometry.arc"
+ *               (NO BIAS TOWARDS THE REFERENCE GEOMETRY WILL BE APPLIED)
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *******************************************************************************
+geo_ref="..\protein_files\Bacteriorhodopsin (5ZIM) PDB geometry.arc" geo_dat="..\protein_files\Bacteriorhodopsin (5ZIM) PM6-ORG geometry.arc" compare output
+
+
+ 
+
+                        After docking
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (ATOM   3517 HH21 ARG A 227)  66.525 -25.046 -53.971        9.28         9.28
+            (ATOM   3503  NH1 ARG A 227)  66.744 -25.905 -53.634        8.70        17.99
+            (ATOM   3514 HH12 ARG A 227)  68.338 -27.478 -51.475        7.54        25.52
+            (HETATM 3980 H603 L2P A 300)  59.808  -3.669 -21.471        7.50        33.02
+            (ATOM   3516 HH22 ARG A 227)  67.732 -27.986 -52.864        6.69        39.71
+            (HETATM 3979 H602 L2P A 300)  61.292  -2.742 -21.709        6.68        46.39
+            (ATOM   3515 HH11 ARG A 227)  66.645 -26.628 -54.244        6.60        52.99
+            (HETATM 3978 H601 L2P A 300)  61.162  -4.388 -22.339        6.58        59.57
+            (HETATM 3892  C60 L2P A 300)  60.610  -3.454 -22.186        6.44        66.01
+            (ATOM   3502  CZ  ARG A 227)  67.553 -26.026 -52.579        6.43        72.44
+            (HETATM 3976 H592 L2P A 300)  58.509  -1.544 -22.790        6.40        78.84
+            (ATOM   3579  OXT GLU A 232)  74.531 -21.200 -57.831        6.30        85.14
+            (ATOM   3577  O   GLU A 232)  73.701 -23.115 -56.859        6.11        91.25
+            (ATOM   3504  NH2 ARG A 227)  68.071 -27.247 -52.361        5.83        97.08
+            (HETATM 3972 H571 L2P A 300)  58.938  -4.757 -23.628        5.68       102.76
+            (HETATM 4179  H1  HOH A 452)  91.504 -10.548 -49.732        5.35       108.11
+            (ATOM   3576  C   GLU A 232)  73.841 -21.876 -56.804        5.13       113.24
+            (ATOM   3501  NE  ARG A 227)  67.884 -25.046 -51.739        5.04       118.28
+            (HETATM 3891  C59 L2P A 300)  59.433  -1.519 -23.378        5.04       123.32
+            (ATOM   3513  HE  ARG A 227)  68.313 -25.320 -50.920        5.01       128.33
+            (HETATM 3977 H593 L2P A 300)  60.113  -0.814 -22.888        4.98       133.31
+            (HETATM 3890  C58 L2P A 300)  60.075  -2.910 -23.516        4.86       138.17
+            (HETATM 3973 H572 L2P A 300)  58.205  -3.460 -24.486        4.83       143.00
+            (HETATM 4178  O   HOH A 452)  90.714 -11.074 -49.760        4.82       147.83
+            (HETATM 3889  C57 L2P A 300)  59.196  -3.903 -24.282        4.78       152.61
+            (HETATM 4112 H601 L2P A 310)  87.314  11.355 -22.221        4.64       157.25
+            (HETATM 4113 H602 L2P A 310)  86.978  11.044 -23.923        4.63       161.88
+            (ATOM   1096 HE21 GLN A  75)  79.296 -14.911   0.268        4.61       166.49
+            (HETATM 4195  H2  HOH A 457)  90.533 -11.332 -48.866        4.44       170.93
+            (HETATM 4182  H1  HOH A 453)  61.994 -19.926 -45.675        4.35       175.28
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+    HOH 452( 4.74)    HOH 453( 4.22)    Arg 227( 3.76)    Glu 232( 3.46)    HOH 450( 3.17)
+    HOH 457( 2.79)    Thr 157( 2.64)    Ser 158( 2.56)    Ser 162( 2.56)    HOH 454( 2.45)
+    Gly 231( 2.25)    L2P 270( 2.21)    Glu 161( 2.20)    Thr   5( 2.18)    Phe 156( 2.17)
+    HOH 458( 2.16)    HOH 416( 2.13)    Gln 105( 2.10)    Met 163( 2.07)    L2P 310( 2.05)
+    L2P 290( 1.99)    Tyr 150( 1.98)    Gln  75( 1.96)    Glu  74( 1.91)    Ala 160( 1.90)
+    Arg 164( 1.88)    L2P 300( 1.81)    HOH 412( 1.75)    Gly   6( 1.72)    Glu 166( 1.70)
+    Ser 169( 1.66)    Gly 113( 1.63)    Lys 159( 1.61)    Val 167( 1.60)    Ile 108( 1.57)
+    Gly  72( 1.56)    Lys 172( 1.56)    Gly  73( 1.53)    Ile 117( 1.51)    Phe 154( 1.49)
+    HOH 401( 1.46)    Leu  19( 1.46)    Arg 225( 1.45)    Asp 104( 1.44)    HOH 456( 1.40)
+    Leu 100( 1.38)    Pro 165( 1.36)    Arg   7( 1.36)    Ala 114( 1.35)    Val 173( 1.35)
+    Ser  35( 1.35)    HOH 502( 1.34)    Tyr  26( 1.33)    Val 112( 1.31)    Met 118( 1.31)
+    HOH 451( 1.30)    HOH 514( 1.27)    Gly 106( 1.26)    Phe 153( 1.25)    Thr  67( 1.25)
+    Ser 226( 1.22)    Leu 146( 1.22)    Asn 176( 1.22)    Leu  87( 1.20)    Pro 200( 1.19)
+    Phe  71( 1.19)    Leu 149( 1.18)    Ala 103( 1.16)    Ile 222( 1.16)    Ala 228( 1.16)
+    Leu  28( 1.15)    Phe  88( 1.13)    HOH 513( 1.13)    Trp  10( 1.13)    Lys  30( 1.12)
+    Ile  45( 1.11)    Met  68( 1.11)    Pro   8( 1.11)    Gly 155( 1.10)    Met 209( 1.10)
+    Met 145( 1.10)    Ala  18( 1.08)    Asn 202( 1.08)    Val  34( 1.08)    Arg 175( 1.07)
+    Ala 168( 1.07)    Glu   9( 1.07)    HOH 419( 1.07)    Leu 224( 1.07)    Ile 148( 1.06)
+    Phe  42( 1.06)    Tyr  83( 1.06)    Leu 111( 1.06)    Asp 115( 1.05)    Ile 198( 1.05)
+    Thr  46( 1.05)    Leu  48( 1.04)    HOH 501( 1.04)    Thr 107( 1.04)    Lys  41( 1.03)
+    Gly  31( 1.03)    Ala 110( 1.03)    Lys  40( 1.02)    Trp  12( 1.02)    Thr  24( 1.02)
+    Val 101( 1.02)    Tyr  64( 1.01)    Val 210( 1.00)    HOH 415( 1.00)    Leu 174( 1.00)
+    HOH 511( 0.99)    Asp 102( 0.99)    Val 151( 0.98)    Pro  77( 0.98)    Leu  61( 0.97)
+    Leu  25( 0.97)    Leu  62( 0.96)    Pro  37( 0.96)    Trp  80( 0.95)    Tyr 131( 0.95)
+    Thr  47( 0.95)    Leu 109( 0.94)    Leu  66( 0.94)    Gly  63( 0.94)    Val 187( 0.93)
+    HOH 405( 0.93)    Thr 142( 0.92)    Thr 170( 0.92)    Asp 212( 0.92)    Leu 123( 0.92)
+    Met  60( 0.92)    Ile 203( 0.91)    Ser 193( 0.91)    Pro  70( 0.90)    Leu  22( 0.89)
+    Leu 223( 0.89)    Val  69( 0.89)    Thr 178( 0.89)    Gly  33( 0.89)    Leu  13( 0.89)
+    Gly 120( 0.88)    Gly  65( 0.87)    Leu 207( 0.87)    Gly  21( 0.86)    Leu 211( 0.86)
+    Asp  36( 0.86)    Ala  44( 0.86)    Ile  11( 0.85)    Lys 216( 0.85)    Val 213( 0.85)
+    Met  20( 0.84)    Leu 221( 0.84)    Phe 208( 0.84)    Val 217( 0.83)    HOH 406( 0.83)
+    Val  29( 0.83)    Phe  27( 0.83)    Phe 171( 0.83)    Ala 196( 0.83)    Leu  97( 0.83)
+    HOH 455( 0.82)    Ala  84( 0.82)    Tyr  43( 0.82)    Leu 152( 0.82)    Ala 143( 0.81)
+    Leu 206( 0.81)    Val 199( 0.81)    Gly 218( 0.81)    HOH 512( 0.80)    Gly 195( 0.80)
+    Met  32( 0.80)    Gly 116( 0.80)    Val  49( 0.80)    Thr  89( 0.78)    Gly 220( 0.78)
+    Gly 122( 0.78)    Leu  99( 0.78)    Met  56( 0.77)    Val 124( 0.77)    Trp 137( 0.77)
+    Asn  76( 0.77)    Asp  96( 0.77)    Phe 219( 0.76)    HOH 403( 0.76)    Val 136( 0.75)
+    Val 177( 0.75)    RET 250( 0.74)    Ala  14( 0.73)    Ile 119( 0.73)    Leu  15( 0.73)
+    Pro  50( 0.72)    Phe 230( 0.72)    Ala 215( 0.71)    Trp 138( 0.71)    Leu 127( 0.71)
+    Glu 194( 0.70)    Tyr  79( 0.70)    Asp  38( 0.70)    Leu 201( 0.69)    Thr  17( 0.69)
+    Ile 191( 0.68)    Thr 128( 0.68)    Val 130( 0.68)    Ile 229( 0.67)    Lys 129( 0.67)
+    Thr 205( 0.67)    Tyr  57( 0.67)    Gly  23( 0.66)    HOH 420( 0.66)    Leu  58( 0.64)
+    HOH 411( 0.64)    Ser 132( 0.64)    Ala 126( 0.63)    HOH 402( 0.63)    Gly 125( 0.62)
+    Glu 204( 0.62)    Gly  16( 0.61)    Ala  81( 0.61)    Ala  51( 0.61)    Pro  91( 0.61)
+    Leu  94( 0.60)    HOH 459( 0.60)    Arg  82( 0.59)    Val 188( 0.59)    Phe 135( 0.59)
+    Tyr 147( 0.58)    Gly 197( 0.58)    Leu  95( 0.58)    Ser 141( 0.56)    Tyr 133( 0.56)
+    Ser  59( 0.55)    Ala 139( 0.55)    Thr 121( 0.54)    Tyr 185( 0.54)    Gly 192( 0.53)
+    Arg 134( 0.51)    Ser 214( 0.51)    Ile  52( 0.50)    Ile  78( 0.50)    Ala 144( 0.50)
+    Ile 140( 0.49)    Phe  54( 0.49)    Leu  93( 0.48)    Val 179( 0.47)    HOH 407( 0.44)
+    Ala  98( 0.44)    Leu 181( 0.43)    Ala 184( 0.42)    Leu 190( 0.41)    Thr  90( 0.40)
+    Ala  53( 0.40)    Trp 189( 0.39)    Leu  92( 0.37)    Ala  39( 0.37)    Ser 183( 0.36)
+    Trp 182( 0.36)    Thr  55( 0.35)    Val 180( 0.34)    Pro 186( 0.33)    Asp  85( 0.32)
+
+   Difference between GEO_DAT and GEO_REF: 4688.853 = total,  1.1161 = Average,  1.3621 = RMS, in Angstroms
+
+                             Differences between bond-lengths for the two geometries
+
+           Diff.                 Atom 1                       Atom 2                  Bond length      Bond length
+                                                                                      in GEO_DAT      in GEO_REF
+   1      -0.169     O(ATOM   3579  OXT GLU A 232)    C(ATOM   3576  C   GLU A 232)      1.241            1.410
+   2      +0.097     N(ATOM   3320  NZ  LYS A 216)    C(HETATM 3599  C15 RET A 250)      1.447            1.350
+   3      +0.090     N(ATOM   2501  NH1 ARG A 164)    C(ATOM   2500  CZ  ARG A 164)      1.413            1.323
+   4      -0.082     C(HETATM 3598  C14 RET A 250)    C(HETATM 3599  C15 RET A 250)      1.335            1.417
+   5      -0.082     C(HETATM 3596  C12 RET A 250)    C(HETATM 3597  C13 RET A 250)      1.361            1.443
+   6      -0.077     C(HETATM 3644  C16 L2P A 270)    C(HETATM 3645  C17 L2P A 270)      1.540            1.617
+   7      +0.076     N(ATOM     31  NE  ARG A   7)    C(ATOM     32  CZ  ARG A   7)      1.394            1.318
+   8      -0.072     C(HETATM 3645  C17 L2P A 270)    C(HETATM 3646  C18 L2P A 270)      1.547            1.619
+   9      +0.069     C(ATOM   2905  CA  TRP A 189)    C(ATOM   2908  CB  TRP A 189)      1.550            1.481
+  10      -0.066     C(HETATM 3594  C10 RET A 250)    C(HETATM 3595  C11 RET A 250)      1.387            1.453
+  11      +0.065     N(ATOM   3468  NH1 ARG A 225)    C(ATOM   3467  CZ  ARG A 225)      1.397            1.332
+  12      +0.063     N(ATOM   2680  NE  ARG A 175)    C(ATOM   2681  CZ  ARG A 175)      1.387            1.324
+  13      -0.063     C(HETATM 3867  C25 L2P A 300)    C(HETATM 3868  C26 L2P A 300)      1.540            1.603
+  14      +0.063     N(ATOM   3503  NH1 ARG A 227)    C(ATOM   3502  CZ  ARG A 227)      1.398            1.335
+  15      -0.062     C(HETATM 3887  C55 L2P A 300)    C(HETATM 3888  C56 L2P A 300)      1.540            1.602
+  16      +0.061     C(ATOM   1166  CA  TRP A  80)    C(ATOM   1167  C   TRP A  80)      1.551            1.490
+  17      +0.061     C(ATOM    644  CA  THR A  46)    C(ATOM    647  CB  THR A  46)      1.591            1.530
+  18      +0.060     C(ATOM   1718  CB  ASP A 115)    C(ATOM   1719  CG  ASP A 115)      1.555            1.495
+  19      +0.059     C(ATOM   1361  CB  PRO A  91)    C(ATOM   1362  CG  PRO A  91)      1.536            1.477
+  20      +0.059     C(HETATM 3595  C11 RET A 250)    C(HETATM 3596  C12 RET A 250)      1.423            1.364
+  21      +0.058     C(ATOM    672  CA  LEU A  48)    C(ATOM    673  C   LEU A  48)      1.555            1.497
+  22      +0.057     C(ATOM   2989  CG  GLU A 194)    C(ATOM   2990  CD  GLU A 194)      1.562            1.505
+  23      -0.057     O(HETATM 3634  O1  L2P A 270)    C(HETATM 3633  C1  L2P A 270)      1.423            1.480
+  24      +0.057     N(ATOM   2492  N   ARG A 164)    C(ATOM   2477  C   MET A 163)      1.382            1.325
+  25      +0.057     C(ATOM   3267  CB  ASP A 212)    C(ATOM   3268  CG  ASP A 212)      1.556            1.499
+
+    GEO_DAT:  '..\protein_files\Bacteriorhodopsin (5ZIM) PM6-ORG geometry.arc'
+    GEO_REF:  '..\protein_files\Bacteriorhodopsin (5ZIM) PDB geometry.arc'
+ 
+          Heat of formation of GEO_DAT system:  -21122.876 Kcal/mol
+          Heat of formation of GEO_REF system:  -18855.504 Kcal/mol
+                                        Diff.:   -2267.372 Kcal/mol
+
+
+                    Analysis of Non-Covalent Interactions
+
+          Total non-covalent energy of GEO_DAT system:  -4857.65 Kcal/mol
+          Total non-covalent energy of GEO_REF system:  -4407.93 Kcal/mol
+                                           Difference:   -449.72 Kcal/mol
+
+          Number of hydrogen bonds common to both systems:  435
+
+
+                            Hydrogen bonds in GEO_DAT but not in GEO_REF
+
+               Donor atom                     Hydrogen atom            H-bond length(A)     Energy    Sum
+
+   1   "ATOM   3269  OD1 ASP A 212"      "HETATM 4116  H1  HOH A 402"       1.601           -4.701   -4.701
+   2   "ATOM   3386  O   LEU A 221"      "ATOM   3470  H   ARG A 225"       1.632           -3.133   -7.834
+   3   "HETATM 4115  O   HOH A 402"      "ATOM   3332  HZ2 LYS A 216"       1.572           -2.977  -10.811
+   4   "ATOM   2537  OE1 GLU A 166"      "ATOM   2552  H   VAL A 167"       1.618           -2.965  -13.776
+   5   "ATOM   3045  O   VAL A 199"      "HETATM 4198  H2  HOH A 458"       1.879           -2.473  -16.249
+   6   "ATOM   1736  O   ILE A 117"      "ATOM   1802  H   THR A 121"       1.878           -2.341  -18.591
+   7   "ATOM   2501  NH1 ARG A 164"      "ATOM   3580  H   GLU A 232"       2.410           -2.239  -20.829
+   8   "ATOM   2703  OD1 ASN A 176"      "ATOM   2692  HE  ARG A 175"       2.027           -1.994  -22.823
+   9   "ATOM   1570  OD1 ASP A 104"      "HETATM 4180  H2  HOH A 452"       1.963           -1.970  -24.793
+  10   "HETATM 3636  O2  L2P A 270"      "ATOM    943  HH  TYR A  64"       2.045           -1.719  -26.512
+  11   "ATOM   2328  O   PHE A 153"      "ATOM   2402  HG1 THR A 157"       1.966           -1.628  -28.140
+  12   "ATOM   3462  O   ARG A 225"      "ATOM   3517 HH21 ARG A 227"       2.055           -1.618  -29.758
+  13   "ATOM   3503  NH1 ARG A 227"      "ATOM    420  HZ1 LYS A  30"       2.389           -1.617  -31.375
+  14   "ATOM   1034  O   PHE A  71"      "ATOM   1074  H   GLU A  74"       2.030           -1.605  -32.981
+  15   "ATOM   2703  OD1 ASN A 176"      "ATOM   2696 HH21 ARG A 175"       2.235           -1.600  -34.581
+  16   "ATOM   2272  O   TYR A 150"      "ATOM   2369  H   GLY A 155"       2.636           -1.563  -36.144
+  17   "HETATM 4178  O   HOH A 452"      "HETATM 4179  H1  HOH A 452"       2.016           -1.536  -37.681
+  18   "ATOM   3501  NE  ARG A 227"      "HETATM 4177  H2  HOH A 451"       2.772           -1.528  -39.208
+  19   "HETATM 4133  O   HOH A 514"      "ATOM   2437  HZ2 LYS A 159"       2.170           -1.526  -40.735
+  20   "ATOM   3468  NH1 ARG A 225"      "ATOM    420  HZ1 LYS A  30"       2.578           -1.525  -42.259
+  21   "ATOM   3247  O   LEU A 211"      "ATOM   2857  HH  TYR A 185"       1.963           -1.524  -43.783
+  22   "ATOM    752  O   ALA A  53"      "HETATM 4120  H2  HOH A 401"       2.228           -1.522  -45.305
+  23   "HETATM 4163  O   HOH A 405"      "ATOM   1156  H   TYR A  79"       2.031           -1.514  -46.819
+  24   "ATOM    195  O   GLY A  16"      "ATOM    250  H   MET A  20"       2.062           -1.507  -48.326
+  25   "ATOM   3494  N   ARG A 227"      "ATOM   3513  HE  ARG A 227"       2.726           -1.503  -49.829
+  26   "ATOM   1545  O   ASP A 102"      "ATOM   2438  HZ3 LYS A 159"       2.375           -1.471  -51.299
+  27   "ATOM    488  OD2 ASP A  36"      "ATOM    515  H   ASP A  38"       2.000           -1.426  -52.725
+  28   "ATOM   3097  OD1 ASN A 202"      "ATOM    139  HE1 TRP A  12"       2.238           -1.408  -54.133
+  29   "HETATM 4169  O   HOH A 416"      "HETATM 4143  H1  HOH A 415"       2.054           -1.367  -55.500
+  30   "ATOM   3504  NH2 ARG A 227"      "HETATM 4177  H2  HOH A 451"       2.618           -1.347  -56.847
+  31   "ATOM     62  N   GLU A   9"      "HETATM 4170  H1  HOH A 416"       2.666           -1.292  -58.139
+  32   "ATOM     27  O   ARG A   7"      "ATOM      9  H2  THR A   5"       2.117           -1.287  -59.426
+
+
+                            Hydrogen bonds in GEO_REF but not in GEO_DAT
+
+               Donor atom                     Hydrogen atom            H-bond length(A)     Energy    Sum
+
+   1   "ATOM   3270  OD2 ASP A 212"      "HETATM 4123  H2  HOH A 406"       1.687           -4.719   -4.719
+   2   "ATOM   3486  O   SER A 226"      "HETATM 4189  H2  HOH A 455"       1.704           -3.771   -8.490
+   3   "ATOM     70  OE2 GLU A   9"      "HETATM 4170  H1  HOH A 416"       1.787           -3.550  -12.040
+   4   "ATOM   3443  O   LEU A 224"      "HETATM 4188  H1  HOH A 455"       1.685           -3.009  -15.049
+   5   "ATOM   2537  OE1 GLU A 166"      "ATOM   2539  H   GLU A 166"       1.593           -2.743  -17.792
+   6   "ATOM   1736  O   ILE A 117"      "ATOM   1805  HG1 THR A 121"       1.836           -2.720  -20.511
+   7   "HETATM 4118  O   HOH A 401"      "HETATM 4122  H1  HOH A 406"       1.867           -2.619  -23.130
+   8   "ATOM   2293  O   VAL A 151"      "ATOM   2369  H   GLY A 155"       1.779           -2.482  -25.612
+   9   "HETATM 4175  O   HOH A 451"      "ATOM    613  HH  TYR A  43"       1.929           -2.081  -27.694
+  10   "ATOM   1068  O   GLU A  74"      "ATOM   1042  H   PHE A  71"       2.167           -1.895  -29.589
+  11   "ATOM      6  OG1 THR A   5"      "ATOM     21  H   GLY A   6"       1.703           -1.842  -31.431
+  12   "ATOM   2657  O   LEU A 174"      "ATOM   2737  HG1 THR A 178"       1.832           -1.822  -33.253
+  13   "ATOM   3550  O   PHE A 230"      "ATOM   2514 HH22 ARG A 164"       1.882           -1.683  -34.935
+  14   "HETATM 4163  O   HOH A 405"      "ATOM   1243  HH  TYR A  83"       1.952           -1.675  -36.610
+  15   "ATOM   2950  O   ILE A 191"      "ATOM   3049  H   VAL A 199"       1.975           -1.671  -38.281
+  16   "ATOM   2599  O   PHE A 171"      "ATOM   2684  H   ARG A 175"       1.874           -1.515  -39.795
+  17   "ATOM   3550  O   PHE A 230"      "ATOM   2512 HH12 ARG A 164"       1.986           -1.479  -41.275
+  18   "HETATM 4169  O   HOH A 416"      "ATOM     47 HH21 ARG A   7"       2.115           -1.395  -42.670
+  19   "ATOM   1729  O   GLY A 116"      "ATOM   1792  H   GLY A 120"       1.917           -1.371  -44.041
+  20   "ATOM   3424  O   LEU A 223"      "ATOM   3489  H   SER A 226"       2.085           -1.356  -45.397
+  21   "ATOM    762  O   PHE A  54"      "ATOM    839  H   LEU A  58"       1.993           -1.353  -46.750
+  22   "ATOM    245  O   MET A  20"      "ATOM    302  HG1 THR A  24"       1.873           -1.301  -48.051
+  23   "ATOM   1755  O   MET A 118"      "ATOM   1813  H   GLY A 122"       2.123           -1.244  -49.295
+  24   "ATOM   2973  N   SER A 193"      "HETATM 4197  H1  HOH A 458"       2.690           -1.230  -50.525
+  25   "ATOM   1234  OH  TYR A  83"      "ATOM   2923  HE1 TRP A 189"       2.032           -1.228  -51.754
+  26   "ATOM   1343  N   THR A  90"      "ATOM   1339  HG1 THR A  89"       2.424           -1.179  -52.932
+  27   "ATOM    426  O   GLY A  31"      "ATOM    461  H   VAL A  34"       2.200           -1.146  -54.078
+  28   "ATOM   3142  O   THR A 205"      "ATOM   3219  H   MET A 209"       2.173           -1.090  -55.168
+  29   "ATOM   3231  O   VAL A 210"      "ATOM   3297  H   SER A 214"       2.174           -1.077  -56.245
+  30   "ATOM    226  O   LEU A  19"      "ATOM    289  H   GLY A  23"       1.913           -1.055  -57.300
+  31   "HETATM 4187  O   HOH A 455"      "HETATM 4176  H1  HOH A 451"       2.563           -1.043  -58.343
+  32   "ATOM   2055  O   TRP A 137"      "ATOM   2135  H   SER A 141"       1.952           -1.032  -59.376
+  33   "HETATM 4133  O   HOH A 514"      "ATOM   2438  HZ3 LYS A 159"       2.842           -1.000  -60.375
+  34   "ATOM   1147  O   TYR A  79"      "HETATM 4164  H1  HOH A 405"       2.152           -0.985  -61.360
+
+
+    The following files will be written to "G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/":
+              'Compare (all) Bacteriorhodopsin.html'
+From GEO_REF: 'G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/Compare (all) Bacteriorhodopsin_Bacteriorhodopsin (5ZIM) PDB geometry.pdb'
+From GEO_DAT: 'G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/Compare (all) Bacteriorhodopsin_Bacteriorhodopsin (5ZIM) PM6-ORG geometry.pdb'
+
+          GEO_REF with 0SCF: Job complete
+
+ ******************************************************************************
+ *                                                                            *
+ *     Error and normal termination messages reported in this calculation     *
+ *                                                                            *
+ * GEO_REF with 0SCF: Job complete                                            *
+ * JOB ENDED NORMALLY                                                         *
+ *                                                                            *
+ ******************************************************************************
+
+
+
+ TOTAL JOB TIME:             0.00 SECONDS
+
+ == MOPAC DONE ==

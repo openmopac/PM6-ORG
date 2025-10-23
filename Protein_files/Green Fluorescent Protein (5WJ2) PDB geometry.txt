@@ -1,0 +1,5 @@
+reset;center {18.128492424242417 40.28512121212122 24.859924242424253}; rotate z 34.27; rotate y 113.73; rotate z -62.21; zoom 423.36;
+display 66, 69, 94, 96, 146, 148, 205, 308, 321, 329
+select 66
+halos
+color halos green

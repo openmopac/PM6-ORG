@@ -1,0 +1,108 @@
+ Formula        Molecule                     Geometric        Exp.    Calc.   Ref.
+                                             Parameter
+ H2            Hydrogen                        H-H            0.741   0.760     1  0.018          1  1  0  0  h2r
+ CH2           Methylene, singlet              C-H            1.110   1.073     1 -0.037          1  6  0  0  ch2sir
+                                               H-C-H        102.400 111.260                8.860  1  6  1  0  ch2sir
+ CH2           Methylene, triplet              C-H            1.029   1.014     1 -0.015          1  6  0  0  ch2tr
+                                               H-C-H        136.000 175.506               39.506  1  6  1  0  ch2tr
+ CH4           Methane                         C-H            1.094   1.085     2 -0.009          1  6  0  0  ch4r
+ C2H2          Acetylene                       C-C            1.207   1.209     2  0.001          6  6  0  0  c2h2r
+                                               C-H            1.063   1.029       -0.034          1  6  0  0  c2h2r
+ C2H4          Ethylene                        C-C            1.328   1.330     2  0.002          6  6  0  0  c2h4r
+                                               C-H            1.081   1.080       -0.001          1  6  0  0  c2h4r
+                                               H-C-C        123.509 123.618                0.109  1  6  6  0  c2h4r
+ C2H6          Ethane                          C-C            1.536   1.524     2 -0.012          6  6  0  0  c2h6r
+                                               C-H            1.091   1.096        0.005          1  6  0  0  c2h6r
+                                               H-C-C        110.900 111.391                0.491  1  6  6  0  c2h6r
+ C3H4          Allene                          C-C            1.308   1.301     3 -0.007          6  6  0  0  allener
+                                               C-H            1.087   1.082       -0.005          1  6  0  0  allener
+                                               H-C-C        120.900 123.600                2.700  1  6  6  0  allener
+ C3H4          Cyclopropene                    C2-C3          1.509   1.502     4 -0.007          6  6  0  0  cyc3h4r
+                                               C1-C2          1.296   1.312        0.016          6  6  0  0  cyc3h4r
+                                               C1-H           1.072   1.042       -0.030          1  6  0  0  cyc3h4r
+                                               H-C1-C2      149.900 153.524                3.624  1  6  6  0  cyc3h4r
+ C3H4          Propyne                         C2-C1          1.206   1.210     5  0.004          6  6  0  0  propyner
+                                               C1-H           1.056   1.027       -0.029          1  6  0  0  propyner
+                                               C2-C3          1.459   1.429       -0.030          6  6  0  0  propyner
+                                               C3-H           1.105   1.106        0.001          1  6  0  0  propyner
+                                               H-C-C        111.000 111.920                0.920  1  6  6  0  propyner
+ C3H6          Cyclopropane                    C-C            1.510   1.510     6  0.000          6  6  0  0  cyc3h6r
+                                               C-H            1.089   1.086       -0.003          1  6  0  0  cyc3h6r
+ C3H6          Propene                         C=C            1.336   1.333     7 -0.003          6  6  0  0  propener
+                                               C-C            1.501   1.489       -0.012          6  6  0  0  propener
+                                               C-C-C        124.300 123.575               -0.725  6  6  6  0  propener
+                                               C3-H           1.085   1.098        0.013          1  6  0  0  propener
+                                               H-C3-C2      111.200 112.903                1.703  1  6  6  0  propener
+                                               C2-H           1.090   1.091        0.001          1  6  0  0  propener
+                                               H-C2-C1      119.000 121.663                2.663  1  6  6  0  propener
+                                               H-C1           1.081   1.078       -0.003          1  6  0  0  propener
+                                               H-C1-C2      123.194 123.540                0.347  1  6  6  0  propener
+ C3H8          Propane                         C-C            1.526   1.529     7  0.003          6  6  0  0  propaner
+                                               C-C-C        112.400 111.204               -1.196  6  6  6  0  propaner
+                                               C2-H           1.115   1.107       -0.008          1  6  0  0  propaner
+                                               H-C2-C1      109.453 109.901                0.449  1  6  6  0  propaner
+                                               C1-H           1.096   1.095       -0.001          1  6  0  0  propaner
+                                               H-C1-C2      111.800 111.273               -0.527  1  6  6  0  propaner
+ C4H2          Diacetylene                     C1-C2          1.205   1.214     8  0.009          6  6  0  0  c4h2r
+                                               C2-C3          1.376   1.361       -0.015          6  6  0  0  c4h2r
+                                               C-H            1.046   1.029       -0.017          1  6  0  0  c4h2r
+ C4H4          CH2=C=C=CH2                     C-H            1.083   1.083     9 -0.000          1  6  0  0  c4h4r
+                                               C1-C2          1.318   1.307       -0.011          6  6  0  0  c4h4r
+                                               C2-C3          1.283   1.272       -0.011          6  6  0  0  c4h4r
+ C4H4          Vinylacetylene                  C3-C4          1.341   1.338    10 -0.003          6  6  0  0  vinylacetr
+                                               C2-C3          1.431   1.408       -0.023          6  6  0  0  vinylacetr
+                                               C2-C3-C4     123.100 122.751               -0.349  6  6  6  0  vinylacetr
+                                               C1-C2          1.208   1.212        0.004          6  6  0  0  vinylacetr
+ C4H6          Bicyclobutane                   C1-C2          1.498   1.518    11  0.020          6  6  0  0  bicycbutr
+                                               C1-C3          1.497   1.489       -0.008          6  6  0  0  bicycbutr
+                                               C2-C3-C1-C4  121.700 120.403               -1.297  6  6  6  6  bicycbutr
+                                               C1-H           1.071   1.056       -0.015          1  6  0  0  bicycbutr
+                                               C2-H           1.093   1.087       -0.006          1  6  0  0  bicycbutr
+ C4H6          2-Butyne                        C2-C3          1.213   1.212    10 -0.001          6  6  0  0  but2yner
+                                               C1-C2          1.467   1.429       -0.038          6  6  0  0  but2yner
+                                               C-H            1.115   1.105       -0.010          1  6  0  0  but2yner
+                                               H-C-C        110.700 111.792                1.092  1  6  6  0  but2yner
+ C4H6          1,3-Butadiene                   C1C2           1.344   1.336    12 -0.008          6  6  0  0  transc4h6r
+                                               C2C3           1.467   1.460       -0.007          6  6  0  0  transc4h6r
+                                               CCC          122.900 122.522               -0.378  6  6  6  0  transc4h6r
+ C4H8          1-Butene                        C2-C3          1.347   1.333    13 -0.014          6  6  0  0  but1ener
+                                               C1-C2          1.508   1.496       -0.012          6  6  0  0  but1ener
+                                               C-C-C        123.800 122.809               -0.991  6  6  6  0  but1ener
+ C4H8          Cyclobutane                     C-C            1.548   1.552    14  0.004          6  6  0  0  cyc4h8r
+                                               C1-C2-C4-C3  153.000 180.422               27.422  6  6  6  6  cyc4h8r
+                                               C-H            1.105   1.092       -0.013          1  6  0  0  cyc4h8r
+ C4H8          Isobutene                       C1-C2          1.330   1.336    15  0.006          6  6  0  0  ibutener
+                                               C2-C3          1.507   1.495       -0.012          6  6  0  0  ibutener
+                                               C1-C2-C3     122.400 122.460                0.060  6  6  6  0  ibutener
+ C4H8          trans-2-Butene                  C=C            1.347   1.336    13 -0.011          6  6  0  0  tbut2ener
+                                               C-C            1.508   1.489       -0.019          6  6  0  0  tbut2ener
+                                               C-C=C        123.800 123.141               -0.659  6  6  6  0  tbut2ener
+ C4H10         n-Butane                        C1-C2          1.533   1.528     5 -0.005          6  6  0  0  butaner
+                                               C2-C3          1.533   1.536        0.003          6  6  0  0  butaner
+                                               C-C-C        112.800 110.999               -1.801  6  6  6  0  butaner
+ C4H10         Isobutane                       C-C            1.533   1.534    16  0.001          6  6  0  0  ic4h10r
+ C5H6          Cyclopentadiene                 C1-C2          1.342   1.353    15  0.011          6  6  0  0  cyc5h6r
+                                               C2-C3          1.469   1.468       -0.001          6  6  0  0  cyc5h6r
+                                               C1-C5          1.509   1.511        0.002          6  6  0  0  cyc5h6r
+ C5H8          Spiropentane                    C2-C3          1.519   1.484    17 -0.035          6  6  0  0  spiranr
+ C5H12         Neopentane                      C-C            1.540   1.537    18 -0.003          6  6  0  0  neoc5r
+                                               C-H            1.095   1.095       -0.000          1  6  0  0  neoc5r
+                                               H-C-C        111.100 111.309                0.209  1  6  6  0  neoc5r
+ C6H6          Benzene                         C-C            1.399   1.394    19 -0.005          6  6  0  0  benzener
+                                               C-H            1.084   1.088        0.004          1  6  0  0  benzener
+ C6H6          Fulvene                         C3-C4          1.476   1.476    20  0.000          6  6  0  0  fulvener
+                                               C2-C3          1.355   1.355        0.000          6  6  0  0  fulvener
+                                               C1-C2          1.470   1.483        0.013          6  6  0  0  fulvener
+                                               C1-C6          1.349   1.332       -0.017          6  6  0  0  fulvener
+ C6H10         Cyclohexene                     C1-C2          1.335   1.336    21  0.001          6  6  0  0  chexenr
+                                               C2-C3          1.504   1.495       -0.009          6  6  0  0  chexenr
+                                               C3-C4          1.515   1.536        0.021          6  6  0  0  chexenr
+                                               C4-C5          1.550   1.533       -0.017          6  6  0  0  chexenr
+                                               C5-C4-C2-C1   21.800  28.765                6.965  6  6  6  6  chexenr
+ C6H12         Cyclohexane                     C-C            1.536   1.535    22 -0.001          6  6  0  0  cyc6h12r
+                                               C-C-C        111.400 110.684               -0.716  6  6  6  0  cyc6h12r
+                                               C-C-C-C       54.900  56.742                1.842  6  6  6  6  cyc6h12r
+ C10H8         Naphthalene                     C1-C2          1.364   1.371    23  0.007          6  6  0  0  c10h8r
+                                               C2-C3          1.415   1.418        0.003          6  6  0  0  c10h8r
+                                               C1-C9          1.421   1.422        0.001          6  6  0  0  c10h8r
+                                               C9-C10         1.418   1.412       -0.006          6  6  0  0  c10h8r

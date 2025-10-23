@@ -1,0 +1,177 @@
+ Formula        Molecule                               Dipole         Diff. Ref.
+                                                                   Exp.     Calc.
+ C3H4          Cyclopropene                                        0.45      0.20    -0.25     1    CH          cyclopropene
+ C3H4          Propyne                                             0.78      1.19     0.41     1    CH          propyne
+ C3H6          Propene                                             0.37      0.61     0.24     1    CH          propene
+ C3H8          Propane                                             0.08      0.03    -0.05     1    CH          propane
+ C4H6          Bicyclobutane                                       0.68      0.34    -0.34     1    CH          bicyclobutane
+ C4H6          Cyclobutene                                         0.13      0.36     0.23     1    CH          cyclobutene
+ C5H6          Cyclopentadiene                                     0.42      0.70     0.28     1    CH          cyclopentadiene
+ C5H8          Cyclopentene                                        0.20      0.39     0.19     1    CH          cyclopentene
+ C6H6          Fulvene                                             0.42      0.27    -0.15     2    CH          fulvene
+ C7H8          Toluene                                             0.36      0.64     0.28     1    CH          toluene
+ NH3           Ammonia                                             1.47      2.12     0.65     1    NH          ammonia
+ CNH           Hydrogen cyanide                                    2.98      2.65    -0.33     1    CNH         hydrogen cyanide
+ CNH5          Methylamine                                         1.31      1.96     0.65     1    CNH         methylamine
+ C2NH3         Acetonitrile                                        3.92      3.78    -0.14     1    CNH         acetonitrile
+ C2NH3         Methyl isocyanide                                   3.85      3.32    -0.53     1    CNH         methyl isocyanide
+ C2NH5         Ethyleneimine (Azirane)                             1.90      2.15     0.25     1    CNH         ethyleneimine (azirane)
+ C2NH7         Dimethylamine                                       1.03      1.80     0.77     1    CNH         dimethylamine
+ C2NH7         Ethylamine                                          1.22      1.97     0.75     1    CNH         ethylamine
+ C3NH          CH.C.CN                                             3.72      3.52    -0.20     1    CNH         ch.c.cn
+ C3NH3         Acrylonitrile                                       3.87      3.64    -0.23     1    CNH         acrylonitrile
+ C3NH9         Trimethylamine                                      0.61      1.64     1.03     1    CNH         trimethylamine
+ C4NH5         Pyrrole                                             1.74      2.17     0.43     3    CNH         pyrrole
+ C5NH5         Pyridine                                            2.22      2.35     0.13     4    CNH         pyridine
+ C6NH7         Aniline                                             1.53      1.76     0.23     1    CNH         aniline
+ CN2H2         Diazomethane                                        1.50      1.60     0.10     1    CNH         diazomethane
+ CN2H2         N=N-CH2-                                            1.59      1.98     0.39     1    CNH         n=n-ch2-
+ CN2H6         Methylhydrazine                                     1.66      0.52    -1.14     5    CNH         methylhydrazine
+ CN3H3         Methyl Azide                                        2.17      3.19     1.02     1    CNH         methyl azide
+ H2O           Water                                               1.85      2.05     0.20     1    HO          water
+ CO            Carbon monoxide                                     0.11      0.17     0.06     1    CO          carbon monoxide
+ CH2O          Formaldehyde                                        2.33      2.83     0.50     1    CHO         formaldehyde
+ CH4O          Methanol                                            1.70      2.04     0.34     1    CHO         methanol
+ C2H2O         Ketene                                              1.42      0.85    -0.57     1    CHO         ketene
+ C2H4O         Acetaldehyde                                        2.69      3.18     0.49     1    CHO         acetaldehyde
+ C2H4O         Ethylene oxide                                      1.89      2.29     0.40     1    CHO         ethylene oxide
+ C2H6O         Dimethyl ether                                      1.30      1.80     0.50     1    CHO         dimethyl ether
+ C2H6O         Ethanol                                             1.69      1.92     0.23     1    CHO         ethanol
+ C3H2O         Propynal                                            2.47      3.14     0.67     1    CHO         propynal
+ C3H4O         Acrolein                                            3.12      2.88    -0.24     1    CHO         acrolein
+ C3H6O         Acetone                                             2.88      3.46     0.58     1    CHO         acetone
+ C4H4O         Furan                                               0.66      0.38    -0.28     1    CHO         furan
+ C4H10O        Diethyl ether                                       1.15      1.49     0.34     1    CHO         diethyl ether
+ C6H6O         Phenol                                              1.45      1.36    -0.09     1    CHO         phenol
+ C7H8O         Anisole                                             1.38      1.62     0.24     1    CHO         anisole
+ C3NH7O        Dimethylformamide                                   3.82      4.51     0.69     1    CNHO        dimethylformamide
+ N2O           Nitrous oxide                                       0.17      0.45     0.28     1    NO          nitrous oxide
+ CH2O2         Formic acid                                         1.41      1.43     0.02     1    CHO         formic acid
+ C2H4O2        Acetic acid                                         1.74      2.03     0.29     1    CHO         acetic acid
+ C2H4O2        Methyl formate                                      1.77      1.74    -0.03     1    CHO         methyl formate
+ C3H6O2        Methyl acetate                                      1.72      1.97     0.25     1    CHO         methyl acetate
+ C3H6O2        Propionic acid                                      1.75      1.95     0.20     1    CHO         propionic acid
+ NHO2          Nitrous acid, cis                                   1.42      1.70     0.28     6    NHO         nitrous acid, cis
+ NHO2          Nitrous acid, trans                                 1.86      1.81    -0.05     6    NHO         nitrous acid, trans
+ O3            Ozone                                               0.53      1.62     1.09     1    O           ozone
+ NHO3          Nitric acid                                         2.17      1.88    -0.29     1    NHO         nitric acid
+ HF            Hydrogen fluoride                                   1.83      1.44    -0.39     7    HF          hydrogen fluoride
+ CH3F          Fluoromethane                                       1.86      1.65    -0.21     8    CHF         fluoromethane
+ C2HF          Fluoroacetylene                                     0.70      0.53    -0.17     9    CHF         fluoroacetylene
+ C2H3F         Fluoroethylene                                      1.43      1.39    -0.04    10    CHF         fluoroethylene
+ C2H5F         Fluoroethane                                        1.96      1.81    -0.15    10    CHF         fluoroethane
+ C6H5F         Fluorobenzene                                       1.66      1.63    -0.03    10    CHF         fluorobenzene
+ CNF           Cyanogen fluoride                                   2.17      1.92    -0.25     9    CNF         cyanogen fluoride
+ HOF           Hypofluorous acid                                   2.23      1.62    -0.61    11    HOF         hypofluorous acid
+ CHOF          HCOF                                                2.02      2.61     0.59    10    CHOF        hcof
+ NOF           Nitrosyl fluoride                                   1.81      1.14    -0.67    10    NOF         nitrosyl fluoride
+ NO2F          Fluorine nitrite                                    0.47      0.50     0.03    12    NOF         fluorine nitrite
+ CH2F2         Difluoromethane                                     1.96      2.01     0.05    10    CHF         difluoromethane
+ C2H4F2        1,1-Difluoroethane                                  2.30      2.41     0.11    10    CHF         1,1-difluoroethane
+ N2F2          cis-Difluorodiazene                                 0.16      1.06     0.90    12    NF          cis-difluorodiazene
+ OF2           Difluorine oxide                                    0.30      0.61     0.31    10    OF          difluorine oxide
+ COF2          Carbonyl fluoride                                   0.95      0.87    -0.08    12    COF         carbonyl fluoride
+ CHF3          Trifluoromethane                                    1.65      1.96     0.31     8    CHF         trifluoromethane
+ C2HF3         Trifluoroethylene                                   1.30      1.20    -0.10    13    CHF         trifluoroethylene
+ C2H3F3        1,1,1-Trifluoroethane                               2.32      2.77     0.45    10    CHF         1,1,1-trifluoroethane
+ NF3           Nitrogen trifluoride                                0.24      0.69     0.45    10    NF          nitrogen trifluoride
+ C2NF3         Trifluoroacetonitrile                               1.26      0.59    -0.67    14    CNF         trifluoroacetonitrile
+ C2HO2F3       Trifluoroacetic acid                                2.28      1.96    -0.32    10    CHOF        trifluoroacetic acid
+ PH3           Phosphine                                           0.58      2.08     1.50     1    PH          phosphine
+ CPH           Methinophosphide                                    0.39      0.49     0.10    15    CPH         methinophosphide
+ CPH5          Methylphosphine                                     1.10      1.84     0.74    10    CPH         methylphosphine
+ C2PH7         Dimethylphosphine                                   1.23      1.68     0.45    10    CPH         dimethylphosphine
+ C3PH9         Trimethylphosphine                                  1.19      1.41     0.22    10    CPH         trimethylphosphine
+ PN            Phosphorus nitride                                  1.88      2.67     0.79    15    PN          phosphorus nitride
+ CPH2F         CH2=P-F                                             1.35      1.40     0.05    16    CPHF        ch2=p-f
+ PF3           Phosphorus trifluoride                              1.03      1.77     0.74     1    PF          phosphorus trifluoride
+ POF3          Phosphorus oxyfluoride                              1.76      1.64    -0.12     1    POF         phosphorus oxyfluoride
+ P2H4          P2H4                                                0.92      0.07    -0.85    17    PH          p2h4
+ H2S           Hydrogen sulfide (H2S)                              0.97      1.45     0.47    12    HS          hydrogen sulfide (h2s)
+ CS            Carbon sulfide                                      0.68      1.12     0.44    12    CS          carbon sulfide
+ CH2S          Thioformaldehyde                                    1.65      1.42    -0.23    10    CHS         thioformaldehyde
+ CH4S          Thiomethanol                                        1.52      1.77     0.25    12    CHS         thiomethanol
+ C2H6S         Dimethyl thioether                                  1.50      1.79     0.29    10    CHS         dimethyl thioether
+ C2H6S         Thioethanol                                         1.52      1.81     0.29    12    CHS         thioethanol
+ C4H4S         Thiophene                                           0.53      0.50    -0.03    12    CHS         thiophene
+ C2NH3S        Methyl isothiocyanate                               4.03      4.59     0.56    10    CNHS        methyl isothiocyanate
+ CSO           Carbon oxysulfide                                   0.71      0.50    -0.21    10    CSO         carbon oxysulfide
+ C2H6SO        Dimethyl sulfoxide                                  3.96      4.68     0.72    12    CHSO        dimethyl sulfoxide
+ SO2           Sulfur dioxide                                      1.58      1.93     0.36    12    SO          sulfur dioxide
+ SF2           Sulfur difluoride                                   1.05      1.57     0.52    15    SF          sulfur difluoride
+ C2H6S2        2,3-Dithiabutane                                    1.98      2.21     0.23    12    CHS         2,3-dithiabutane
+ HCl           Hydrogen chloride                                   1.12      1.52     0.40    18    HCl         hydrogen chloride
+ CH3Cl         Methyl chloride                                     1.89      1.94     0.05    15    CHCl        methyl chloride
+ C2HCl         Chloroacetylene                                     0.44      0.21    -0.23    19    CHCl        chloroacetylene
+ CNCl          Cyanogen chloride                                   2.80      2.55    -0.25    15    CNCl        cyanogen chloride
+ ClO           Chlorine oxide                                      1.24      2.96     1.72    12    ClO         chlorine oxide
+ NClO          Nitrosyl chloride                                   1.86      1.32    -0.54    15    NClO        nitrosyl chloride
+ ClF           Chlorine fluoride                                   0.88      0.10    -0.78    20    ClF         chlorine fluoride
+ HBr           Hydrogen bromide                                    0.83      1.16     0.32     1    HBr         hydrogen bromide
+ CH3Br         Bromomethane                                        1.82      1.60    -0.22     1    CHBr        bromomethane
+ C2HBr         Bromoacetylene                                      0.00      0.12     0.12    19    CHBr        bromoacetylene
+ C2H3Br        Bromoethylene                                       1.42      1.51     0.09    20    CHBr        bromoethylene
+ C2H5Br        Bromoethane                                         2.03      2.10     0.07     1    CHBr        bromoethane
+ C3H7Br        1-Bromopropane                                      2.18      2.13    -0.05     1    CHBr        1-bromopropane
+ C6H5Br        Bromobenzene                                        1.70      1.78     0.08     1    CHBr        bromobenzene
+ BrO           Bromine oxide                                       1.61      1.94     0.33    21    BrO         bromine oxide
+ C2H3BrO       Acetyl bromide                                      2.43      3.34     0.91    20    CHBrO       acetyl bromide
+ BrF           Bromine fluoride                                    1.42      0.80    -0.62    20    BrF         bromine fluoride
+ CBrF3         Bromotrifluoromethane                               0.65      0.99     0.34    22    CBrF        bromotrifluoromethane
+ CH2Br2        Dibromomethane                                      1.43      1.41    -0.02    20    CHBr        dibromomethane
+ CBr2F2        Difluorodibromomethane                              0.66      0.63    -0.03    20    CBrF        difluorodibromomethane
+ CHBr3         Bromoform                                           0.99      0.99     0.00    20    CHBr        bromoform
+ HI            Hydrogen iodide                                     0.44      1.08     0.64     1    HI          hydrogen iodide
+ CH3I          Methyl iodide                                       1.65      1.23    -0.42     1    CHI         methyl iodide
+ C2H5I         Iodoethane                                          1.91      1.88    -0.03     1    CHI         iodoethane
+ C3H7I         1-Iodopropane                                       2.04      1.88    -0.16     1    CHI         1-iodopropane
+ C6H5I         Iodobenzene                                         1.70      1.62    -0.08     1    CHI         iodobenzene
+ CIF3          Trifluoroiodomethane                                1.00      1.50     0.50    23    CIF         trifluoroiodomethane
+ CH2I2         Diiodomethane                                       1.62      0.96    -0.66     1    CHI         diiodomethane
+********************************************************************************
+ 
+    1: R. D. Nelson, D. R. Lide, A. A. Maryott, Nat. Stand. Ref. Data Set.,  Natl. Bur. Stand. No. 10 (1967).
+ 
+    2: P. A. Baron, R. D. Brown, F. R. Burden, P. J. Domaille, J. E. Kent,  J. Mol. Spectrosc., 43, 401 (1970).
+ 
+    3: L. Nygaard, J. T. Nielsen, J. Kirchheimer, G. Maltesen, J. Rastrup-Andersen,  G. O. Sorensen, J. Mol. Struct., 3, 491 (1969).
+ 
+    4: G. O. Sorensen, L. Mahler, J. Rastrup-Andersen, J. Mol. Struct.,  20, 119 (1974).
+ 
+    5: R. P. Lattimer, M. D. Harmony, J. Phys. Chem., 53, 4575 (1970).
+ 
+    6: A. P. Cox, A. H. Brittain, D. J. Finnigan, Trans. Faraday Soc., 67,  2179, (1971).
+ 
+    7: J. S. Muenter, W. Klemperer, J. Chem. Phys., 52, 6033 (1970).
+ 
+    8: C. S. Wofsy, J. S. Muenter, W. Klemperer, J. Chem. Phys., 55, 2014 (1971).
+ 
+    9: J. K. Tyler, J. Sheridan, Trans. Faraday Soc., 59, 2661 (1963).
+ 
+   10: A. L. McClellan, "Tables of Experimental Dipole Moments," Freeman,  San Francisco, 1963.
+ 
+   11: S. L. Rock, E. F. Pearson, E. H. Appleman, C. L. Norris, W. H. Flygare,  J. Chem. Phys., 59, 3940 (1973).
+ 
+   12: A. L. McClellan, "Tables of Experimental Dipole Moments," Vol 2,  Rahara Enterprises, El Cerrito, (1974).
+ 
+   13: A. Bhaumik, W. V. F. Brooks, S. C. Dass, J. Mol. Struct., 16, 29 (1973).
+ 
+   14: P. B. Foreman, K. R. Chien, J. R. Williams, S. G. Kukolich, J. Mol.  Spectrosc. 52, 251 (1974).
+ 
+   15: P. Winget, A.H.C. Horn, C. Seloki, B. Martin, T. Clark, J. Mol. Model.  9, 408 (2003).
+ 
+   16: O. I. Osman, B. J. Whitaker, N. P. C. Simmons, D. R. M. Walton,  J. F. Nixon, H. W. Krojo, J. Mol. Spect., 137, 373 (1989).
+ 
+   17: J. R. Durig, L. A. Carreira, J. M. Odom, J. Am. Chem. Soc., 96, 2688 (1974)
+ 
+   18: G. Hojer, S. Meza, Acta Chem. Scand., 26, 3723 (1972).
+ 
+   19: P. Scharffenberg, Theo. Chim. Acta 49, 115 (1978).
+ 
+   20: "CRC Handbook of Chemistry and Physics," 60th Edition, R. C. Weast, (Ed.),  CRC Press, Boca Raton, FL, 1980.
+ 
+   21: C. R. Byfleet, A. Carrington, D. K. Russell, Mol. Phys., 10, 271 (1971).
+ 
+   22: A. P. Cox, G. Duxbury, J. A. Hardy, Y. Kawashima J. Chem. Soc. Faraday 2  76, 339 (1980).
+ 
+   23: K. H. Hellwege, A. M. Hellwege, Eds. "Molecular Constants from Microwave  Spectroscopy," Landolt-Bornstein, New Series II; Springer-Verlag;  Berlin, Vol. 4, (1967).

@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Apoptosis inhibitor (7PDJ) PDB Geometry.arc" ++ 
+geo_dat="..\protein_files\Apoptosis inhibitor (7PDJ) PM6-ORG Geometry.arc"  ++
+compare  output

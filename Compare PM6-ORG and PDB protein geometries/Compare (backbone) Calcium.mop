@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Calcium binding domain (1UOW) PDB Geometry.arc" ++ 
+geo_dat="..\protein_files\Calcium binding domain (1UOW) PM6-ORG Geometry.arc"  ++
+compare(backbone) output

@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Sodium channel pore (4CBC) PDB geometry.arc" ++ 
+geo_dat="..\protein_files\Sodium channel pore (4CBC) PM6-ORG geometry.arc"  ++
+compare(backbone) output

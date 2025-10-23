@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Zinc finger domain of KLF4 (2WBS) PDB geometry.arc" ++ 
+geo_dat="..\protein_files\Zinc finger domain of KLF4 (2WBS) PM6-ORG geometry.arc"  ++
+compare(backbone) output

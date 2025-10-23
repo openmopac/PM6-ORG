@@ -1,0 +1,218 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v Jimmy's                  **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Jul 12 10:02:41 2023  *
+ *  COMPARE    - Compare two geometries
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "../protein_files/Potassium channel (1JVM) PM6-ORG geometry.arc"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "../protein_files/Potassium channel (1JVM) PDB geometry.arc"
+ *               (NO BIAS TOWARDS THE REFERENCE GEOMETRY WILL BE APPLIED)
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *******************************************************************************
+geo_ref="..\protein_files\Potassium channel (1JVM) PDB geometry.arc" geo_dat="..\protein_files\Potassium channel (1JVM) PM6-ORG geometry.arc" compare  output
+
+
+ 
+
+                        After docking
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (ATOM   5717  HXT GLY D 123)  79.570  28.042  56.714        7.36         7.36
+            (ATOM   5716  HA3 GLY D 123)  77.874  26.292  57.120        7.03        14.39
+            (ATOM   4260 HE21 GLN C 119)  84.186  31.215  50.259        6.98        21.38
+            (ATOM   4259 HE22 GLN C 119)  82.826  30.518  50.728        6.74        28.12
+            (ATOM   1419  HB1 LEU B  24)  85.392  10.060  40.940        6.53        34.65
+            (ATOM   5712  C   GLY D 123)  79.166  27.466  55.876        6.52        41.16
+            (ATOM   2354  HZ2 TRP B  87)  51.970   7.338  19.338        6.50        47.67
+            (ATOM   5713  O   GLY D 123)  79.212  27.834  54.680        6.39        54.06
+            (ATOM   2356  HH2 TRP B  87)  53.767   7.142  21.051        6.26        60.32
+            (ATOM   1421  HB3 LEU B  24)  84.222   9.748  39.653        6.05        66.36
+            (ATOM   4252  NE2 GLN C 119)  83.366  30.817  50.001        6.04        72.40
+            (ATOM   3289 HH22 ARG C  52)  90.348  24.319  -7.647        5.98        78.38
+            (ATOM    429 HH21 ARG A  52)  41.613  30.041  10.060        5.97        84.35
+            (ATOM   5711  CA  GLY D 123)  78.527  26.128  56.226        5.97        90.32
+            (ATOM   2352  HE1 TRP B  87)  51.595   8.293  16.713        5.95        96.27
+            (ATOM    428 HH22 ARG A  52)  40.901  29.521  11.412        5.94       102.21
+            (ATOM   5679 HE21 GLN D 119)  80.135  26.926  51.879        5.94       108.14
+            (ATOM   2914  HH2 TRP C  26)  86.718  36.931  33.954        5.83       113.97
+            (ATOM   3287 HH12 ARG C  52)  91.193  23.544  -5.691        5.76       119.74
+            (ATOM   2344  CZ2 TRP B  87)  52.975   7.696  19.145        5.76       125.49
+            (ATOM    416  NH2 ARG A  52)  41.658  29.920  11.000        5.67       131.17
+            (ATOM   5678 HE22 GLN D 119)  80.767  25.491  51.577        5.60       136.77
+            (ATOM   2346  CH2 TRP B  87)  53.978   7.593  20.086        5.60       142.37
+            (ATOM   1867  HG3 PRO B  55)  51.717  11.805   2.477        5.58       147.95
+            (ATOM   5715  HA2 GLY D 123)  79.358  25.495  56.630        5.58       153.52
+            (ATOM   2003 HH22 ARG B  64)  66.240  13.185  -0.495        5.56       159.09
+            (ATOM   3277  NH2 ARG C  52)  89.515  23.909  -7.450        5.52       164.61
+            (ATOM   3290 HH21 ARG C  52)  88.915  23.796  -8.176        5.44       170.05
+            (ATOM   2912  HZ2 TRP C  26)  87.604  35.559  35.829        5.37       175.41
+            (ATOM   5699  HB3 ARG D 121)  72.457  23.742  53.178        5.33       180.74
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+    Arg 121( 4.32)    Arg 122( 4.16)    Gly 123( 3.53)    Leu  24( 3.07)    Trp  26( 2.88)
+    Glu 120( 2.87)    Leu  49( 2.77)    Ala  54( 2.69)    Gln 119( 2.68)    Arg  27( 2.63)
+    Arg  52( 2.61)    Ala  57( 2.45)    Pro  55( 2.39)    His  25( 2.29)    Trp  87( 2.29)
+    Gly  53( 2.28)    Leu  66( 2.25)    Tyr  45( 2.23)    Glu 118( 2.22)    Val  84( 2.21)
+    Leu  86( 2.14)    Arg 117( 2.14)    Ile  60( 2.04)    Ala  98( 2.03)    Val  39( 2.00)
+    Val  97( 1.98)    Leu  46( 1.97)    Ala  29( 1.95)    Gly  56( 1.89)    Ala  50( 1.85)
+    Gln  58( 1.84)    Thr  85( 1.84)    Ile  38( 1.72)    Arg  89( 1.68)    Thr  33( 1.65)
+    Arg  64( 1.59)    Gly  30( 1.58)    Pro  63( 1.58)    Leu  59( 1.57)    Trp 113( 1.54)
+    Glu  51( 1.51)    Leu  35( 1.50)    Val  70( 1.47)    Ala  32( 1.42)    Thr  61( 1.41)
+    Met  96( 1.41)    Cys  90( 1.38)    Val  48( 1.36)    Leu  36( 1.33)    Gly  99( 1.33)
+    Leu  40( 1.28)    Gly  88( 1.25)    Ala  42( 1.25)    Gly 116( 1.25)    Pro  83( 1.25)
+     K  101( 1.24)    Leu  41( 1.22)    Leu  81( 1.21)    Ile 100( 1.19)    Gly  43( 1.16)
+    Ala  47( 1.14)    Tyr  82( 1.13)    Val  34( 1.13)    Tyr  62( 1.10)    Ala  31( 1.09)
+    Val 115( 1.08)    Ala  28( 1.08)    Val  91( 1.06)    Val  37( 1.04)    TBA   1( 1.03)
+    Asp  80( 1.02)    Val 106( 1.01)    Ala  65( 0.97)     K  103( 0.97)    Leu 105( 0.96)
+    Ala 111( 0.96)    Ala  92( 0.96)    Leu 110( 0.95)    Phe 114( 0.94)    Gly  79( 0.92)
+    Val  94( 0.91)    Val  93( 0.91)     K  102( 0.90)    Trp  67( 0.89)    Val  95( 0.84)
+    Ser  44( 0.82)    Thr 112( 0.79)    Glu  71( 0.78)    Thr  75( 0.73)    Ala 109( 0.70)
+    Gly  77( 0.69)    Val  76( 0.69)    HOH 806( 0.68)    Ala  73( 0.68)    Tyr  78( 0.67)
+    Thr 107( 0.57)    Thr  72( 0.53)    Thr  74( 0.53)    Trp  68( 0.53)    Gly 104( 0.49)
+
+   Difference between GEO_DAT and GEO_REF: 8580.539 = total,  1.4917 = Average,  1.7653 = RMS, in Angstroms
+
+                             Differences between bond-lengths for the two geometries
+
+           Diff.                 Atom 1                       Atom 2                  Bond length      Bond length
+                                                                                      in GEO_DAT      in GEO_REF
+   1      -0.137     C(HETATM 5728  C41 TBA     1)    C(HETATM 5729  C42 TBA     1)      1.526            1.663
+   2      +0.099     N(ATOM   1823  NE  ARG B  52)    C(ATOM   1824  CZ  ARG B  52)      1.427            1.328
+   3      +0.098     N(ATOM   4693  NE  ARG D  52)    C(ATOM   4694  CZ  ARG D  52)      1.426            1.328
+   4      +0.094     N(ATOM    961  NE  ARG A  89)    C(ATOM    962  CZ  ARG A  89)      1.426            1.332
+   5      +0.091     N(ATOM   2371  NE  ARG B  89)    C(ATOM   2372  CZ  ARG B  89)      1.423            1.332
+   6      +0.090     N(ATOM   3822  NE  ARG C  89)    C(ATOM   3823  CZ  ARG C  89)      1.422            1.332
+   7      +0.090     C(ATOM   3734  CB  PRO C  83)    C(ATOM   3735  CG  PRO C  83)      1.542            1.453
+   8      -0.089     N(HETATM 5721  N1  TBA     1)    C(HETATM 5728  C41 TBA     1)      1.518            1.607
+   9      +0.088     N(ATOM   3439  NE  ARG C  64)    C(ATOM   3440  CZ  ARG C  64)      1.421            1.333
+  10      -0.083     C(HETATM 5726  C31 TBA     1)    C(HETATM 5727  C32 TBA     1)      1.532            1.615
+  11      +0.082     N(ATOM    578  NE  ARG A  64)    C(ATOM    579  CZ  ARG A  64)      1.415            1.333
+  12      -0.068     N(HETATM 5721  N1  TBA     1)    C(HETATM 5724  C21 TBA     1)      1.533            1.601
+  13      +0.067     N(ATOM   4861  NH2 ARG D  64)    C(ATOM   4859  CZ  ARG D  64)      1.395            1.328
+  14      +0.065     N(ATOM   3627  N   VAL C  76)    C(ATOM   3615  C   THR C  75)      1.396            1.331
+  15      +0.065     N(ATOM     13  N   HIS A  25)    C(ATOM      3  C   LEU A  24)      1.399            1.334
+  16      +0.064     N(ATOM     30  N   TRP A  26)    C(ATOM     15  C   HIS A  25)      1.392            1.328
+  17      +0.063     C(ATOM    979  CA  CYS A  90)    C(ATOM    980  C   CYS A  90)      1.560            1.497
+  18      +0.063     N(ATOM    413  NE  ARG A  52)    C(ATOM    414  CZ  ARG A  52)      1.392            1.328
+  19      +0.062     C(ATOM   3840  CA  CYS C  90)    C(ATOM   3841  C   CYS C  90)      1.560            1.498
+  20      +0.061     C(ATOM   2389  CA  CYS B  90)    C(ATOM   2390  C   CYS B  90)      1.558            1.497
+  21      -0.060     N(HETATM 5721  N1  TBA     1)    C(HETATM 5722  C11 TBA     1)      1.520            1.581
+  22      +0.060     N(ATOM   5241  NE  ARG D  89)    C(ATOM   5242  CZ  ARG D  89)      1.394            1.334
+  23      +0.060     C(ATOM   2149  CA  THR B  74)    C(ATOM   2152  CB  THR B  74)      1.570            1.510
+  24      +0.059     C(ATOM    739  CA  THR A  74)    C(ATOM    742  CB  THR A  74)      1.575            1.516
+  25      +0.058     C(ATOM   4995  CA  THR D  72)    C(ATOM   4998  CB  THR D  72)      1.577            1.519
+
+    GEO_DAT:  '..\protein_files\Potassium channel (1JVM) PM6-ORG geometry.arc'
+    GEO_REF:  '..\protein_files\Potassium channel (1JVM) PDB geometry.arc'
+ 
+          Heat of formation of GEO_DAT system:  -27859.788 Kcal/mol
+          Heat of formation of GEO_REF system:  -24133.861 Kcal/mol
+                                        Diff.:   -3725.926 Kcal/mol
+
+
+                    Analysis of Non-Covalent Interactions
+
+          Total non-covalent energy of GEO_DAT system:  -6669.14 Kcal/mol
+          Total non-covalent energy of GEO_REF system:  -6098.14 Kcal/mol
+                                           Difference:   -571.00 Kcal/mol
+
+          Number of hydrogen bonds common to both systems:  597
+
+
+                            Hydrogen bonds in GEO_DAT but not in GEO_REF
+
+               Donor atom                     Hydrogen atom            H-bond length(A)     Energy    Sum
+
+   1   "ATOM   4678  OE1 GLU D  51"      "ATOM   5186  H   THR D  85"       1.627           -3.164   -3.164
+   2   "ATOM   4966  O   VAL D  70"      "ATOM   5028  HG1 THR D  74"       1.828           -3.158   -6.322
+   3   "ATOM   3568  OE2 GLU C  71"      "ATOM   3698  H   LEU C  81"       1.669           -3.032   -9.353
+   4   "ATOM    686  O   VAL A  70"      "ATOM    748  HG1 THR A  74"       1.898           -2.320  -11.673
+   5   "ATOM   2112  O   GLU B  71"      "ATOM   2183  H   VAL B  76"       2.061           -2.283  -13.957
+   6   "ATOM    416  NH2 ARG A  52"      "ATOM    552  H   TYR A  62"       2.382           -2.243  -16.200
+   7   "ATOM   3277  NH2 ARG C  52"      "ATOM   3413  H   TYR C  62"       2.464           -2.205  -18.404
+   8   "ATOM   3094  O   LEU C  40"      "ATOM   3156  HG  SER C  44"       1.906           -2.093  -20.497
+   9   "ATOM   1343  O   VAL A 115"      "ATOM   1392  H   GLN A 119"       1.902           -2.059  -22.556
+  10   "ATOM   4478  O   ILE D  38"      "ATOM   4553  H   ALA D  42"       1.970           -2.008  -24.564
+  11   "ATOM   1643  O   LEU B  40"      "ATOM   1705  HG  SER B  44"       1.939           -1.974  -26.538
+  12   "ATOM   1991  NH2 ARG B  64"      "ATOM   1950  H   THR B  61"       2.502           -1.933  -28.471
+  13   "ATOM   2261  O   TYR B  82"      "ATOM   1903 HE22 GLN B  58"       2.091           -1.930  -30.401
+  14   "ATOM   4861  NH2 ARG D  64"      "ATOM   4820  H   THR D  61"       2.415           -1.875  -32.275
+  15   "ATOM    823  OD1 ASP A  80"      "ATOM   2386 HH22 ARG B  89"       2.030           -1.857  -34.132
+  16   "ATOM   4251  OE1 GLN C 119"      "ATOM   1398 HE22 GLN A 119"       2.337           -1.816  -35.948
+  17   "ATOM   1390  OE1 GLN A 119"      "ATOM   4259 HE22 GLN C 119"       2.087           -1.776  -37.724
+  18   "ATOM   4766  NE2 GLN D  58"      "ATOM   5140  H   TYR D  82"       2.867           -1.760  -39.484
+  19   "ATOM   3944  O   VAL C  97"      "ATOM   4000  H   THR C 101"       2.085           -1.754  -41.238
+  20   "ATOM    916  O   LEU A  86"      "ATOM    984  H   CYS A  90"       2.059           -1.743  -42.982
+  21   "ATOM   3684  OD1 ASP C  80"      "ATOM   5254 HH12 ARG D  89"       2.107           -1.668  -44.649
+  22   "ATOM     19  ND1 HIS A  25"      "ATOM     44  H   TRP A  26"       2.641           -1.640  -46.289
+  23   "ATOM   1808  OE1 GLU B  51"      "ATOM   2316  H   THR B  85"       2.278           -1.635  -47.924
+  24   "ATOM   4146  O   THR C 112"      "ATOM   4221  H   GLY C 116"       1.866           -1.613  -49.537
+  25   "ATOM   5023  OG1 THR D  74"      "ATOM   5053  H   VAL D  76"       2.498           -1.600  -51.137
+  26   "ATOM   3325  O   GLY C  56"      "ATOM   3355 HE21 GLN C  58"       2.262           -1.597  -52.734
+  27   "ATOM     30  N   TRP A  26"      "ATOM      7  H2  LEU A  24"       2.544           -1.564  -54.298
+  28   "ATOM   3777  O   LEU C  86"      "ATOM   3845  H   CYS C  90"       2.098           -1.561  -55.859
+  29   "ATOM   2258  N   TYR B  82"      "ATOM   1903 HE22 GLN B  58"       2.577           -1.561  -57.420
+  30   "ATOM    233  O   LEU A  40"      "ATOM    291  H   SER A  44"       1.948           -1.537  -58.957
+  31   "ATOM   5103  OD1 ASP D  80"      "ATOM    976 HH22 ARG A  89"       1.936           -1.524  -60.481
+  32   "ATOM   2753  O   VAL B 115"      "ATOM   2802  H   GLN B 119"       1.919           -1.511  -61.992
+  33   "ATOM   2493  O   VAL B  97"      "ATOM   2549  H   THR B 101"       2.197           -1.489  -63.481
+  34   "ATOM   2776  O   ARG B 117"      "ATOM   2830  H   ARG B 121"       2.233           -1.484  -64.966
+  35   "ATOM    233  O   LEU A  40"      "ATOM    295  HG  SER A  44"       2.108           -1.466  -66.431
+
+
+                            Hydrogen bonds in GEO_REF but not in GEO_DAT
+
+               Donor atom                     Hydrogen atom            H-bond length(A)     Energy    Sum
+
+   1   "ATOM   5021  O   THR D  74"      "ATOM   5042  HG1 THR D  75"       1.666           -3.558   -3.558
+   2   "ATOM   3342  O   GLN C  58"      "ATOM   3453 HH11 ARG C  64"       1.646           -3.180   -6.738
+   3   "ATOM   1891  O   GLN B  58"      "ATOM   2002 HH11 ARG B  64"       1.550           -3.143   -9.881
+   4   "ATOM   4761  O   GLN D  58"      "ATOM   4872 HH11 ARG D  64"       1.552           -3.039  -12.920
+   5   "ATOM   2646  O   ALA B 108"      "ATOM   2699  H   THR B 112"       1.857           -2.600  -15.521
+   6   "ATOM   4679  OE2 GLU D  51"      "ATOM   5186  H   THR D  85"       1.780           -2.443  -17.964
+   7   "ATOM   5330  O   VAL D  95"      "ATOM   5390  H   GLY D  99"       2.068           -2.077  -20.041
+   8   "ATOM   2460  O   VAL B  95"      "ATOM   2520  H   GLY B  99"       2.075           -2.072  -22.113
+   9   "ATOM   3911  O   VAL C  95"      "ATOM   3971  H   GLY C  99"       2.077           -2.062  -24.175
+  10   "ATOM   1050  O   VAL A  95"      "ATOM   1110  H   GLY A  99"       2.083           -2.046  -26.221
+  11   "ATOM   5363  O   VAL D  97"      "ATOM   5422  HG1 THR D 101"       1.500           -1.954  -28.175
+  12   "ATOM   1808  OE1 GLU B  51"      "ATOM   2300  H   VAL B  84"       2.249           -1.913  -30.089
+  13   "ATOM   4888  O   LEU D  66"      "ATOM   4970  H   VAL D  70"       2.457           -1.529  -31.618
+  14   "ATOM   2116  OE1 GLU B  71"      "ATOM   2235  H   ASP B  80"       2.579           -1.512  -33.130
+  15   "ATOM    706  OE1 GLU A  71"      "ATOM    825  H   ASP A  80"       2.586           -1.507  -34.636
+
+
+    The following files will be written to "G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/":
+              'Compare (all) Potassium.html'
+From GEO_REF: 'G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/Compare (all) Potassium_Potassium channel (1JVM) PDB geometry.pdb'
+From GEO_DAT: 'G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/Compare (all) Potassium_Potassium channel (1JVM) PM6-ORG geometry.pdb'
+
+          GEO_REF with 0SCF: Job complete
+
+ ******************************************************************************
+ *                                                                            *
+ *     Error and normal termination messages reported in this calculation     *
+ *                                                                            *
+ * GEO_REF with 0SCF: Job complete                                            *
+ * JOB ENDED NORMALLY                                                         *
+ *                                                                            *
+ ******************************************************************************
+
+
+
+ TOTAL JOB TIME:             0.00 SECONDS
+
+ == MOPAC DONE ==

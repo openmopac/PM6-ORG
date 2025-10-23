@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Zinc endoprotease (1C7K) PDB geometry.arc" ++ 
+geo_dat="..\protein_files\Zinc endoprotease (1C7K) PM6-ORG geometry.arc"  ++
+compare  output

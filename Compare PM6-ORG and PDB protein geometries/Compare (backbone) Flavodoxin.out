@@ -1,0 +1,163 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC v Jimmy's                  **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Jul 12 04:29:07 2023  *
+ *  COMPARE    - Compare two geometries
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "../protein_files/Flavodoxin (5WID) PM6-ORG geometry.arc"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "../protein_files/Flavodoxin (5WID) PDB geometry.arc"
+ *               (NO BIAS TOWARDS THE REFERENCE GEOMETRY WILL BE APPLIED)
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *******************************************************************************
+geo_ref="..\protein_files\Flavodoxin (5WID) PDB geometry.arc" geo_dat="..\protein_files\Flavodoxin (5WID) PM6-ORG geometry.arc" compare(backbone) output
+
+
+ 
+
+                        After docking
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM  433  C   ACT A 202)  29.333  24.068 -22.811        1.90         1.90
+            (HETATM  434  C   ACT A 203)  42.452  28.818  -6.878        1.90         3.80
+            (ATOM    321  C   MET A 107)  26.354  13.675   7.498        1.62         5.42
+            (ATOM    430  N   LYS A 144)  22.666  30.503  15.291        1.51         6.93
+            (ATOM    431  CA  LYS A 144)  23.040  29.364  16.117        1.47         8.40
+            (ATOM    429  C   HIS A 143)  21.654  31.301  15.614        1.42         9.82
+            (ATOM    320  CA  MET A 107)  26.876  13.096   6.194        1.34        11.16
+            (ATOM    428  CA  HIS A 143)  21.359  32.475  14.690        1.34        12.49
+            (ATOM    432  C   LYS A 144)  24.158  29.738  17.088        1.32        13.81
+            (ATOM    233  CA  ASN A  78)  33.095  15.288  11.433        1.27        15.08
+            (ATOM    371  CA  ASP A 124)  26.504  40.567 -12.273        1.26        16.34
+            (ATOM    319  N   MET A 107)  25.839  12.864   5.196        1.22        17.56
+            (ATOM    324  C   GLY A 108)  24.529  16.120   8.803        1.18        18.74
+            (ATOM    318  C   GLU A 106)  24.997  11.836   5.161        1.18        19.92
+            (ATOM    325  N   MET A 109)  24.863  16.772   7.693        1.18        21.10
+            (ATOM    328  N   THR A 110)  23.024  19.876   7.841        1.18        22.28
+            (ATOM    327  C   MET A 109)  23.357  18.674   7.370        1.17        23.45
+            (ATOM    144  C   ALA A  48)  32.707  25.661  11.121        1.17        24.61
+            (ATOM    326  CA  MET A 109)  24.786  18.226   7.649        1.16        25.77
+            (ATOM    322  N   GLY A 108)  25.068  13.993   7.589        1.15        26.93
+            (ATOM    323  CA  GLY A 108)  24.530  14.607   8.786        1.15        28.08
+            (ATOM    232  N   ASN A  78)  34.199  15.446  10.489        1.15        29.23
+            (ATOM    370  N   ASP A 124)  26.553  39.800 -13.516        1.11        30.34
+            (ATOM    341  CA  PRO A 114)  18.784  27.301  -1.974        1.11        31.45
+            (ATOM    329  CA  THR A 110)  21.765  20.527   7.498        1.10        32.54
+            (ATOM    125  CA  LEU A  42)  41.218  19.305   7.430        1.06        33.61
+            (ATOM    317  CA  GLU A 106)  23.969  11.826   4.040        1.05        34.66
+            (ATOM      1  N   MET A   1)  32.510  33.615  14.907        1.02        35.68
+            (ATOM    372  C   ASP A 124)  25.280  40.200 -11.434        1.00        36.68
+            (ATOM      2  CA  MET A   1)  32.279  32.326  14.262        1.00        37.68
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+    ACT 202( 1.90)    ACT 203( 1.90)    Lys 144( 1.43)    Met 107( 1.39)    His 143( 1.24)
+    Met 109( 1.17)    Gly 108( 1.16)    Asp 124( 1.12)    Asn  78( 1.08)    Thr 110( 1.08)
+    Glu 106( 1.06)    Leu  42( 1.00)    Met   1( 0.97)    Ala  48( 0.97)    Pro 114( 0.93)
+    Pro 122( 0.93)    Arg 105( 0.92)    Lys  28( 0.87)    Lys 103( 0.85)    Pro  79( 0.84)
+    Asn  29( 0.83)    Lys 121( 0.82)    Asp  43( 0.82)    Met 104( 0.82)    Asp 113( 0.81)
+    Val 111( 0.79)    Glu  47( 0.78)    Thr 123( 0.77)    Leu  64( 0.75)    Lys 125( 0.75)
+    Asp  31( 0.74)    Lys 140( 0.73)    Lys 142( 0.72)    Met  62( 0.71)    Asp  39( 0.71)
+    Ile  83( 0.71)    Gly  81( 0.70)    Ser  27( 0.70)    Thr  10( 0.69)    His 120( 0.68)
+    Trp  92( 0.67)    Met 112( 0.67)    Lys  41( 0.66)    Gln 128( 0.65)    Glu 129( 0.65)
+    Leu 127( 0.65)    Gln  80( 0.64)    Lys   2( 0.64)    Glu  95( 0.64)    Glu 102( 0.63)
+    Ala  96( 0.63)    Gly  91( 0.63)    Ala  16( 0.61)    Tyr  38( 0.61)    Leu  45( 0.60)
+    Leu  63( 0.60)    Asp 126( 0.60)    Lys  82( 0.59)    Glu  49( 0.59)    Leu 119( 0.59)
+    Val  30( 0.59)    Ile 100( 0.58)    Ala  85( 0.58)    Ser  11( 0.58)    Leu  99( 0.58)
+    Lys  61( 0.57)    Phe  37( 0.57)    Arg 117( 0.57)    Cys 130( 0.57)    Val 115( 0.57)
+    Ser  93( 0.56)    Pro  97( 0.54)    Glu 139( 0.54)    Ile 118( 0.54)    Val  40( 0.53)
+    Met  17( 0.52)    Val  32( 0.52)    Ser  36( 0.51)    Lys  46( 0.51)    Ile   4( 0.51)
+    Pro  65( 0.50)    Ser  77( 0.50)    Gly  88( 0.50)    Gly  94( 0.50)    Tyr  90( 0.48)
+    Ser  89( 0.48)    Lys  15( 0.47)    Ile  21( 0.46)    Ala   3( 0.46)    Lys  68( 0.46)
+    Asp 136( 0.46)    Ala  76( 0.46)    Ala  52( 0.46)    Ile 137( 0.45)    Glu  26( 0.45)
+    Val 141( 0.45)    Gly  84( 0.45)    Leu 116( 0.45)    Glu  72( 0.44)    Ala  18( 0.44)
+    Phe  87( 0.44)    Ala  86( 0.44)    Gly  22( 0.43)    Ile  98( 0.43)    Phe  69( 0.43)
+    Asn  23( 0.43)    Arg 132( 0.42)    Glu  44( 0.41)    Val  53( 0.41)    Met  66( 0.41)
+    Glu  67( 0.41)    Gly 134( 0.41)    Leu   8( 0.40)    Met  70( 0.40)    Leu 133( 0.39)
+    Ile  25( 0.39)    Lys 131( 0.39)    Ile 135( 0.39)    Gly  12( 0.38)    Phe  58( 0.38)
+    Gly  24( 0.37)    Thr  57( 0.36)    Val  75( 0.34)    Ala  50( 0.34)    Val   5( 0.34)
+    Asn  13( 0.32)    Thr  14( 0.31)    Gly  54( 0.30)    Ala  20( 0.30)    Thr  73( 0.28)
+    Asp  71( 0.28)    Ile  35( 0.28)    Ser   9( 0.27)    Ile  51( 0.27)    Val   6( 0.26)
+    Ser  55( 0.26)    Gln  33( 0.25)    Tyr   7( 0.24)    Tyr  60( 0.24)    Ala 101( 0.24)
+    Ser  56( 0.24)    Ala 138( 0.20)    Glu  19( 0.18)    Tyr  59( 0.18)    Leu  74( 0.16)
+
+   Difference between GEO_DAT and GEO_REF: 249.769 = total,  0.5755 = Average,  0.6369 = RMS, in Angstroms
+
+                             Differences between bond-lengths for the two geometries
+
+           Diff.                 Atom 1                       Atom 2                  Bond length      Bond length
+                                                                                      in GEO_DAT      in GEO_REF
+   1      +0.059     N(ATOM    337  N   ASP A 113)    C(ATOM    336  C   MET A 112)      1.375            1.316
+   2      +0.055     N(ATOM    235  N   PRO A  79)    C(ATOM    234  C   ASN A  78)      1.391            1.336
+   3      +0.050     N(ATOM    184  N   MET A  62)    C(ATOM    183  C   LYS A  61)      1.381            1.331
+   4      +0.048     N(ATOM     97  N   GLN A  33)    C(ATOM     96  C   VAL A  32)      1.371            1.323
+   5      +0.047     N(ATOM    118  N   VAL A  40)    C(ATOM    117  C   ASP A  39)      1.363            1.316
+   6      +0.045     N(ATOM     94  N   VAL A  32)    C(ATOM     93  C   ASP A  31)      1.375            1.331
+   7      +0.044     N(ATOM    142  N   ALA A  48)    C(ATOM    141  C   GLU A  47)      1.373            1.329
+   8      +0.042     N(ATOM    322  N   GLY A 108)    C(ATOM    321  C   MET A 107)      1.370            1.328
+   9      +0.041     C(ATOM    293  CA  ILE A  98)    C(ATOM    294  C   ILE A  98)      1.560            1.519
+  10      +0.040     N(ATOM     67  N   ASN A  23)    C(ATOM     66  C   GLY A  22)      1.379            1.338
+  11      +0.040     N(ATOM    169  N   THR A  57)    C(ATOM    168  C   SER A  56)      1.372            1.333
+  12      +0.040     N(ATOM     19  N   TYR A   7)    C(ATOM     18  C   VAL A   6)      1.375            1.336
+  13      +0.039     C(ATOM    386  CA  GLU A 129)    C(ATOM    387  C   GLU A 129)      1.558            1.519
+  14      +0.039     C(ATOM    320  CA  MET A 107)    C(ATOM    321  C   MET A 107)      1.558            1.519
+  15      +0.039     C(ATOM    317  CA  GLU A 106)    C(ATOM    318  C   GLU A 106)      1.560            1.521
+  16      +0.038     N(ATOM    181  N   LYS A  61)    C(ATOM    180  C   TYR A  60)      1.372            1.334
+  17      +0.038     N(ATOM     85  N   ASN A  29)    C(ATOM     84  C   LYS A  28)      1.372            1.334
+  18      +0.037     C(ATOM     92  CA  ASP A  31)    C(ATOM     93  C   ASP A  31)      1.559            1.521
+  19      +0.037     C(ATOM     23  CA  LEU A   8)    C(ATOM     24  C   LEU A   8)      1.556            1.519
+  20      +0.037     N(ATOM      1  N   MET A   1)    C(ATOM      2  CA  MET A   1)      1.497            1.460
+  21      +0.037     C(ATOM    428  CA  HIS A 143)    C(ATOM    429  C   HIS A 143)      1.560            1.523
+  22      +0.037     N(ATOM    250  N   GLY A  84)    C(ATOM    249  C   ILE A  83)      1.363            1.326
+  23      +0.037     N(ATOM    265  N   SER A  89)    C(ATOM    264  C   GLY A  88)      1.366            1.329
+  24      +0.037     C(ATOM    152  CA  ILE A  51)    C(ATOM    153  C   ILE A  51)      1.556            1.519
+  25      +0.037     C(ATOM    239  CA  GLN A  80)    C(ATOM    240  C   GLN A  80)      1.559            1.522
+
+    GEO_DAT:  '..\protein_files\Flavodoxin (5WID) PM6-ORG geometry.arc'
+    GEO_REF:  '..\protein_files\Flavodoxin (5WID) PDB geometry.arc'
+ 
+          Heat of formation of GEO_DAT system:  -26571.411 Kcal/mol
+          Heat of formation of GEO_REF system:  -24697.446 Kcal/mol
+                                        Diff.:   -1873.965 Kcal/mol
+
+
+                    Analysis of Non-Covalent Interactions
+
+          Total non-covalent energy of GEO_DAT system:   -237.84 Kcal/mol
+          Total non-covalent energy of GEO_REF system:   -218.06 Kcal/mol
+                                           Difference:    -19.79 Kcal/mol
+
+
+    The following files will be written to "G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/":
+              'Compare (backbone) Flavodoxin.html'
+From GEO_REF: 'G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/Compare (backbone) Flavodoxin_Flavodoxin (5WID) PDB geometry.pdb'
+From GEO_DAT: 'G:/Supplementary material for PM6-ORG/Compare PM6-ORG and PDB protein geometries/Compare (backbone) Flavodoxin_Flavodoxin (5WID) PM6-ORG geometry.pdb'
+
+          GEO_REF with 0SCF: Job complete
+
+ ******************************************************************************
+ *                                                                            *
+ *     Error and normal termination messages reported in this calculation     *
+ *                                                                            *
+ * GEO_REF with 0SCF: Job complete                                            *
+ * JOB ENDED NORMALLY                                                         *
+ *                                                                            *
+ ******************************************************************************
+
+
+
+ TOTAL JOB TIME:             0.00 SECONDS
+
+ == MOPAC DONE ==

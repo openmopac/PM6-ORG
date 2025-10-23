@@ -1,0 +1,3 @@
+geo_ref="..\protein_files\Rab6 (1D5C) PDB geometry.arc" ++ 
+geo_dat="..\protein_files\Rab6 (1D5C) PM6-ORG geometry.arc"  ++
+compare(backbone) output
